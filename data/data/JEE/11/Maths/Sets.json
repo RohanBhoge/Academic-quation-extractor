@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Sets",
+    "question": "The set of all natural numbers is denoted by:",
+    "options": ["N", "Z", "Q", "R"],
+    "answer": "N",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Sets",
+    "question": "The set of all integers is denoted by:",
+    "options": ["N", "Z", "Q", "R"],
+    "answer": "Z",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Sets",
+    "question": "Union of sets A and B is defined as:",
+    "options": ["A ∩ B", "A ∪ B", "A - B", "B - A"],
+    "answer": "A ∪ B",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Sets",
+    "question": "Intersection of sets A and B is defined as:",
+    "options": ["A ∩ B", "A ∪ B", "A - B", "B - A"],
+    "answer": "A ∩ B",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Sets",
+    "question": "The complement of a set A is:",
+    "options": ["A ∪ U", "U - A", "A ∩ U", "A - U"],
+    "answer": "U - A",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Sets",
+    "question": "If A ⊆ B, then:",
+    "options": ["All elements of B are in A", "All elements of A are in B", "A and B are disjoint", "A = B always"],
+    "answer": "All elements of A are in B",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Sets",
+    "question": "Two sets A and B are disjoint if:",
+    "options": ["A ∪ B = ∅", "A ∩ B = ∅", "A ⊆ B", "B ⊆ A"],
+    "answer": "A ∩ B = ∅",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Sets",
+    "question": "The number of subsets of a set with n elements is:",
+    "options": ["n", "2n", "2^n", "n^2"],
+    "answer": "2^n",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Sets",
+    "question": "The number of proper subsets of a set with n elements is:",
+    "options": ["2^n", "2^n - 1", "n", "n - 1"],
+    "answer": "2^n - 1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Sets",
+    "question": "If A ∪ B = A ∩ B, then A and B are:",
+    "options": ["Disjoint", "Equal", "Subsets", "Empty sets"],
+    "answer": "Equal",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

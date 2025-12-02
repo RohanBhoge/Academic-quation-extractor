@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The atomic mass of an element is defined as:",
+    "options": ["Mass of 1 mole of atoms", "Mass of 1 atom of the element in amu", "Mass of 1 molecule in grams", "Number of protons in atom"],
+    "answer": "Mass of 1 atom of the element in amu",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "1 mole of any substance contains how many particles?",
+    "options": ["6.022 × 10^23", "1 × 10^23", "3.14 × 10^23", "9.81 × 10^23"],
+    "answer": "6.022 × 10^23",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "Which of the following is NOT a base unit in SI system?",
+    "options": ["Meter", "Second", "Mole", "Liter"],
+    "answer": "Liter",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The molecular mass of H2O is:",
+    "options": ["16 u", "18 u", "20 u", "12 u"],
+    "answer": "18 u",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "Percentage composition of an element in a compound is:",
+    "options": ["(Mass of element / Mass of compound) × 100", "Mass of element × 100", "Molar mass / Atomic mass", "None of these"],
+    "answer": "(Mass of element / Mass of compound) × 100",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "Empirical formula of a compound shows:",
+    "options": ["Actual number of atoms", "Simplest ratio of atoms", "Molecular mass", "Number of moles"],
+    "answer": "Simplest ratio of atoms",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "Avogadro's number is used to calculate:",
+    "options": ["Number of moles", "Atomic mass", "Volume", "Density"],
+    "answer": "Number of moles",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "A compound contains 40% carbon, 6.7% hydrogen and 53.3% oxygen. Its empirical formula is:",
+    "options": ["CH2O", "C2H4O", "CH4O", "C2H6O"],
+    "answer": "CH2O",
+    "difficulty": "hard",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The number of significant figures in 0.00450 is:",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "Which of the following is a derived unit in SI system?",
+    "options": ["Meter", "Second", "Newton", "Mole"],
+    "answer": "Newton",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

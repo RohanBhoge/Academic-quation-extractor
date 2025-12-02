@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Some_P_Block_Elements",
+    "question": "Which of the following is a group 13 element?",
+    "options": ["Boron", "Carbon", "Nitrogen", "Oxygen"],
+    "answer": "Boron",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Some_P_Block_Elements",
+    "question": "Which of the following is a group 14 element?",
+    "options": ["Carbon", "Boron", "Nitrogen", "Oxygen"],
+    "answer": "Carbon",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Some_P_Block_Elements",
+    "question": "The oxide B₂O₃ is:",
+    "options": ["Acidic", "Basic", "Amphoteric", "Neutral"],
+    "answer": "Acidic",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Some_P_Block_Elements",
+    "question": "Which of the following elements shows allotropy?",
+    "options": ["Carbon", "Boron", "Aluminum", "Gallium"],
+    "answer": "Carbon",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Some_P_Block_Elements",
+    "question": "The common oxidation state of group 13 elements is:",
+    "options": ["+3", "+2", "+1", "-1"],
+    "answer": "+3",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Some_P_Block_Elements",
+    "question": "The oxide CO₂ is:",
+    "options": ["Acidic", "Basic", "Amphoteric", "Neutral"],
+    "answer": "Acidic",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Some_P_Block_Elements",
+    "question": "Which element is used in the manufacture of semiconductors?",
+    "options": ["Silicon", "Boron", "Aluminum", "Gallium"],
+    "answer": "Silicon",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Some_P_Block_Elements",
+    "question": "Which of the following oxides is amphoteric?",
+    "options": ["Al₂O₃", "B₂O₃", "CO₂", "SiO₂"],
+    "answer": "Al₂O₃",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Some_P_Block_Elements",
+    "question": "Which of the following elements is liquid at room temperature?",
+    "options": ["Gallium", "Boron", "Carbon", "Aluminum"],
+    "answer": "Gallium",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Some_P_Block_Elements",
+    "question": "The oxide SiO₂ is classified as:",
+    "options": ["Acidic", "Basic", "Amphoteric", "Neutral"],
+    "answer": "Acidic",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

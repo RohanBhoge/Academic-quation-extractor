@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "The center of mass of a system of particles is defined as:",
+    "options": ["Point where total mass acts", "Point where total force acts", "Point where all velocities are zero", "Point of maximum density"],
+    "answer": "Point where total mass acts",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "For a rigid body rotating about a fixed axis, all particles have the same:",
+    "options": ["Angular velocity", "Linear velocity", "Acceleration", "Kinetic energy"],
+    "answer": "Angular velocity",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "The moment of inertia of a body depends on:",
+    "options": ["Mass distribution about axis", "Mass only", "Shape only", "Volume only"],
+    "answer": "Mass distribution about axis",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "The torque acting on a body is given by:",
+    "options": ["τ = r × F", "τ = F/m", "τ = m × a", "τ = F × v"],
+    "answer": "τ = r × F",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "The kinetic energy of a rigid body rotating about a fixed axis is:",
+    "options": ["(1/2) I ω²", "(1/2) mv²", "I α", "τ θ"],
+    "answer": "(1/2) I ω²",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "The velocity of the center of mass of a system is:",
+    "options": ["Total momentum / Total mass", "Sum of velocities", "Average acceleration", "Sum of forces"],
+    "answer": "Total momentum / Total mass",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "The angular momentum of a rigid body rotating about a fixed axis is:",
+    "options": ["L = I ω", "L = m v", "L = F × r", "L = τ θ"],
+    "answer": "L = I ω",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "For a body rolling without slipping, the total kinetic energy is the sum of:",
+    "options": ["Translational and rotational kinetic energy", "Potential and kinetic energy", "Linear and angular momentum", "Torque and work done"],
+    "answer": "Translational and rotational kinetic energy",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "If no external torque acts on a system, its angular momentum is:",
+    "options": ["Conserved", "Increasing", "Decreasing", "Zero"],
+    "answer": "Conserved",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Motion_Of_System_Of_Particles_And_Rigid_Body",
+    "question": "The parallel axis theorem is used to find:",
+    "options": ["Moment of inertia about any axis", "Angular momentum", "Torque", "Linear momentum"],
+    "answer": "Moment of inertia about any axis",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

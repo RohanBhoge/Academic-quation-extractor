@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Complex Number",
+    "question": "A complex number is generally written in the form:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "a + b",
+      "a + ib",
+      "ab + i",
+      "a – ib"
+    ],
+    "answer": "a + ib",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Complex Number",
+    "question": "The value of i² is:",
+    "question_latex": "i^2 = ?",
+    "image_url": "",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "i"
+    ],
+    "answer": "-1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Complex Number",
+    "question": "The real part of 5 - 3i is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "5",
+      "-3",
+      "3",
+      "-5"
+    ],
+    "answer": "5",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Complex Number",
+    "question": "The imaginary part of 4 + 7i is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "4",
+      "7i",
+      "7",
+      "-7"
+    ],
+    "answer": "7",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Complex Number",
+    "question": "The conjugate of (3 + 4i) is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "3 - 4i",
+      "-3 + 4i",
+      "-3 - 4i",
+      "3 + 4i"
+    ],
+    "answer": "3 - 4i",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Complex Number",
+    "question": "If z = 3 + 4i, then |z| equals:",
+    "question_latex": "|z| = \\sqrt{a^2 + b^2}",
+    "image_url": "",
+    "options": [
+      "5",
+      "7",
+      "25",
+      "4"
+    ],
+    "answer": "5",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Complex Number",
+    "question": "The polar form of a complex number z = a + ib is given by:",
+    "question_latex": "z = r(\\cos \\theta + i\\sin \\theta)",
+    "image_url": "",
+    "options": [
+      "r(\\cos \\theta + i\\sin \\theta)",
+      "r(\\sin \\theta + i\\cos \\theta)",
+      "r(\\tan \\theta + i\\sin \\theta)",
+      "r(\\cos \\theta - i\\sin \\theta)"
+    ],
+    "answer": "r(\\cos \\theta + i\\sin \\theta)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Complex Number",
+    "question": "If z₁ = 2 + 3i and z₂ = 1 - 4i, then z₁ + z₂ equals:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "3 - i",
+      "1 - i",
+      "3 + i",
+      "1 + i"
+    ],
+    "answer": "3 - i",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Complex Number",
+    "question": "If z = a + ib, then its reciprocal is given by:",
+    "question_latex": "\\frac{1}{z} = \\frac{a - ib}{a^2 + b^2}",
+    "image_url": "",
+    "options": [
+      "\\frac{a + ib}{a^2 + b^2}",
+      "\\frac{a - ib}{a^2 + b^2}",
+      "\\frac{a + ib}{a^2 - b^2}",
+      "\\frac{a - ib}{a^2 - b^2}"
+    ],
+    "answer": "\\frac{a - ib}{a^2 + b^2}",
+    "difficulty": "hard",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Complex Number",
+    "question": "If z = cos θ + i sin θ, then zⁿ equals:",
+    "question_latex": "z^n = \\cos(n\\theta) + i\\sin(n\\theta)",
+    "image_url": "",
+    "options": [
+      "\\cos(\\theta) + i\\sin(\\theta)",
+      "\\cos(n\\theta) + i\\sin(n\\theta)",
+      "\\cos(n\\theta) - i\\sin(n\\theta)",
+      "\\cos(\\theta/n) + i\\sin(\\theta/n)"
+    ],
+    "answer": "\\cos(n\\theta) + i\\sin(n\\theta)",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

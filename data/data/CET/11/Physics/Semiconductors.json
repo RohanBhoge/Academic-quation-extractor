@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Semiconductors",
+    "question": "Which of the following is a semiconductor material?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Copper",
+      "Silicon",
+      "Silver",
+      "Gold"
+    ],
+    "answer": "Silicon",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Semiconductors",
+    "question": "The energy gap in an intrinsic semiconductor is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Zero",
+      "Very small (≈ 1 eV)",
+      "Very large",
+      "Infinite"
+    ],
+    "answer": "Very small (≈ 1 eV)",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Semiconductors",
+    "question": "In an n-type semiconductor, the majority carriers are:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Electrons",
+      "Holes",
+      "Neutral atoms",
+      "Ions"
+    ],
+    "answer": "Electrons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Semiconductors",
+    "question": "Which impurity is added to form a p-type semiconductor?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Pentavalent impurities",
+      "Trivalent impurities",
+      "Both pentavalent and trivalent",
+      "None"
+    ],
+    "answer": "Trivalent impurities",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Semiconductors",
+    "question": "The process of adding impurities to a semiconductor is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Ionization",
+      "Doping",
+      "Decay",
+      "Diffusion"
+    ],
+    "answer": "Doping",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Semiconductors",
+    "question": "The barrier potential of a silicon p-n junction at room temperature is approximately:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0.1 V",
+      "0.3 V",
+      "0.7 V",
+      "1.5 V"
+    ],
+    "answer": "0.7 V",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Semiconductors",
+    "question": "In a forward-biased diode, the depletion region:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Widens",
+      "Narrows",
+      "Remains constant",
+      "Disappears completely"
+    ],
+    "answer": "Narrows",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Semiconductors",
+    "question": "Which device is used for rectification?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Zener diode",
+      "LED",
+      "pn Junction Diode",
+      "Solar cell"
+    ],
+    "answer": "pn Junction Diode",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Semiconductors",
+    "question": "A Zener diode is primarily used for:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Rectification",
+      "Voltage regulation",
+      "Amplification",
+      "Oscillation"
+    ],
+    "answer": "Voltage regulation",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Semiconductors",
+    "question": "The conductivity of a semiconductor increases with:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Decrease in temperature",
+      "Increase in temperature",
+      "No change with temperature",
+      "Freezing"
+    ],
+    "answer": "Increase in temperature",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

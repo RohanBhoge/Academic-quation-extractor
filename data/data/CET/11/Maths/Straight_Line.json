@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Straight Line",
+    "question": "The general equation of a straight line in two dimensions is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "ax + by + c = 0",
+      "ax^2 + by^2 + c = 0",
+      "a/x + b/y = c",
+      "xy = c"
+    ],
+    "answer": "ax + by + c = 0",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Straight Line",
+    "question": "The slope of a line passing through points (x₁, y₁) and (x₂, y₂) is:",
+    "question_latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "image_url": "",
+    "options": [
+      "\\frac{x_2 - x_1}{y_2 - y_1}",
+      "\\frac{y_2 - y_1}{x_2 - x_1}",
+      "x_2 + x_1",
+      "y_2 - y_1"
+    ],
+    "answer": "\\frac{y_2 - y_1}{x_2 - x_1}",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Straight Line",
+    "question": "The slope of a line parallel to the x-axis is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0",
+      "1",
+      "∞",
+      "-1"
+    ],
+    "answer": "0",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Straight Line",
+    "question": "The slope of a line perpendicular to the x-axis is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0",
+      "1",
+      "∞",
+      "-1"
+    ],
+    "answer": "∞",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Straight Line",
+    "question": "Slope-intercept form of a straight line is:",
+    "question_latex": "y = mx + c",
+    "image_url": "",
+    "options": [
+      "y = mx - c",
+      "y = m/x + c",
+      "y = mx + c",
+      "x = my + c"
+    ],
+    "answer": "y = mx + c",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Straight Line",
+    "question": "If two lines have slopes m₁ and m₂, they are perpendicular if:",
+    "question_latex": "m_1 \\cdot m_2 = -1",
+    "image_url": "",
+    "options": [
+      "m₁ + m₂ = 1",
+      "m₁ - m₂ = 1",
+      "m₁ × m₂ = -1",
+      "m₁/m₂ = 1"
+    ],
+    "answer": "m₁ × m₂ = -1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Straight Line",
+    "question": "The equation of a line passing through (0,0) with slope m is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "x = my",
+      "y = mx",
+      "y = x/m",
+      "mx + y = 1"
+    ],
+    "answer": "y = mx",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Straight Line",
+    "question": "The distance between a point (x₁, y₁) and a line ax + by + c = 0 is:",
+    "question_latex": "d = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}",
+    "image_url": "",
+    "options": [
+      "\\frac{ax_1 + by_1 + c}{a + b}",
+      "\\frac{ax_1 + by_1 + c}{a^2 + b^2}",
+      "\\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}",
+      "\\frac{x_1 + y_1 + c}{a + b}"
+    ],
+    "answer": "\\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}",
+    "difficulty": "hard",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Straight Line",
+    "question": "If a line makes an angle θ with the positive x-axis, its slope is:",
+    "question_latex": "m = \\tan(\\theta)",
+    "image_url": "",
+    "options": [
+      "sin(θ)",
+      "cos(θ)",
+      "tan(θ)",
+      "cot(θ)"
+    ],
+    "answer": "tan(θ)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Straight Line",
+    "question": "Two lines are parallel if:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Their slopes are equal",
+      "Their slopes multiply to 1",
+      "Their slopes multiply to -1",
+      "Slopes are reciprocal"
+    ],
+    "answer": "Their slopes are equal",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

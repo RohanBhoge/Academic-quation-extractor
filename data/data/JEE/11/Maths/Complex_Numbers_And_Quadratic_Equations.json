@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "The imaginary unit 'i' satisfies:",
+    "options": ["i^2 = 1", "i^2 = -1", "i^2 = 0", "i^2 = i"],
+    "answer": "i^2 = -1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "The modulus of the complex number 3 + 4i is:",
+    "options": ["5", "7", "1", "25"],
+    "answer": "5",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "The conjugate of 5 - 2i is:",
+    "options": ["5 - 2i", "5 + 2i", "-5 + 2i", "-5 - 2i"],
+    "answer": "5 + 2i",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "The sum of roots of the quadratic equation ax^2 + bx + c = 0 is:",
+    "options": ["-b/a", "c/a", "-c/b", "b/a"],
+    "answer": "-b/a",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "The product of roots of ax^2 + bx + c = 0 is:",
+    "options": ["c/a", "-c/a", "b/a", "-b/a"],
+    "answer": "c/a",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "If the roots of a quadratic equation are complex, then the discriminant:",
+    "options": [">0", "<0", "=0", "Cannot say"],
+    "answer": "<0",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "If z = x + iy, then |z|^2 is equal to:",
+    "options": ["x^2 + y^2", "x^2 - y^2", "x + y", "x - y"],
+    "answer": "x^2 + y^2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "The roots of the equation x^2 + 1 = 0 are:",
+    "options": ["1, -1", "i, -i", "0, 1", "-i, 0"],
+    "answer": "i, -i",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "The quadratic equation with roots α and β can be written as:",
+    "options": ["x^2 - (α+β)x + αβ = 0", "x^2 + (α+β)x - αβ = 0", "x^2 + αβx - (α+β) = 0", "x^2 - αβx + (α+β) = 0"],
+    "answer": "x^2 - (α+β)x + αβ = 0",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Complex_Numbers_And_Quadratic_Equations",
+    "question": "If z1 = 1 + i and z2 = 1 - i, then z1 * z2 is:",
+    "options": ["0", "2", "1", "-2"],
+    "answer": "2",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

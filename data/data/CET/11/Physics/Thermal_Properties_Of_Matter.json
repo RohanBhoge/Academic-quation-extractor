@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Thermal Properties of Matter",
+    "question": "The SI unit of heat is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Calorie",
+      "Joule",
+      "Watt",
+      "Newton"
+    ],
+    "answer": "Joule",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Thermal Properties of Matter",
+    "question": "The quantity that remains constant in isothermal process is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Volume",
+      "Pressure",
+      "Temperature",
+      "Density"
+    ],
+    "answer": "Temperature",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Thermal Properties of Matter",
+    "question": "The increase in length of a rod due to heating is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Thermal stress",
+      "Thermal expansion",
+      "Latent heat",
+      "Heat capacity"
+    ],
+    "answer": "Thermal expansion",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Thermal Properties of Matter",
+    "question": "At 0°C, the state of water can be:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Only solid",
+      "Only liquid",
+      "Both solid and liquid",
+      "Neither solid nor liquid"
+    ],
+    "answer": "Both solid and liquid",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Thermal Properties of Matter",
+    "question": "The latent heat of fusion is defined as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Heat required to change solid to liquid at constant temperature",
+      "Heat required to change liquid to gas at constant temperature",
+      "Heat required to raise temperature of 1 kg substance by 1°C",
+      "Heat lost when temperature decreases"
+    ],
+    "answer": "Heat required to change solid to liquid at constant temperature",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Thermal Properties of Matter",
+    "question": "The unit of heat capacity is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "J/kg°C",
+      "J/°C",
+      "Cal/kg°C",
+      "W/°C"
+    ],
+    "answer": "J/°C",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Thermal Properties of Matter",
+    "question": "Water has maximum density at:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0°C",
+      "4°C",
+      "25°C",
+      "100°C"
+    ],
+    "answer": "4°C",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Thermal Properties of Matter",
+    "question": "The process of heat transfer without any actual movement of particles is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Evaporation"
+    ],
+    "answer": "Conduction",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Thermal Properties of Matter",
+    "question": "Which heat transfer method does not require a medium?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Conduction and Convection both"
+    ],
+    "answer": "Radiation",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Thermal Properties of Matter",
+    "question": "A liquid evaporates faster when:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Temperature is low",
+      "Humidity is high",
+      "Surface area is large",
+      "Air is still"
+    ],
+    "answer": "Surface area is large",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

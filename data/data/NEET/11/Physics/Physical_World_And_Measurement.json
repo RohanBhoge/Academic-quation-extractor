@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "Physics is the study of:",
+    "options": ["Nature and its phenomena", "Plants and animals", "Chemical reactions", "History of Earth"],
+    "answer": "Nature and its phenomena",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The SI unit of length is:",
+    "options": ["Meter", "Centimeter", "Kilometer", "Foot"],
+    "answer": "Meter",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The SI unit of mass is:",
+    "options": ["Kilogram", "Gram", "Tonne", "Pound"],
+    "answer": "Kilogram",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The SI unit of time is:",
+    "options": ["Second", "Minute", "Hour", "Millisecond"],
+    "answer": "Second",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The least count of an instrument gives:",
+    "options": ["Smallest measurable length", "Maximum measurable length", "Average measurement", "Calibration error"],
+    "answer": "Smallest measurable length",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "Dimensional formula of velocity is:",
+    "options": ["[L T⁻¹]", "[L T⁻²]", "[M L T⁻²]", "[L² T⁻¹]"],
+    "answer": "[L T⁻¹]",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "Accuracy of measurement refers to:",
+    "options": ["Closeness to true value", "Closeness to other measurements", "Instrument precision", "Number of measurements"],
+    "answer": "Closeness to true value",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "Precision of measurement refers to:",
+    "options": ["Closeness of repeated measurements", "Closeness to true value", "Instrument error", "Significant figures"],
+    "answer": "Closeness of repeated measurements",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The dimensional formula of force is:",
+    "options": ["[M L T⁻²]", "[M L² T⁻²]", "[M L T⁻¹]", "[L T⁻²]"],
+    "answer": "[M L T⁻²]",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The physical quantity which has magnitude only is called:",
+    "options": ["Scalar", "Vector", "Tensor", "Matrix"],
+    "answer": "Scalar",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

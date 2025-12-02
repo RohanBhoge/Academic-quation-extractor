@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "Which type of bond is present in an alkene?",
+    "options": ["Single bond", "Double bond", "Triple bond", "Ionic bond"],
+    "answer": "Double bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "Functional groups in organic compounds determine:",
+    "options": ["Physical properties only", "Chemical properties only", "Both chemical and physical properties", "Molecular weight only"],
+    "answer": "Both chemical and physical properties",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "Which of the following is an example of a saturated hydrocarbon?",
+    "options": ["Ethene", "Ethane", "Ethyne", "Benzene"],
+    "answer": "Ethane",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "Tautomerism involves:",
+    "options": ["Movement of hydrogen and a double bond", "Change in molecular formula", "Change in physical state", "Isomerization of metals"],
+    "answer": "Movement of hydrogen and a double bond",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "Which hybridization is present in a carbon atom of methane (CH4)?",
+    "options": ["sp", "sp2", "sp3", "sp3d"],
+    "answer": "sp3",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "Which type of isomerism occurs due to difference in connectivity of atoms?",
+    "options": ["Geometrical isomerism", "Structural isomerism", "Optical isomerism", "Conformational isomerism"],
+    "answer": "Structural isomerism",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "The general formula of alkanes is:",
+    "options": ["CnH2n", "CnH2n+2", "CnH2n-2", "CnHn"],
+    "answer": "CnH2n+2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "Electrophiles are species that:",
+    "options": ["Donate electrons", "Accept electrons", "Donate protons", "Accept neutrons"],
+    "answer": "Accept electrons",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "Nucleophiles are species that:",
+    "options": ["Donate electrons", "Accept electrons", "Donate protons", "Accept neutrons"],
+    "answer": "Donate electrons",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Organic_Chemistry_Basic_Principles",
+    "question": "Which compound shows optical isomerism?",
+    "options": ["CH3CH2CH3", "CH3CHClCH3", "CH2=CH2", "CH4"],
+    "answer": "CH3CHClCH3",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

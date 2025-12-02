@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "The type of bond formed by transfer of electrons from one atom to another is called:",
+    "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+    "answer": "Ionic bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "The bond formed by sharing of electrons between two atoms is called:",
+    "options": ["Covalent bond", "Ionic bond", "Metallic bond", "Van der Waals bond"],
+    "answer": "Covalent bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "The shape of a molecule is determined by:",
+    "options": ["VSEPR theory", "Molecular mass", "Electronegativity", "Boiling point"],
+    "answer": "VSEPR theory",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "Electronegativity difference between two atoms determines:",
+    "options": ["Bond type", "Molecular mass", "Boiling point", "Solubility"],
+    "answer": "Bond type",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "A bond in which electrons are delocalized over many atoms is called:",
+    "options": ["Metallic bond", "Ionic bond", "Covalent bond", "Hydrogen bond"],
+    "answer": "Metallic bond",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "The bond angle in a tetrahedral molecule is approximately:",
+    "options": ["109.5°", "120°", "90°", "180°"],
+    "answer": "109.5°",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "Which of the following is a polar covalent molecule?",
+    "options": ["HCl", "Cl₂", "O₂", "N₂"],
+    "answer": "HCl",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "Hydrogen bond is strongest in:",
+    "options": ["HF", "HCl", "HBr", "HI"],
+    "answer": "HF",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "The molecular orbital theory is used to explain:",
+    "options": ["Bonding and anti-bonding orbitals", "Acid-base reactions", "Solubility", "Electrolysis"],
+    "answer": "Bonding and anti-bonding orbitals",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "In CO₂, the hybridization of carbon is:",
+    "options": ["sp", "sp²", "sp³", "sp³d"],
+    "answer": "sp",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chemical Bonding",
+    "question": "The force that holds atoms together in a compound is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Magnetic force",
+      "Chemical bond",
+      "Nuclear force",
+      "Surface tension"
+    ],
+    "answer": "Chemical bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Chemical Bonding",
+    "question": "The type of bond formed by sharing of electrons is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Ionic bond",
+      "Covalent bond",
+      "Metallic bond",
+      "Hydrogen bond"
+    ],
+    "answer": "Covalent bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Chemical Bonding",
+    "question": "The type of bond formed by transfer of electrons is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Hydrogen bond",
+      "Covalent bond",
+      "Ionic bond",
+      "Van der Waals bond"
+    ],
+    "answer": "Ionic bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Chemical Bonding",
+    "question": "Ionic bonds are generally formed between:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Metal and metal",
+      "Non-metal and non-metal",
+      "Metal and non-metal",
+      "Gas and metal"
+    ],
+    "answer": "Metal and non-metal",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Chemical Bonding",
+    "question": "Covalent bonds are generally formed between:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Metal and metal",
+      "Metal and non-metal",
+      "Non-metal and non-metal",
+      "Metal and gas"
+    ],
+    "answer": "Non-metal and non-metal",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Chemical Bonding",
+    "question": "The bond present in NaCl is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Covalent bond",
+      "Hydrogen bond",
+      "Ionic bond",
+      "Metallic bond"
+    ],
+    "answer": "Ionic bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Chemical Bonding",
+    "question": "The bond present in H₂ is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Covalent bond",
+      "Ionic bond",
+      "Metallic bond",
+      "Hydrogen bond"
+    ],
+    "answer": "Covalent bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Chemical Bonding",
+    "question": "The weak intermolecular attraction force is known as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Covalent force",
+      "Van der Waals force",
+      "Ionic force",
+      "Nuclear force"
+    ],
+    "answer": "Van der Waals force",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Chemical Bonding",
+    "question": "Which bond is responsible for holding water molecules together?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Ionic bond",
+      "Hydrogen bond",
+      "Covalent bond",
+      "Metallic bond"
+    ],
+    "answer": "Hydrogen bond",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Chemical Bonding",
+    "question": "A molecule having unequal sharing of electrons is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Non-polar molecule",
+      "Coordination compound",
+      "Polar molecule",
+      "Ionic molecule"
+    ],
+    "answer": "Polar molecule",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

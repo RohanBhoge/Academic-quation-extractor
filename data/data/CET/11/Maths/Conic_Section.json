@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Conic Section",
+    "question": "A conic section is obtained by the intersection of a plane with a:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Cylinder",
+      "Cube",
+      "Cone",
+      "Sphere"
+    ],
+    "answer": "Cone",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Conic Section",
+    "question": "The standard equation of a circle with center (0,0) and radius r is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "x + y = r",
+      "x^2 + y^2 = r",
+      "x^2 + y^2 = r^2",
+      "x^2 - y^2 = r^2"
+    ],
+    "answer": "x^2 + y^2 = r^2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Conic Section",
+    "question": "The fixed point in a conic section is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Directrix",
+      "Focus",
+      "Vertex",
+      "Center"
+    ],
+    "answer": "Focus",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Conic Section",
+    "question": "The ratio of distance of a point from focus to the distance from the directrix is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Slope",
+      "Eccentricity",
+      "Axis",
+      "Diameter"
+    ],
+    "answer": "Eccentricity",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Conic Section",
+    "question": "For a parabola, the eccentricity is always:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0",
+      "1",
+      "Greater than 1",
+      "Less than 1"
+    ],
+    "answer": "1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Conic Section",
+    "question": "For an ellipse, the eccentricity is always:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0",
+      "Less than 1",
+      "Equal to 1",
+      "Greater than 1"
+    ],
+    "answer": "Less than 1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Conic Section",
+    "question": "For a hyperbola, the eccentricity is always:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0",
+      "Less than 1",
+      "Equal to 1",
+      "Greater than 1"
+    ],
+    "answer": "Greater than 1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Conic Section",
+    "question": "The standard equation of a parabola opening right is:",
+    "question_latex": "y^2 = 4ax",
+    "image_url": "",
+    "options": [
+      "x^2 = 4ay",
+      "y^2 = 4ax",
+      "x + y = 4a",
+      "xy = a"
+    ],
+    "answer": "y^2 = 4ax",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Conic Section",
+    "question": "The standard equation of an ellipse with semi-major axis a and semi-minor axis b is:",
+    "question_latex": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1",
+    "image_url": "",
+    "options": [
+      "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "\\frac{x^2}{b^2} + \\frac{y^2}{a^2} = 1",
+      "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1",
+      "x^2 + y^2 = 1"
+    ],
+    "answer": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Conic Section",
+    "question": "The standard equation of a hyperbola is:",
+    "question_latex": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+    "image_url": "",
+    "options": [
+      "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1",
+      "\\frac{x^2}{b^2} - \\frac{y^2}{a^2} = 1",
+      "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "x^2 + y^2 = 1"
+    ],
+    "answer": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

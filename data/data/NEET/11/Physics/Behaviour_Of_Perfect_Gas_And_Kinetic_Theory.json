@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The ideal gas equation is given by:",
+    "options": ["PV = nRT", "P + V = nR", "PV = nR/T", "P/V = nRT"],
+    "answer": "PV = nRT",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "In kinetic theory of gases, the pressure exerted by a gas is due to:",
+    "options": ["Collisions of molecules with the walls", "Gravitational pull", "Intermolecular attraction", "Heat capacity of gas"],
+    "answer": "Collisions of molecules with the walls",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The average kinetic energy of gas molecules is directly proportional to:",
+    "options": ["Temperature", "Pressure", "Volume", "Density"],
+    "answer": "Temperature",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The root mean square velocity of gas molecules is given by:",
+    "options": ["√(3RT/M)", "√(2RT/M)", "√(RT/2M)", "√(RT/M)"],
+    "answer": "√(3RT/M)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "Boyle’s law states that at constant temperature, the pressure of a gas is:",
+    "options": ["Inversely proportional to volume", "Directly proportional to volume", "Independent of volume", "Proportional to square of volume"],
+    "answer": "Inversely proportional to volume",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "Charles’s law relates volume and temperature at constant:",
+    "options": ["Pressure", "Mass", "Density", "Number of moles"],
+    "answer": "Pressure",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "An ideal gas is one in which:",
+    "options": ["There are no intermolecular forces and volume of molecules is negligible", "Molecules occupy finite volume", "There is strong attraction between molecules", "Gas behaves non-linearly with temperature"],
+    "answer": "There are no intermolecular forces and volume of molecules is negligible",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The total kinetic energy of n moles of an ideal gas is given by:",
+    "options": ["3/2 nRT", "nRT", "2/3 nRT", "nR/2T"],
+    "answer": "3/2 nRT",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The distribution of molecular speeds in a gas is given by:",
+    "options": ["Maxwell-Boltzmann distribution", "Boyle’s distribution", "Charles’s distribution", "Avogadro distribution"],
+    "answer": "Maxwell-Boltzmann distribution",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The number of collisions per second per unit area of the wall is called:",
+    "options": ["Pressure", "Flux", "Kinetic energy", "Density"],
+    "answer": "Pressure",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

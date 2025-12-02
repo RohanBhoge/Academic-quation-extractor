@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Functions",
+    "question": "A function is a relation in which:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Each input has multiple outputs",
+      "Each input has exactly one output",
+      "Each output has multiple inputs",
+      "There is no relation between input and output"
+    ],
+    "answer": "Each input has exactly one output",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Functions",
+    "question": "The set of all possible input values of a function is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Range",
+      "Domain",
+      "Codomain",
+      "Value set"
+    ],
+    "answer": "Domain",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Functions",
+    "question": "The set of all possible output values of a function is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Domain",
+      "Range",
+      "Codomain",
+      "Mapping set"
+    ],
+    "answer": "Range",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Functions",
+    "question": "If each element of the domain is mapped to a unique element in the codomain, the function is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Onto",
+      "One-one",
+      "Many-one",
+      "Constant"
+    ],
+    "answer": "One-one",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Functions",
+    "question": "If the range of a function is equal to the codomain, the function is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Into",
+      "One-one",
+      "Onto",
+      "Constant"
+    ],
+    "answer": "Onto",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Functions",
+    "question": "A function which is both one-one and onto is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Binary function",
+      "Bijective function",
+      "Constant function",
+      "Quadratic function"
+    ],
+    "answer": "Bijective function",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Functions",
+    "question": "If f(x) = x², then f(-2) equals:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "-4",
+      "2",
+      "4",
+      "0"
+    ],
+    "answer": "4",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Functions",
+    "question": "If f(x) = 3x + 5, then domain and range of f are:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Real to Real",
+      "Natural to Natural",
+      "Integer to Integer",
+      "Positive Real to Positive Real"
+    ],
+    "answer": "Real to Real",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Functions",
+    "question": "The inverse of a function exists only if the function is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Onto",
+      "One-one",
+      "Bijective",
+      "Constant"
+    ],
+    "answer": "Bijective",
+    "difficulty": "hard",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Functions",
+    "question": "If f(x) = √x, the domain of the function is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "All real numbers",
+      "x ≥ 0",
+      "x > 0",
+      "x ≤ 0"
+    ],
+    "answer": "x ≥ 0",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "Organic chemistry is the study of compounds mainly containing:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Carbon",
+      "Hydrogen",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "answer": "Carbon",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "The compound having the same molecular formula but different structural formula is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Isomers",
+      "Alkanes",
+      "Homologs",
+      "Aromatics"
+    ],
+    "answer": "Isomers",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "The series of organic compounds differing by -CH₂ group is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Isomeric series",
+      "Homologous series",
+      "Parallel series",
+      "Organic series"
+    ],
+    "answer": "Homologous series",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "The general formula of alkanes is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "CnH2n",
+      "CnH2n+2",
+      "CnH2n-2",
+      "CnH2n+1"
+    ],
+    "answer": "CnH2n+2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "A covalent bond formed by sharing two pairs of electrons is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Single bond",
+      "Double bond",
+      "Triple bond",
+      "Coordinate bond"
+    ],
+    "answer": "Double bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "Which of the following is not a type of isomerism?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Structural isomerism",
+      "Geometrical isomerism",
+      "Optical isomerism",
+      "Covalent isomerism"
+    ],
+    "answer": "Covalent isomerism",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "The electron-pair movement in organic reaction mechanisms is represented by:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Curved arrows",
+      "Straight arrows",
+      "Square brackets",
+      "Dots"
+    ],
+    "answer": "Curved arrows",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "The positively charged species in organic reactions are called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Free radicals",
+      "Carbanions",
+      "Carbocations",
+      "Electrons"
+    ],
+    "answer": "Carbocations",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "The movement of shared pair of electrons towards the more electronegative atom is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Inductive effect",
+      "Resonance",
+      "Hyperconjugation",
+      "Tautomerism"
+    ],
+    "answer": "Inductive effect",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Basic Principles of Organic Chemistry",
+    "question": "The delocalization of electrons in a conjugated system is known as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Hyperconjugation",
+      "Resonance",
+      "Polarity",
+      "Substitution"
+    ],
+    "answer": "Resonance",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "The value of sin 0° is:",
+    "options": ["0", "1", "1/2", "√3/2"],
+    "answer": "0",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "The value of cos 0° is:",
+    "options": ["0", "1", "1/2", "√3/2"],
+    "answer": "1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "The value of tan 0° is:",
+    "options": ["0", "1", "Undefined", "√3"],
+    "answer": "0",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "The Pythagorean identity for trigonometric functions is:",
+    "options": ["sin²θ + cos²θ = 1", "tan²θ + 1 = sin²θ", "sec²θ + 1 = tan²θ", "cot²θ + 1 = cos²θ"],
+    "answer": "sin²θ + cos²θ = 1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "The value of sin 90° is:",
+    "options": ["0", "1", "1/2", "√3/2"],
+    "answer": "1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "The value of cos 90° is:",
+    "options": ["0", "1", "1/2", "√3/2"],
+    "answer": "0",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "If sin A = 1/2, then A in degrees (first quadrant) is:",
+    "options": ["30°", "45°", "60°", "90°"],
+    "answer": "30°",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "The value of tan 45° is:",
+    "options": ["0", "1", "√3", "Undefined"],
+    "answer": "1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "If cos A = √3/2, then A in degrees (first quadrant) is:",
+    "options": ["30°", "45°", "60°", "90°"],
+    "answer": "30°",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Trigonometric_Functions_1",
+    "question": "The value of sec 60° is:",
+    "options": ["1/2", "2", "√3/2", "1"],
+    "answer": "2",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

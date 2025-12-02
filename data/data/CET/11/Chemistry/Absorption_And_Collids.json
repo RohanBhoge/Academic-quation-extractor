@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Adsorption and Colloids",
+    "question": "The phenomenon of accumulation of molecules at the surface of a solid or liquid is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Absorption",
+      "Adsorption",
+      "Diffusion",
+      "Sedimentation"
+    ],
+    "answer": "Adsorption",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Adsorption and Colloids",
+    "question": "The substance whose surface adsorbs particles is known as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Adsorbate",
+      "Adsorbent",
+      "Colloid",
+      "Solute"
+    ],
+    "answer": "Adsorbent",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Adsorption and Colloids",
+    "question": "The substance that gets adsorbed on the surface is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Solvent",
+      "Adsorbent",
+      "Adsorbate",
+      "Dispersion medium"
+    ],
+    "answer": "Adsorbate",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Adsorption and Colloids",
+    "question": "Colloids are examples of:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "True solutions",
+      "Suspensions",
+      "Heterogeneous system",
+      "Homogeneous solid"
+    ],
+    "answer": "Heterogeneous system",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Adsorption and Colloids",
+    "question": "The size of colloidal particles lies between:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "1 to 10 Å",
+      "10⁻⁹ to 10⁻⁷ m",
+      "1 to 100 cm",
+      "1 to 10 m"
+    ],
+    "answer": "10⁻⁹ to 10⁻⁷ m",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Adsorption and Colloids",
+    "question": "The process used to convert a precipitate into a colloidal solution is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Peptization",
+      "Dialysis",
+      "Condensation",
+      "Diffusion"
+    ],
+    "answer": "Peptization",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Adsorption and Colloids",
+    "question": "Which of the following is a method to purify colloids?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Evaporation",
+      "Dialysis",
+      "Crystallization",
+      "Electroplating"
+    ],
+    "answer": "Dialysis",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Adsorption and Colloids",
+    "question": "The scattering of light by colloidal particles is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Tyndall effect",
+      "Brownian motion",
+      "Bohr effect",
+      "Faraday effect"
+    ],
+    "answer": "Tyndall effect",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Adsorption and Colloids",
+    "question": "Which motion explains stability of colloids?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Tyndall motion",
+      "Brownian motion",
+      "Harmonic motion",
+      "Linear motion"
+    ],
+    "answer": "Brownian motion",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Adsorption and Colloids",
+    "question": "A colloidal system where liquid is dispersed in another liquid is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Aerosol",
+      "Emulsion",
+      "Sol",
+      "Gel"
+    ],
+    "answer": "Emulsion",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

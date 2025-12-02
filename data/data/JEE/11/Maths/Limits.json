@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Limits",
+    "question": "The limit of (x^2 - 1)/(x - 1) as x → 1 is:",
+    "options": ["0", "1", "2", "Undefined"],
+    "answer": "2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Limits",
+    "question": "The limit of sin(x)/x as x → 0 is:",
+    "options": ["0", "1", "∞", "-1"],
+    "answer": "1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Limits",
+    "question": "The limit of (1 - cos(x))/x^2 as x → 0 is:",
+    "options": ["0", "1/2", "1", "2"],
+    "answer": "1/2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Limits",
+    "question": "The limit of (e^x - 1)/x as x → 0 is:",
+    "options": ["0", "1", "e", "Undefined"],
+    "answer": "1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Limits",
+    "question": "The limit of (1 + 1/n)^n as n → ∞ is:",
+    "options": ["1", "e", "∞", "0"],
+    "answer": "e",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Limits",
+    "question": "The limit of (x^3 + x^2 - x - 1)/(x - 1) as x → 1 is:",
+    "options": ["0", "2", "3", "4"],
+    "answer": "2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Limits",
+    "question": "The limit of ln(1 + x)/x as x → 0 is:",
+    "options": ["0", "1", "∞", "-1"],
+    "answer": "1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Limits",
+    "question": "The limit of x*sin(1/x) as x → 0 is:",
+    "options": ["0", "1", "∞", "Undefined"],
+    "answer": "0",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Limits",
+    "question": "The limit of (a^x - 1)/x as x → 0 is:",
+    "options": ["0", "1", "ln(a)", "a"],
+    "answer": "ln(a)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Limits",
+    "question": "The limit of (x^2 - 4)/(x - 2) as x → 2 is:",
+    "options": ["0", "2", "4", "Undefined"],
+    "answer": "4",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

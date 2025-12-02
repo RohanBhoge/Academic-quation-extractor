@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The study of nature and its phenomena is called:",
+    "options": ["Physics", "Chemistry", "Biology", "Mathematics"],
+    "answer": "Physics",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The SI unit of length is:",
+    "options": ["Meter", "Centimeter", "Foot", "Inch"],
+    "answer": "Meter",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The SI unit of mass is:",
+    "options": ["Kilogram", "Gram", "Pound", "Ton"],
+    "answer": "Kilogram",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The SI unit of time is:",
+    "options": ["Second", "Minute", "Hour", "Day"],
+    "answer": "Second",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The quantity that has magnitude but no direction is called:",
+    "options": ["Scalar", "Vector", "Tensor", "Matrix"],
+    "answer": "Scalar",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The quantity that has both magnitude and direction is called:",
+    "options": ["Vector", "Scalar", "Matrix", "Tensor"],
+    "answer": "Vector",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The dimensional formula of speed is:",
+    "options": ["[L T⁻¹]", "[L T]", "[M L T⁻²]", "[M L² T⁻²]"],
+    "answer": "[L T⁻¹]",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "The dimensional formula of force is:",
+    "options": ["[M L T⁻²]", "[M L² T⁻²]", "[M L T⁻¹]", "[M L² T⁻¹]"],
+    "answer": "[M L T⁻²]",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "Least count of a measuring instrument refers to:",
+    "options": ["Smallest division that can be measured", "Maximum measurement", "Error in measurement", "Average measurement"],
+    "answer": "Smallest division that can be measured",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Physical_World_And_Measurement",
+    "question": "Significant figures in a measurement are:",
+    "options": ["All digits including certain and first uncertain digit", "Only certain digits", "All digits", "Only last digit"],
+    "answer": "All digits including certain and first uncertain digit",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

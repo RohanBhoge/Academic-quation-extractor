@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Vectors",
+    "question": "A quantity which has both magnitude and direction is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Scalar",
+      "Vector",
+      "Tensor",
+      "Unit"
+    ],
+    "answer": "Vector",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Vectors",
+    "question": "Which of the following is a vector quantity?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Speed",
+      "Mass",
+      "Displacement",
+      "Temperature"
+    ],
+    "answer": "Displacement",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Vectors",
+    "question": "The magnitude of a vector is always:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero or positive",
+      "Zero or negative"
+    ],
+    "answer": "Zero or positive",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Vectors",
+    "question": "Two vectors are said to be equal if they have:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Same magnitude",
+      "Same direction",
+      "Same magnitude and same direction",
+      "None"
+    ],
+    "answer": "Same magnitude and same direction",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Vectors",
+    "question": "The resultant of two vectors is maximum when the angle between them is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": "0°",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Vectors",
+    "question": "The resultant of two vectors is minimum when the angle between them is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": "180°",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Vectors",
+    "question": "The dot product of two perpendicular vectors is:",
+    "question_latex": "\\vec{A} \\cdot \\vec{B} = AB \\cos 90^\\circ",
+    "image_url": "",
+    "options": [
+      "AB",
+      "Zero",
+      "-AB",
+      "None"
+    ],
+    "answer": "Zero",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Vectors",
+    "question": "The cross product of two parallel vectors is:",
+    "question_latex": "\\vec{A} \\times \\vec{B} = AB \\sin 0^\\circ",
+    "image_url": "",
+    "options": [
+      "AB",
+      "Zero",
+      "-AB",
+      "Undefined"
+    ],
+    "answer": "Zero",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Vectors",
+    "question": "The direction of the cross product of two vectors is given by:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Right-hand thumb rule",
+      "Left-hand rule",
+      "Lenz’s law",
+      "Kirchhoff’s law"
+    ],
+    "answer": "Right-hand thumb rule",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Vectors",
+    "question": "Unit vector has magnitude:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Zero",
+      "One",
+      "Greater than one",
+      "Less than one"
+    ],
+    "answer": "One",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

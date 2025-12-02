@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Chemicals used for the treatment of diseases are called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Antibiotics",
+      "Drugs",
+      "Vaccines",
+      "Antiseptics"
+    ],
+    "answer": "Drugs",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Substances which prevent the growth of microorganisms and are safe for human body are called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Disinfectants",
+      "Antiseptics",
+      "Analgesics",
+      "Antacids"
+    ],
+    "answer": "Antiseptics",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Substances used to neutralize excess acid in the stomach are called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Antibiotics",
+      "Antacids",
+      "Antiseptics",
+      "Sedatives"
+    ],
+    "answer": "Antacids",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Penicillin is an example of:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Analgesic",
+      "Antibiotic",
+      "Antacid",
+      "Disinfectant"
+    ],
+    "answer": "Antibiotic",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Aspirin is mainly used as a:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Pain killer",
+      "Antibiotic",
+      "Disinfectant",
+      "Vitamin"
+    ],
+    "answer": "Pain killer",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Drugs that reduce or relieve fever are called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Analgesics",
+      "Antipyretics",
+      "Sedatives",
+      "Antiseptics"
+    ],
+    "answer": "Antipyretics",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Disinfectants are used to kill microorganisms on:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Living tissues",
+      "Injured skin",
+      "Non-living surfaces",
+      "Inside the body"
+    ],
+    "answer": "Non-living surfaces",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Artificial sweetener which is used in diabetic food:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Sucrose",
+      "Aspartame",
+      "Starch",
+      "Urea"
+    ],
+    "answer": "Aspartame",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Detergents differ from soaps mainly in their:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Chemical structure",
+      "Color",
+      "Odor",
+      "Appearance"
+    ],
+    "answer": "Chemical structure",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Chemistry In Everyday Life",
+    "question": "Which chemical is commonly used as a preservative in pickles?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Benzoic acid",
+      "Sulphuric acid",
+      "Acetic acid",
+      "Nitric acid"
+    ],
+    "answer": "Benzoic acid",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

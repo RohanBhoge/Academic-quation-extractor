@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Gravitation",
+    "question": "The universal law of gravitation was formulated by:",
+    "options": ["Isaac Newton", "Galileo Galilei", "Kepler", "Coulomb"],
+    "answer": "Isaac Newton",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Gravitation",
+    "question": "The force of gravitation between two masses m1 and m2 separated by distance r is given by:",
+    "options": ["F = G m1 m2 / r²", "F = G (m1 + m2) / r²", "F = G m1 m2 r²", "F = G m1 m2 / r"],
+    "answer": "F = G m1 m2 / r²",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Gravitation",
+    "question": "The acceleration due to gravity g on the surface of Earth is approximately:",
+    "options": ["9.8 m/s²", "10 m/s²", "9.8 cm/s²", "8 m/s²"],
+    "answer": "9.8 m/s²",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Gravitation",
+    "question": "The escape velocity from the surface of the Earth is given by:",
+    "options": ["√(2GM/R)", "√(GM/R)", "GM/R²", "2GM/R²"],
+    "answer": "√(2GM/R)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Gravitation",
+    "question": "The value of g decreases with height above the Earth as:",
+    "options": ["g' = g (1 - h/R)²", "g' = g (1 - h/R)", "g' = g / (1 + h/R)²", "g' = g √(1 - h/R)"],
+    "answer": "g' = g / (1 + h/R)²",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Gravitation",
+    "question": "The weight of a body is the force due to:",
+    "options": ["Gravity", "Friction", "Magnetism", "Normal reaction"],
+    "answer": "Gravity",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Gravitation",
+    "question": "The orbital period of a satellite in circular orbit around Earth depends on:",
+    "options": ["Radius of orbit", "Mass of satellite", "Both radius and mass", "Neither radius nor mass"],
+    "answer": "Radius of orbit",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Gravitation",
+    "question": "If the radius of the Earth were doubled, keeping mass same, the acceleration due to gravity at surface would:",
+    "options": ["Be halved", "Be doubled", "Remain same", "Be quartered"],
+    "answer": "Be quartered",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Gravitation",
+    "question": "The force of gravitation is a:",
+    "options": ["Vector", "Scalar", "Depends on motion", "Fictitious force"],
+    "answer": "Vector",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Gravitation",
+    "question": "The acceleration due to gravity on the surface of the Moon is approximately:",
+    "options": ["1.62 m/s²", "9.8 m/s²", "3.7 m/s²", "0.98 m/s²"],
+    "answer": "1.62 m/s²",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

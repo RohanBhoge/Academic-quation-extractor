@@ -1,0 +1,59 @@
+- **Objective**: Analyze the attached PDF document, which contains a series of multiple-choice questions (MCQs), their corresponding options, and complete solutions. Your task is to extract all questions and convert them into a single JSON array object, strictly adhering to the specified schema and formatting rules.
+- **Critical Extraction and Formatting InstructionsStrict LaTeX Conversion:** All mathematical expressions, scientific formulas, dimensional analysis (e.g., $\text{[MLT}^{-1}\text{]}$, $\frac{1}{2}mv^2$), Greek letters, and any numerical or symbolic equations MUST be written using LaTeX format enclosed in dollar signs (e.g., $\text{kg/m}^3$ becomes $\text{kg}/\text{m}^3$) inside the string fields (question_latex, options, answer, solution).Plain Text vs. LaTeX:Use the question field for the simple, plain-text version of the question.Use the question_latex field for the key equation or principle of the question in LaTeX format.Diagram Handling (image_url):If a question relies on a diagram, graph, or figure (e.g., a circuit diagram, a graph of displacement vs. time, a ray diagram), provide a specific, descriptive tag in this field.`
+
+- **Required JSON Schema**
+  The final output MUST be a JSON array of objects, with each object strictly following this structure:
+
+| Key            | Data Type        | Description                                                   | Formatting Notes                                 |
+| -------------- | ---------------- | ------------------------------------------------------------- | ------------------------------------------------ |
+| id             | Integer          | A unique, sequential identifier for the question.             |                                                  |
+| chapter        | String           | The relevant chapter/topic name.                              | (e.g., "Gravitation")                            |
+| question       | String           | The question text in plain English.                           |                                                  |
+| question_latex | String           | The key formula/equation/concept from the question, in LaTeX. | Use $\text{\$}$ delimiters.                      |
+| image_url      | String           | Descriptive tag for diagrams, or "" if none.                  |                                                  |
+| options        | Array of Strings | All multiple-choice options.                                  | Use LaTeX for mathematical content.              |
+| answer         | String           | The single correct option.                                    | Must match the corresponding entry in options.   |
+| solution       | String           | The complete, step-by-step solution from the PDF.             | Crucially, use LaTeX for all mathematical steps. |
+| difficulty     | String           | Assigned level: 'easy', 'medium', or 'hard'.                  |                                                  |
+| marks          | Integer          | Fixed value of $\mathbf{4}$.                                  |                                                  |
+
+- **Example Output Format** (Including the $\mathbf{solution}$ key)The final output will strictly adhere to the following JSON structure:
+
+```json
+[
+  {
+    "id": 8,
+    "chapter": "Gravitation",
+    "question": "If a planet’s mass is double that of Earth and its radius is the same, its g will be?",
+    "question_latex": "g' = G\\frac{2M}{R^2}",
+    "image_url": "",
+    "options": [
+      "Same as Earth",
+      "Double of Earth",
+      "Half of Earth",
+      "Four times Earth"
+    ],
+    "answer": "Double of Earth",
+    "solution": "The acceleration due to gravity is given by the formula $g = G\\frac{M}{R^2}$. If the new mass is $M' = 2M$ and the radius remains $R$, the new gravity $g'$ is $g' = G\\frac{2M}{R^2} = 2 \\left(G\\frac{M}{R^2}\\right) = 2g$. Thus, the gravity is double that of Earth.",
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Gravitation",
+    "question": "If a satellite orbits Earth close to its surface, its orbital speed is given by?",
+    "question_latex": "v = \\sqrt{gR}",
+    "image_url": "",
+    "options": [
+      "$v = \\sqrt{gR}$",
+      "$v = \\sqrt{2gR}$",
+      "$v = gR$",
+      "$v = \\frac{g}{R}$"
+    ],
+    "answer": "$v = \\sqrt{gR}$",
+    "solution": "For a satellite orbiting close to the Earth's surface, the orbital speed $v_o$ is given by the formula $v_o = \\sqrt{gR}$, where $g$ is the acceleration due to gravity and $R$ is the Earth's radius.",
+    "difficulty": "easy",
+    "marks": 4
+  }
+]
+```

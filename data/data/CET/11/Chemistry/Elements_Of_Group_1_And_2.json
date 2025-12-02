@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "Group 1 elements are also known as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Alkaline Earth Metals",
+      "Halogens",
+      "Alkali Metals",
+      "Transition Metals"
+    ],
+    "answer": "Alkali Metals",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "Group 2 elements are also called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Alkali Metals",
+      "Transition Metals",
+      "Alkaline Earth Metals",
+      "Halogens"
+    ],
+    "answer": "Alkaline Earth Metals",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "Which of the following is the lightest alkali metal?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Sodium",
+      "Lithium",
+      "Potassium",
+      "Rubidium"
+    ],
+    "answer": "Lithium",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "Which element among the following belongs to Group 2?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Na",
+      "K",
+      "Ca",
+      "Rb"
+    ],
+    "answer": "Ca",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "Group 1 elements react vigorously with water to form:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Acids",
+      "Oxides",
+      "Hydroxides and Hydrogen gas",
+      "Carbonates"
+    ],
+    "answer": "Hydroxides and Hydrogen gas",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "Which is the hardest element in Group 2?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Be",
+      "Mg",
+      "Ca",
+      "Ba"
+    ],
+    "answer": "Be",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "Alkali metals are stored in kerosene because they:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Are expensive",
+      "React with air and moisture",
+      "Are very heavy",
+      "Do not dissolve in water"
+    ],
+    "answer": "React with air and moisture",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "Which of the following shows diagonal relationship?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Li and Na",
+      "Li and Mg",
+      "Na and K",
+      "Be and Ca"
+    ],
+    "answer": "Li and Mg",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "The basicity of oxides of Group 1 and 2 elements:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Decreases down the group",
+      "Increases down the group",
+      "Remains same",
+      "Becomes acidic"
+    ],
+    "answer": "Increases down the group",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Elements_Of_Group_1_And_2",
+    "question": "Which of the following Group 2 compounds is used in plaster of Paris?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "CaCO₃",
+      "CaSO₄·1/2H₂O",
+      "CaCl₂",
+      "MgO"
+    ],
+    "answer": "CaSO₄·1/2H₂O",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "The type of hybridization in the carbon atom of methane (CH₄) is:",
+    "options": ["sp³", "sp²", "sp", "sp³d"],
+    "answer": "sp³",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "Functional group is defined as:",
+    "options": ["A specific group of atoms responsible for characteristic reactions", "The entire molecule", "A type of isomerism", "A side chain"],
+    "answer": "A specific group of atoms responsible for characteristic reactions",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "The IUPAC name of CH₃CH₂OH is:",
+    "options": ["Ethanol", "Methanol", "Propanol", "Ethane"],
+    "answer": "Ethanol",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "The simplest aromatic hydrocarbon is:",
+    "options": ["Benzene", "Ethene", "Methane", "Propyne"],
+    "answer": "Benzene",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "Tautomerism involves:",
+    "options": ["Migration of hydrogen and shift of double bond", "Change in molecular weight", "Formation of radicals", "Oxidation only"],
+    "answer": "Migration of hydrogen and shift of double bond",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "The reaction in which an atom or group is replaced by another atom or group is called:",
+    "options": ["Substitution reaction", "Addition reaction", "Elimination reaction", "Condensation reaction"],
+    "answer": "Substitution reaction",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "Carbocations are:",
+    "options": ["Positively charged carbon species", "Negatively charged carbon species", "Neutral carbon radicals", "Stable carbon isotopes"],
+    "answer": "Positively charged carbon species",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "Markovnikov’s rule helps to predict:",
+    "options": ["The orientation of addition in unsymmetrical alkenes", "The rate of reaction", "The stability of radicals", "The boiling point of compounds"],
+    "answer": "The orientation of addition in unsymmetrical alkenes",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "The method used for separating organic compounds based on boiling points is:",
+    "options": ["Distillation", "Filtration", "Crystallization", "Chromatography"],
+    "answer": "Distillation",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Organic_Chemistry_Some_Basic_Principles_And_Techniques",
+    "question": "The method used for separating components of a mixture based on adsorption on a solid surface is:",
+    "options": ["Chromatography", "Filtration", "Distillation", "Sublimation"],
+    "answer": "Chromatography",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The SI unit of amount of substance is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Kilogram",
+      "Mole",
+      "Liter",
+      "Gram"
+    ],
+    "answer": "Mole",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The number of particles in one mole is known as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Planck’s constant",
+      "Avogadro number",
+      "Boltzmann constant",
+      "Faraday constant"
+    ],
+    "answer": "Avogadro number",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The value of Avogadro number is approximately:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "6.022 × 10^20",
+      "6.022 × 10^23",
+      "6.022 × 10^18",
+      "6.022 × 10^26"
+    ],
+    "answer": "6.022 × 10^23",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The mass of one mole of a substance is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Molar volume",
+      "Molar mass",
+      "Molecular weight",
+      "Atomic number"
+    ],
+    "answer": "Molar mass",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "1 mole of any gas at STP occupies a volume of:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "11.2 L",
+      "22.4 L",
+      "44.8 L",
+      "1 L"
+    ],
+    "answer": "22.4 L",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The ratio of mass of solute to mass of solution multiplied by 100 is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Molarity",
+      "Molality",
+      "Mass percentage",
+      "Normality"
+    ],
+    "answer": "Mass percentage",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The molecular formula gives:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Simplest ratio of atoms",
+      "Actual number of atoms in a molecule",
+      "Number of isotopes present",
+      "Only total mass"
+    ],
+    "answer": "Actual number of atoms in a molecule",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The simplest whole number ratio of atoms in a compound is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Empirical formula",
+      "Molecular formula",
+      "Structural formula",
+      "General formula"
+    ],
+    "answer": "Empirical formula",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The law which states that mass cannot be created or destroyed in a reaction is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Law of definite proportion",
+      "Law of conservation of mass",
+      "Law of multiple proportion",
+      "Avogadro's law"
+    ],
+    "answer": "Law of conservation of mass",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The amount of substance present in 12 g of carbon-12 isotope is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "1 mole",
+      "6 moles",
+      "0.5 moles",
+      "10 moles"
+    ],
+    "answer": "1 mole",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

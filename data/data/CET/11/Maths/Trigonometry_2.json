@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Trigonometry_2",
+    "question": "The identity 1 + tan²θ = sec²θ is derived from:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "sin²θ + cos²θ = 1",
+      "1 + cot²θ = csc²θ",
+      "sec²θ - tan²θ = 1",
+      "tanθ = sinθ / cosθ"
+    ],
+    "answer": "sin²θ + cos²θ = 1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Trigonometry_2",
+    "question": "If sinθ = 3/5, then cosθ equals:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "4/5",
+      "5/3",
+      "3/4",
+      "1/5"
+    ],
+    "answer": "4/5",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Trigonometry_2",
+    "question": "sin(90° - θ) equals:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "sinθ",
+      "cosθ",
+      "tanθ",
+      "cotθ"
+    ],
+    "answer": "cosθ",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Trigonometry_2",
+    "question": "tan(90° - θ) equals:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "tanθ",
+      "cotθ",
+      "sinθ",
+      "secθ"
+    ],
+    "answer": "cotθ",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Trigonometry_2",
+    "question": "The value of sin45° is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "1",
+      "1/2",
+      "√2/2",
+      "√3/2"
+    ],
+    "answer": "√2/2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Trigonometry_2",
+    "question": "The value of tan60° is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "1",
+      "√2",
+      "√3",
+      "1/√3"
+    ],
+    "answer": "√3",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Trigonometry_2",
+    "question": "If secθ = 5/4, then tanθ equals:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "3/4",
+      "4/3",
+      "3/5",
+      "5/3"
+    ],
+    "answer": "3/4",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Trigonometry_2",
+    "question": "In a right triangle, if opposite side = 12 and adjacent = 5, then tanθ equals:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "5/12",
+      "12/5",
+      "√(12²+5²)",
+      "1"
+    ],
+    "answer": "12/5",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Trigonometry_2",
+    "question": "If height of a tower is 'h' and shadow length is 's', then tanθ equals:",
+    "question_latex": "tan\\theta = \\frac{h}{s}",
+    "image_url": "",
+    "options": [
+      "h × s",
+      "s/h",
+      "h/s",
+      "h - s"
+    ],
+    "answer": "h/s",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Trigonometry_2",
+    "question": "The angle of elevation is the angle between:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Line of sight and ground when object is below eye",
+      "Line of sight and vertical line",
+      "Line of sight and ground when object is above eye",
+      "None of these"
+    ],
+    "answer": "Line of sight and ground when object is above eye",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Environmental_Chemistry",
+    "question": "The release of harmful substances into the environment is called:",
+    "options": ["Pollution", "Combustion", "Recycling", "Neutralization"],
+    "answer": "Pollution",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Environmental_Chemistry",
+    "question": "The greenhouse gas responsible for global warming is:",
+    "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Helium"],
+    "answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Environmental_Chemistry",
+    "question": "Acid rain is primarily caused by:",
+    "options": ["SO₂ and NOx emissions", "CO₂ emissions", "Methane emissions", "Ozone depletion"],
+    "answer": "SO₂ and NOx emissions",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Environmental_Chemistry",
+    "question": "Ozone layer depletion is mainly due to:",
+    "options": ["CFCs", "CO₂", "Methane", "Nitrogen"],
+    "answer": "CFCs",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Environmental_Chemistry",
+    "question": "Biodegradable pollutants are those which:",
+    "options": ["Can be broken down by natural processes", "Cannot be broken down", "Are metals", "Are gases"],
+    "answer": "Can be broken down by natural processes",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Environmental_Chemistry",
+    "question": "The process of treating industrial effluents before release is called:",
+    "options": ["Effluent treatment", "Neutralization", "Distillation", "Filtration"],
+    "answer": "Effluent treatment",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Environmental_Chemistry",
+    "question": "Green chemistry aims to:",
+    "options": ["Reduce the use and generation of hazardous substances", "Increase chemical production", "Use more solvents", "Enhance energy consumption"],
+    "answer": "Reduce the use and generation of hazardous substances",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Environmental_Chemistry",
+    "question": "Biochemical oxygen demand (BOD) measures:",
+    "options": ["Amount of oxygen consumed by microorganisms", "Amount of CO₂ released", "Amount of water evaporated", "Amount of sunlight absorbed"],
+    "answer": "Amount of oxygen consumed by microorganisms",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Environmental_Chemistry",
+    "question": "The major cause of smog formation is:",
+    "options": ["Automobile emissions", "Rainfall", "Wind erosion", "Volcanic activity"],
+    "answer": "Automobile emissions",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Environmental_Chemistry",
+    "question": "Which of the following is a non-biodegradable pollutant?",
+    "options": ["Plastic", "Paper", "Food waste", "Leaves"],
+    "answer": "Plastic",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

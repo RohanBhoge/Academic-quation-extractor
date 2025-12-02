@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "State_Of_Matter",
+    "question": "The force of attraction between molecules is maximum in:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Solids",
+      "Liquids",
+      "Gases",
+      "Plasma"
+    ],
+    "answer": "Solids",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "State_Of_Matter",
+    "question": "The state of matter which has definite volume but no definite shape is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    "answer": "Liquid",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "State_Of_Matter",
+    "question": "Which state of matter has neither definite shape nor definite volume?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Condensed matter"
+    ],
+    "answer": "Gas",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "State_Of_Matter",
+    "question": "The pressure exerted by a gas is due to:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Gravitational force",
+      "Collision of molecules with container walls",
+      "Magnetic attraction",
+      "Electrostatic force"
+    ],
+    "answer": "Collision of molecules with container walls",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "State_Of_Matter",
+    "question": "According to Boyle’s law, at constant temperature:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "P ∝ V",
+      "P ∝ 1/V",
+      "V ∝ T",
+      "P ∝ T"
+    ],
+    "answer": "P ∝ 1/V",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "State_Of_Matter",
+    "question": "According to Charles’ law, at constant pressure:",
+    "question_latex": "V ∝ T",
+    "image_url": "",
+    "options": [
+      "V ∝ 1/T",
+      "V ∝ T",
+      "P ∝ T",
+      "P ∝ 1/V"
+    ],
+    "answer": "V ∝ T",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "State_Of_Matter",
+    "question": "The temperature at which a gas theoretically occupies zero volume is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0°C",
+      "-100°C",
+      "-273°C",
+      "100°C"
+    ],
+    "answer": "-273°C",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "State_Of_Matter",
+    "question": "The SI unit of pressure is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Pascal",
+      "Torr",
+      "Bar",
+      "Atmosphere"
+    ],
+    "answer": "Pascal",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "State_Of_Matter",
+    "question": "The interconversion of solid to liquid is known as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Vaporization",
+      "Melting",
+      "Condensation",
+      "Sublimation"
+    ],
+    "answer": "Melting",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "State_Of_Matter",
+    "question": "The directly conversion of solid to gas without becoming liquid is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Melting",
+      "Freezing",
+      "Sublimation",
+      "Condensation"
+    ],
+    "answer": "Sublimation",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

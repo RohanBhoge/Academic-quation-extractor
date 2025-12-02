@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "The modern periodic law is based on:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Atomic mass",
+      "Atomic number",
+      "Density",
+      "Valency"
+    ],
+    "answer": "Atomic number",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "Elements belonging to the same group have:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Same atomic number",
+      "Same mass number",
+      "Same number of valence electrons",
+      "Same density"
+    ],
+    "answer": "Same number of valence electrons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "Which of the following is a noble gas?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Neon",
+      "Chlorine"
+    ],
+    "answer": "Neon",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "Which period contains the maximum number of elements?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "1st period",
+      "2nd period",
+      "6th period",
+      "7th period"
+    ],
+    "answer": "6th period",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "The energy required to remove an electron from an isolated gaseous atom is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Electron affinity",
+      "Ionization energy",
+      "Electronegativity",
+      "Atomic radius"
+    ],
+    "answer": "Ionization energy",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "Electronegativity generally ____ across a period.",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains the same",
+      "Becomes zero"
+    ],
+    "answer": "Increases",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "Atomic radius generally ____ down a group.",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "Becomes negative"
+    ],
+    "answer": "Increases",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "The first ionization energy is highest for:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Fluorine",
+      "Neon",
+      "Lithium",
+      "Oxygen"
+    ],
+    "answer": "Neon",
+    "difficulty": "hard",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "The tendency of an atom to attract a shared pair of electrons is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Electron gain enthalpy",
+      "Electronegativity",
+      "Polarizability",
+      "Ionization enthalpy"
+    ],
+    "answer": "Electronegativity",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Classification_Of_Elements_And_Periodicity",
+    "question": "Which element has the smallest atomic radius among the following?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Li",
+      "Na",
+      "K",
+      "Rb"
+    ],
+    "answer": "Li",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

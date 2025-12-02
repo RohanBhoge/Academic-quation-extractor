@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Redox_Reactions",
+    "question": "Oxidation is defined as the process of:",
+    "options": ["Loss of electrons", "Gain of electrons", "Loss of protons", "Gain of neutrons"],
+    "answer": "Loss of electrons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Redox_Reactions",
+    "question": "Reduction involves:",
+    "options": ["Gain of electrons", "Loss of electrons", "Loss of protons", "Gain of neutrons"],
+    "answer": "Gain of electrons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Redox_Reactions",
+    "question": "In the reaction Zn + Cu^2+ → Zn^2+ + Cu, the oxidizing agent is:",
+    "options": ["Zn", "Cu^2+", "Zn^2+", "Cu"],
+    "answer": "Cu^2+",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Redox_Reactions",
+    "question": "In the same reaction, the reducing agent is:",
+    "options": ["Zn", "Cu^2+", "Zn^2+", "Cu"],
+    "answer": "Zn",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Redox_Reactions",
+    "question": "The oxidation number of oxygen in H2O2 is:",
+    "options": ["-2", "-1", "0", "+1"],
+    "answer": "-1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Redox_Reactions",
+    "question": "A reaction in which both oxidation and reduction occur simultaneously is called:",
+    "options": ["Displacement reaction", "Redox reaction", "Acid-base reaction", "Precipitation reaction"],
+    "answer": "Redox reaction",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Redox_Reactions",
+    "question": "In the reaction 2Fe^3+ + Sn^2+ → 2Fe^2+ + Sn^4+, the species oxidized is:",
+    "options": ["Fe^3+", "Sn^2+", "Fe^2+", "Sn^4+"],
+    "answer": "Sn^2+",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Redox_Reactions",
+    "question": "Which of the following is a common reducing agent?",
+    "options": ["H2", "Cl2", "O2", "F2"],
+    "answer": "H2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Redox_Reactions",
+    "question": "The sum of oxidation numbers in a neutral molecule is:",
+    "options": ["0", "1", "Depends on number of atoms", "Equal to total electrons"],
+    "answer": "0",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Redox_Reactions",
+    "question": "The substance which gets reduced is called:",
+    "options": ["Oxidizing agent", "Reducing agent", "Catalyst", "Electrolyte"],
+    "answer": "Oxidizing agent",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

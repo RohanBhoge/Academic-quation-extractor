@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Waves",
+    "question": "A wave in which particles oscillate perpendicular to the direction of propagation is called:",
+    "options": ["Transverse wave", "Longitudinal wave", "Surface wave", "Stationary wave"],
+    "answer": "Transverse wave",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Waves",
+    "question": "A wave in which particles oscillate along the direction of propagation is called:",
+    "options": ["Longitudinal wave", "Transverse wave", "Surface wave", "Torsional wave"],
+    "answer": "Longitudinal wave",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Waves",
+    "question": "The speed of a wave on a string depends on:",
+    "options": ["Tension and linear mass density", "Amplitude", "Frequency", "Wavelength only"],
+    "answer": "Tension and linear mass density",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Waves",
+    "question": "The distance between two successive crests or troughs is called:",
+    "options": ["Wavelength", "Amplitude", "Frequency", "Period"],
+    "answer": "Wavelength",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Waves",
+    "question": "Time taken to complete one oscillation is called:",
+    "options": ["Period", "Frequency", "Wavelength", "Amplitude"],
+    "answer": "Period",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Waves",
+    "question": "The number of oscillations per second is called:",
+    "options": ["Frequency", "Period", "Amplitude", "Velocity"],
+    "answer": "Frequency",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Waves",
+    "question": "The phase difference between two successive points in the same phase is:",
+    "options": ["2π radians", "π radians", "π/2 radians", "Zero"],
+    "answer": "2π radians",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Waves",
+    "question": "The superposition of two or more waves results in:",
+    "options": ["Interference", "Diffraction", "Reflection", "Refraction"],
+    "answer": "Interference",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Waves",
+    "question": "A stationary wave is formed due to:",
+    "options": ["Superposition of two waves traveling in opposite directions", "Reflection only", "Refraction only", "Diffraction only"],
+    "answer": "Superposition of two waves traveling in opposite directions",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Waves",
+    "question": "The amplitude of a wave is:",
+    "options": ["Maximum displacement from mean position", "Distance between crests", "Speed of the wave", "Frequency of the wave"],
+    "answer": "Maximum displacement from mean position",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

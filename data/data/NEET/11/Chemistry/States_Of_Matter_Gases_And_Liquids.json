@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "Which state of matter has a definite volume but no definite shape?",
+    "options": ["Liquid", "Solid", "Gas", "Plasma"],
+    "answer": "Liquid",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "In gases, the average distance between molecules is:",
+    "options": ["Very large compared to their size", "Equal to their size", "Smaller than their size", "Zero"],
+    "answer": "Very large compared to their size",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "Which of the following is an ideal gas assumption?",
+    "options": ["No intermolecular forces", "Molecules occupy finite volume", "Particles attract each other", "Gas molecules react with each other"],
+    "answer": "No intermolecular forces",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "The kinetic theory of gases explains:",
+    "options": ["Pressure exerted by gases", "Color of gases", "Viscosity of liquids", "Boiling point of solids"],
+    "answer": "Pressure exerted by gases",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "The relationship PV = nRT is known as:",
+    "options": ["Ideal gas equation", "Van der Waals equation", "Boyle’s law", "Charles’s law"],
+    "answer": "Ideal gas equation",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "Which property of liquids causes them to resist external force and minimize surface area?",
+    "options": ["Surface tension", "Viscosity", "Density", "Boiling point"],
+    "answer": "Surface tension",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "The property of liquids that measures resistance to flow is called:",
+    "options": ["Viscosity", "Surface tension", "Vapor pressure", "Density"],
+    "answer": "Viscosity",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "In which state of matter are the intermolecular forces the weakest?",
+    "options": ["Gas", "Liquid", "Solid", "Plasma"],
+    "answer": "Gas",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "The boiling point of a liquid depends on:",
+    "options": ["Intermolecular forces", "Mass of container", "Color of liquid", "External pressure only"],
+    "answer": "Intermolecular forces",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "States_Of_Matter_Gases_And_Liquids",
+    "question": "Which law relates pressure and temperature at constant volume for gases?",
+    "options": ["Gay-Lussac’s law", "Boyle’s law", "Charles’s law", "Avogadro’s law"],
+    "answer": "Gay-Lussac’s law",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

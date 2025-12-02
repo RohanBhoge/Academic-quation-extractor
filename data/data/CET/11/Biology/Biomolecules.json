@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Biomolecules",
+    "question": "Biomolecules are primarily made up of which elements?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "C, H, O, N",
+      "Na, K, Cl, Mg",
+      "Fe, Cu, Zn, Co",
+      "Pb, Hg, Sn, Cd"
+    ],
+    "answer": "C, H, O, N",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Biomolecules",
+    "question": "Which of the following is the simplest carbohydrate?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Sucrose",
+      "Glucose",
+      "Ribose",
+      "Fructose"
+    ],
+    "answer": "Glucose",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Biomolecules",
+    "question": "Proteins are made up of repeating units of:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Fatty acids",
+      "Nucleotides",
+      "Amino acids",
+      "Monosaccharides"
+    ],
+    "answer": "Amino acids",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Biomolecules",
+    "question": "The building blocks of nucleic acids are:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Amino acids",
+      "Nucleotides",
+      "Fatty acids",
+      "Monosaccharides"
+    ],
+    "answer": "Nucleotides",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Biomolecules",
+    "question": "The sugar present in DNA is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Ribose",
+      "Deoxyribose",
+      "Glucose",
+      "Fructose"
+    ],
+    "answer": "Deoxyribose",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Biomolecules",
+    "question": "Which of the following is a storage polysaccharide in plants?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Glycogen",
+      "Cellulose",
+      "Starch",
+      "Chitin"
+    ],
+    "answer": "Starch",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Biomolecules",
+    "question": "Which biomolecule is the major component of cell membranes?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Proteins",
+      "Lipids",
+      "Carbohydrates",
+      "Vitamins"
+    ],
+    "answer": "Lipids",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Biomolecules",
+    "question": "Enzymes are chemically:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Carbohydrates",
+      "Lipids",
+      "Vitamins",
+      "Proteins"
+    ],
+    "answer": "Proteins",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Biomolecules",
+    "question": "Which vitamin is also known as ascorbic acid?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K"
+    ],
+    "answer": "Vitamin C",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Biomolecules",
+    "question": "The bond formed between two amino acids is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Glycosidic bond",
+      "Peptide bond",
+      "Hydrogen bond",
+      "Phosphodiester bond"
+    ],
+    "answer": "Peptide bond",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Oscillations",
+    "question": "The time period of a simple harmonic oscillator is independent of:",
+    "options": ["Amplitude", "Mass", "Spring constant", "None of these"],
+    "answer": "Amplitude",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Oscillations",
+    "question": "In simple harmonic motion, acceleration is:",
+    "options": ["Directly proportional and opposite to displacement", "Directly proportional to velocity", "Constant", "Zero at all times"],
+    "answer": "Directly proportional and opposite to displacement",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Oscillations",
+    "question": "The displacement in SHM is given by:",
+    "options": ["x = A cos(ωt + φ)", "x = vt", "x = ut + 1/2 at²", "x = A e^(ωt)"],
+    "answer": "x = A cos(ωt + φ)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Oscillations",
+    "question": "The time period of a simple pendulum of length L is:",
+    "options": ["2π√(L/g)", "2π√(g/L)", "√(L/g)", "2πL/g"],
+    "answer": "2π√(L/g)",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Oscillations",
+    "question": "For a mass-spring system, the angular frequency ω is:",
+    "options": ["√(k/m)", "√(m/k)", "k/m", "m/k"],
+    "answer": "√(k/m)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Oscillations",
+    "question": "In SHM, potential energy is maximum at:",
+    "options": ["Extreme positions", "Mean position", "Half amplitude", "Zero displacement"],
+    "answer": "Extreme positions",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Oscillations",
+    "question": "In SHM, kinetic energy is maximum at:",
+    "options": ["Mean position", "Extreme positions", "Quarter amplitude", "Zero displacement"],
+    "answer": "Mean position",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Oscillations",
+    "question": "The phase difference between displacement and acceleration in SHM is:",
+    "options": ["π radians", "π/2 radians", "0", "2π radians"],
+    "answer": "π radians",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Oscillations",
+    "question": "The phase difference between displacement and velocity in SHM is:",
+    "options": ["π/2 radians", "π radians", "0", "2π radians"],
+    "answer": "π/2 radians",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Oscillations",
+    "question": "For a simple harmonic oscillator, total energy is:",
+    "options": ["Constant", "Maximum at mean position", "Zero at extreme position", "Variable with time"],
+    "answer": "Constant",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

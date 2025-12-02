@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Optics",
+    "question": "The speed of light in glass is 2 × 10^8 m/s. What is the refractive index of glass (c = 3 × 10^8 m/s)?",
+    "question_latex": "n = \\frac{c}{v}",
+    "image_url": "",
+    "options": [
+      "1.33",
+      "1.5",
+      "2.0",
+      "3.0"
+    ],
+    "answer": "1.5",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Optics",
+    "question": "Which of the following lenses is used to correct myopia (short-sightedness)?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Convex lens",
+      "Concave lens",
+      "Cylindrical lens",
+      "Plano-convex lens"
+    ],
+    "answer": "Concave lens",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Optics",
+    "question": "If the focal length of a concave lens is 20 cm, what is its power?",
+    "question_latex": "P = \\frac{1}{f} \\\\ f = -20 cm = -0.2 m",
+    "image_url": "",
+    "options": [
+      "-5 D",
+      "5 D",
+      "10 D",
+      "-10 D"
+    ],
+    "answer": "-5 D",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Optics",
+    "question": "A real, inverted and highly enlarged image is formed by a convex lens when the object is placed:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "At the focus",
+      "Between focus and optical center",
+      "Beyond 2F",
+      "Between F and 2F"
+    ],
+    "answer": "Between F and 2F",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Optics",
+    "question": "Which phenomenon explains the formation of a rainbow?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Dispersion",
+      "Diffraction"
+    ],
+    "answer": "Dispersion",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Optics",
+    "question": "In Young's double-slit experiment, fringe width is directly proportional to:",
+    "question_latex": "\\beta = \\frac{\\lambda D}{d}",
+    "image_url": "",
+    "options": [
+      "Wavelength of light",
+      "Distance between slits",
+      "Mass of photon",
+      "Frequency of light"
+    ],
+    "answer": "Wavelength of light",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Optics",
+    "question": "The phenomenon of bending of light around corners is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Reflection",
+      "Diffraction",
+      "Interference",
+      "Polarization"
+    ],
+    "answer": "Diffraction",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Optics",
+    "question": "What is the magnification produced by a plane mirror?",
+    "question_latex": "m = 1",
+    "image_url": "",
+    "options": [
+      "Zero",
+      "Less than 1",
+      "1",
+      "Greater than 1"
+    ],
+    "answer": "1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Optics",
+    "question": "Critical angle is the angle of incidence for which the angle of refraction is:",
+    "question_latex": "\\theta_r = 90^{\\circ}",
+    "image_url": "",
+    "options": [
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": "90°",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Optics",
+    "question": "The ratio of speed of light in vacuum to speed of light in a medium is called:",
+    "question_latex": "n = \\frac{c}{v}",
+    "image_url": "",
+    "options": [
+      "Refractive index",
+      "Power of lens",
+      "Aperture",
+      "Intensity ratio"
+    ],
+    "answer": "Refractive index",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

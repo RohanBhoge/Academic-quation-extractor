@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Laws_Of_Motion",
+    "question": "Who formulated the three laws of motion?",
+    "options": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Kepler"],
+    "answer": "Isaac Newton",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Laws_Of_Motion",
+    "question": "Newton’s first law of motion is also called:",
+    "options": ["Law of Inertia", "Law of Acceleration", "Action-Reaction Law", "Law of Gravitation"],
+    "answer": "Law of Inertia",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Laws_Of_Motion",
+    "question": "According to Newton’s second law, force is equal to:",
+    "options": ["Mass × Acceleration", "Mass × Velocity", "Acceleration / Mass", "Mass + Acceleration"],
+    "answer": "Mass × Acceleration",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Laws_Of_Motion",
+    "question": "Newton’s third law states that:",
+    "options": ["Action = Reaction (opposite in direction)", "Force = Mass × Acceleration", "Objects in motion remain in motion", "Acceleration is constant"],
+    "answer": "Action = Reaction (opposite in direction)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Laws_Of_Motion",
+    "question": "If no net force acts on a body, it will:",
+    "options": ["Remain at rest or move with constant velocity", "Accelerate", "Change mass", "Rotate"],
+    "answer": "Remain at rest or move with constant velocity",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Laws_Of_Motion",
+    "question": "The unit of force in SI system is:",
+    "options": ["Newton", "Joule", "Pascal", "Watt"],
+    "answer": "Newton",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Laws_Of_Motion",
+    "question": "The force required to accelerate a 2 kg mass at 3 m/s² is:",
+    "options": ["6 N", "5 N", "3 N", "2 N"],
+    "answer": "6 N",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Laws_Of_Motion",
+    "question": "In a gun firing a bullet, the recoil of the gun is due to:",
+    "options": ["Newton’s third law", "Newton’s first law", "Newton’s second law", "Law of gravitation"],
+    "answer": "Newton’s third law",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Laws_Of_Motion",
+    "question": "Frictional force always acts:",
+    "options": ["Opposite to the direction of motion", "In the direction of motion", "Perpendicular to motion", "Randomly"],
+    "answer": "Opposite to the direction of motion",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Laws_Of_Motion",
+    "question": "The acceleration of a body is zero when:",
+    "options": ["Net force on it is zero", "Mass is zero", "Velocity is zero", "Gravity is zero"],
+    "answer": "Net force on it is zero",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

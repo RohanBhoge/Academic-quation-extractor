@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The SI unit of amount of substance is:",
+    "options": ["Mole", "Gram", "Liter", "Molecule"],
+    "answer": "Mole",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "One mole of any substance contains how many particles?",
+    "options": ["6.022 × 10²³", "3.14 × 10²³", "1 × 10²³", "9.81 × 10²³"],
+    "answer": "6.022 × 10²³",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The mass of 1 mole of a substance in grams is called:",
+    "options": ["Molar mass", "Atomic mass", "Molecular mass", "Equivalent mass"],
+    "answer": "Molar mass",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "Which of the following is a physical change?",
+    "options": ["Melting of ice", "Rusting of iron", "Combustion of wood", "Fermentation of sugar"],
+    "answer": "Melting of ice",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "Which of the following is a chemical change?",
+    "options": ["Burning of coal", "Dissolving sugar in water", "Melting of wax", "Boiling of water"],
+    "answer": "Burning of coal",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The empirical formula gives:",
+    "options": ["Simplest ratio of atoms", "Actual number of atoms", "Molecular weight", "Atomic number"],
+    "answer": "Simplest ratio of atoms",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "The concept of limiting reagent is used to determine:",
+    "options": ["Maximum product formed", "Rate of reaction", "Activation energy", "Equilibrium constant"],
+    "answer": "Maximum product formed",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "Avogadro’s number is used to calculate:",
+    "options": ["Number of particles in a mole", "Atomic mass", "Molecular formula", "Density"],
+    "answer": "Number of particles in a mole",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "One mole of oxygen gas (O₂) weighs approximately:",
+    "options": ["32 g", "16 g", "64 g", "8 g"],
+    "answer": "32 g",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Some_Basic_Concepts_Of_Chemistry",
+    "question": "Which of the following is not a unit of concentration?",
+    "options": ["Mole fraction", "Molality", "Molarity", "Kelvin"],
+    "answer": "Kelvin",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

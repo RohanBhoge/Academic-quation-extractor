@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Hydrogen",
+    "question": "Hydrogen was first prepared by:",
+    "options": ["Reaction of metals with acids", "Electrolysis of water", "Reaction of metal oxides with water", "From hydrocarbons"],
+    "answer": "Reaction of metals with acids",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Hydrogen",
+    "question": "The molecular formula of hydrogen gas is:",
+    "options": ["H₂", "H", "H₂O", "H₂O₂"],
+    "answer": "H₂",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Hydrogen",
+    "question": "Hydrogen is a:",
+    "options": ["Diatomic non-metal", "Monatomic metal", "Diatomic metal", "Polyatomic non-metal"],
+    "answer": "Diatomic non-metal",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Hydrogen",
+    "question": "Hydrogen gas is prepared in the laboratory by the reaction of:",
+    "options": ["Zinc and dilute HCl", "Sodium and water", "Copper and water", "Iron and oxygen"],
+    "answer": "Zinc and dilute HCl",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Hydrogen",
+    "question": "Hydrogen reacts with oxygen to form:",
+    "options": ["Water", "Hydrogen peroxide", "Hydroxide", "Ozone"],
+    "answer": "Water",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Hydrogen",
+    "question": "Hydrogen is used as a fuel in:",
+    "options": ["Hydrogen fuel cells", "Internal combustion engines using petrol", "Steam engines", "Diesel engines"],
+    "answer": "Hydrogen fuel cells",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Hydrogen",
+    "question": "Hydrogen reacts with chlorine to form:",
+    "options": ["Hydrogen chloride", "Hydrochloric acid", "Hydrogen oxide", "Chlorine gas"],
+    "answer": "Hydrogen chloride",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Hydrogen",
+    "question": "Which property of hydrogen makes it useful in lifting balloons?",
+    "options": ["Lightest gas", "Highly reactive", "Non-metallic nature", "Colorless and odorless"],
+    "answer": "Lightest gas",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Hydrogen",
+    "question": "Hydrogen forms metallic hydrides with:",
+    "options": ["Alkali metals and alkaline earth metals", "Transition metals only", "Non-metals only", "Halogens"],
+    "answer": "Alkali metals and alkaline earth metals",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Hydrogen",
+    "question": "Hydrogen is stored under:",
+    "options": ["High pressure in cylinders", "Low temperature only", "Atmospheric pressure", "Open containers"],
+    "answer": "High pressure in cylinders",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

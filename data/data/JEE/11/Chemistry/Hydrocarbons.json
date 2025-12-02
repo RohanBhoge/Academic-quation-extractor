@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Hydrocarbons",
+    "question": "The general formula for alkanes is:",
+    "options": ["CnH2n+2", "CnH2n", "CnH2n-2", "CnHn"],
+    "answer": "CnH2n+2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Hydrocarbons",
+    "question": "Alkenes contain which type of bond?",
+    "options": ["Single bond", "Double bond", "Triple bond", "Ionic bond"],
+    "answer": "Double bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Hydrocarbons",
+    "question": "Alkynes are characterized by the presence of:",
+    "options": ["Single bond", "Double bond", "Triple bond", "Aromatic ring"],
+    "answer": "Triple bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Hydrocarbons",
+    "question": "Which of the following is an aromatic compound?",
+    "options": ["Benzene", "Ethane", "Ethene", "Acetylene"],
+    "answer": "Benzene",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Hydrocarbons",
+    "question": "Hydrocarbons that contain a benzene ring are called:",
+    "options": ["Alkanes", "Alkenes", "Aromatic hydrocarbons", "Alkynes"],
+    "answer": "Aromatic hydrocarbons",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Hydrocarbons",
+    "question": "Which reaction is typical for alkenes?",
+    "options": ["Substitution", "Addition", "Elimination", "Oxidation only"],
+    "answer": "Addition",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Hydrocarbons",
+    "question": "The simplest alkyne is:",
+    "options": ["Ethyne", "Methane", "Ethene", "Propyne"],
+    "answer": "Ethyne",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Hydrocarbons",
+    "question": "Cyclic hydrocarbons containing only single bonds are called:",
+    "options": ["Alkanes", "Cycloalkanes", "Alkenes", "Alkynes"],
+    "answer": "Cycloalkanes",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Hydrocarbons",
+    "question": "Isomers that differ in the position of a double or triple bond are called:",
+    "options": ["Structural isomers", "Positional isomers", "Geometrical isomers", "Optical isomers"],
+    "answer": "Positional isomers",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Hydrocarbons",
+    "question": "The IUPAC name of CH3-CH2-CH3 is:",
+    "options": ["Propane", "Propyne", "Propene", "Butane"],
+    "answer": "Propane",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

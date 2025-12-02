@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Hydrocarbons",
+    "question": "Organic compounds consisting of only carbon and hydrogen are called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Carboxylic acids",
+      "Hydrocarbons",
+      "Alcohols",
+      "Esters"
+    ],
+    "answer": "Hydrocarbons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Hydrocarbons",
+    "question": "The general formula of alkanes is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "CnH2n",
+      "CnH2n+2",
+      "CnH2n-2",
+      "CnH2n+1"
+    ],
+    "answer": "CnH2n+2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Hydrocarbons",
+    "question": "Which of the following is an example of an alkene?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "CH4",
+      "C2H4",
+      "C3H8",
+      "C2H2"
+    ],
+    "answer": "C2H4",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Hydrocarbons",
+    "question": "The general formula of alkynes is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "CnH2n",
+      "CnH2n+2",
+      "CnH2n-2",
+      "CnH2n-1"
+    ],
+    "answer": "CnH2n-2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Hydrocarbons",
+    "question": "Which hydrocarbon is commonly known as acetylene?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Ethene",
+      "Ethane",
+      "Ethyne",
+      "Propane"
+    ],
+    "answer": "Ethyne",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Hydrocarbons",
+    "question": "The reactions that add atoms to a double or triple bond are called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Substitution reactions",
+      "Addition reactions",
+      "Elimination reactions",
+      "Oxidation reactions"
+    ],
+    "answer": "Addition reactions",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Hydrocarbons",
+    "question": "Benzene is an example of:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Alkane",
+      "Aromatic hydrocarbon",
+      "Alkyne",
+      "Cyclic alkane"
+    ],
+    "answer": "Aromatic hydrocarbon",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Hydrocarbons",
+    "question": "Which of the following is a characteristic of aromatic compounds?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Single bonds only",
+      "Odd number of carbon atoms",
+      "Planar ring structure with delocalized electrons",
+      "Contains oxygen atoms"
+    ],
+    "answer": "Planar ring structure with delocalized electrons",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Hydrocarbons",
+    "question": "The first member of the alkane series is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Methane",
+      "Ethane",
+      "Propane",
+      "Butane"
+    ],
+    "answer": "Methane",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Hydrocarbons",
+    "question": "The process of converting alkanes into aromatic hydrocarbons is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Cracking",
+      "Polymerization",
+      "Cyclization",
+      "Aromatization"
+    ],
+    "answer": "Aromatization",
+    "difficulty": "hard",
+    "marks": 1
+  }
+]

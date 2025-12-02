@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Environmental_Chemistry",
+    "question": "Which gas is primarily responsible for acid rain?",
+    "options": ["CO2", "SO2", "O2", "N2"],
+    "answer": "SO2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Environmental_Chemistry",
+    "question": "Ozone layer depletion is mainly caused by:",
+    "options": ["CO2", "CFCs", "Methane", "Nitrogen"],
+    "answer": "CFCs",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Environmental_Chemistry",
+    "question": "Which of the following is a greenhouse gas?",
+    "options": ["O2", "CO2", "N2", "He"],
+    "answer": "CO2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Environmental_Chemistry",
+    "question": "Green chemistry aims to:",
+    "options": ["Reduce pollution", "Increase yield", "Reduce reaction time", "Increase cost"],
+    "answer": "Reduce pollution",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Environmental_Chemistry",
+    "question": "Biodegradable substances are:",
+    "options": ["Non-toxic and decomposable", "Toxic and non-decomposable", "Synthetic only", "Heavy metals"],
+    "answer": "Non-toxic and decomposable",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Environmental_Chemistry",
+    "question": "Which type of pollution is caused by noise, vibrations, or sound?",
+    "options": ["Air pollution", "Water pollution", "Soil pollution", "Noise pollution"],
+    "answer": "Noise pollution",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Environmental_Chemistry",
+    "question": "Smog is primarily caused by which gas in the atmosphere?",
+    "options": ["O3", "CO2", "NOx", "SO2"],
+    "answer": "NOx",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Environmental_Chemistry",
+    "question": "Eutrophication in water bodies is caused by:",
+    "options": ["Excess fertilizers", "Acid rain", "CO2 emission", "Noise pollution"],
+    "answer": "Excess fertilizers",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Environmental_Chemistry",
+    "question": "Which of the following is a method to control water pollution?",
+    "options": ["Sedimentation", "Smelting", "Fractional distillation", "Cracking"],
+    "answer": "Sedimentation",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Environmental_Chemistry",
+    "question": "Which is a renewable source of energy?",
+    "options": ["Coal", "Petrol", "Solar energy", "Natural gas"],
+    "answer": "Solar energy",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

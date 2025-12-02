@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Redox_Reaction",
+    "question": "A reaction in which oxidation and reduction occur simultaneously is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Combination reaction",
+      "Redox reaction",
+      "Displacement reaction",
+      "Neutralization reaction"
+    ],
+    "answer": "Redox reaction",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Redox_Reaction",
+    "question": "Oxidation involves:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Gain of electrons",
+      "Loss of electrons",
+      "Gain of protons",
+      "No electron transfer"
+    ],
+    "answer": "Loss of electrons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Redox_Reaction",
+    "question": "Reduction involves:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Loss of electrons",
+      "Gain of electrons",
+      "Gain of oxygen",
+      "No electron transfer"
+    ],
+    "answer": "Gain of electrons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Redox_Reaction",
+    "question": "The substance that gets reduced acts as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Oxidizing agent",
+      "Reducing agent",
+      "Catalyst",
+      "Indicator"
+    ],
+    "answer": "Oxidizing agent",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Redox_Reaction",
+    "question": "The substance that gets oxidized acts as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Catalyst",
+      "Reducing agent",
+      "Oxidizing agent",
+      "Precipitate"
+    ],
+    "answer": "Reducing agent",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Redox_Reaction",
+    "question": "Oxidation number of oxygen in most compounds is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "+2",
+      "-1",
+      "-2",
+      "0"
+    ],
+    "answer": "-2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Redox_Reaction",
+    "question": "Oxidation number of hydrogen in most compounds is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "+1",
+      "-1",
+      "0",
+      "+2"
+    ],
+    "answer": "+1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Redox_Reaction",
+    "question": "In the reaction: Zn + CuSO₄ → ZnSO₄ + Cu, which substance is oxidized?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Zn",
+      "Cu",
+      "SO₄",
+      "CuSO₄"
+    ],
+    "answer": "Zn",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Redox_Reaction",
+    "question": "In the same reaction, which substance is reduced?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Zn",
+      "Cu²⁺ (in CuSO₄)",
+      "SO₄²⁻",
+      "Zn²⁺"
+    ],
+    "answer": "Cu²⁺ (in CuSO₄)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Redox_Reaction",
+    "question": "The process of increasing oxidation number is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Reduction",
+      "Oxidation",
+      "Neutralization",
+      "Hydrolysis"
+    ],
+    "answer": "Oxidation",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

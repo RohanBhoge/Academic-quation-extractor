@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Continuity",
+    "question": "A function is said to be continuous at x = a if:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "LHS limit = RHS limit",
+      "Limit exists and equals f(a)",
+      "f(a) = 0",
+      "Function is differentiable"
+    ],
+    "answer": "Limit exists and equals f(a)",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Continuity",
+    "question": "For continuity at x = a, which condition must hold?",
+    "question_latex": "\\lim_{x \\to a} f(x) = f(a)",
+    "image_url": "",
+    "options": [
+      "\\lim_{x \\to a} f(x) = f(a)",
+      "\\lim_{x \\to a} f(x) = 0",
+      "f(a) = 1",
+      "Function must be differentiable"
+    ],
+    "answer": "\\lim_{x \\to a} f(x) = f(a)",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Continuity",
+    "question": "If a function is differentiable at a point, then it is always:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Continuous",
+      "Discontinuous",
+      "Constant",
+      "Periodic"
+    ],
+    "answer": "Continuous",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Continuity",
+    "question": "The function f(x) = 1/x is not continuous at:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "x = 1",
+      "x = -1",
+      "x = 0",
+      "x = 2"
+    ],
+    "answer": "x = 0",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Continuity",
+    "question": "If left-hand limit ≠ right-hand limit at x = a, the function is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Continuous",
+      "Differentiable",
+      "Discontinuous",
+      "Constant"
+    ],
+    "answer": "Discontinuous",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Continuity",
+    "question": "The function f(x) = |x| is continuous at x = 0 because:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "LHL = RHL = f(0)",
+      "LHL ≠ RHL",
+      "f(0) is undefined",
+      "It is differentiable"
+    ],
+    "answer": "LHL = RHL = f(0)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Continuity",
+    "question": "A function with a 'jump' at a point is said to have:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Removable discontinuity",
+      "Jump discontinuity",
+      "Infinite discontinuity",
+      "No discontinuity"
+    ],
+    "answer": "Jump discontinuity",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Continuity",
+    "question": "If f(x) = x², the function is continuous for:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Only x > 0",
+      "Only x < 0",
+      "All real numbers",
+      "Only integers"
+    ],
+    "answer": "All real numbers",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Continuity",
+    "question": "Which of the following functions is continuous everywhere?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "f(x) = 1/x",
+      "f(x) = tan(x)",
+      "f(x) = e^x",
+      "f(x) = 1/(x-2)"
+    ],
+    "answer": "f(x) = e^x",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Continuity",
+    "question": "A removable discontinuity occurs when:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Limit does not exist",
+      "Limit exists but ≠ function value",
+      "Function is differentiable",
+      "Function is constant"
+    ],
+    "answer": "Limit exists but ≠ function value",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

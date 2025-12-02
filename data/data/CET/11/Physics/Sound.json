@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Sound",
+    "question": "Sound is a form of which type of wave in air?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Transverse wave",
+      "Longitudinal wave",
+      "Electromagnetic wave",
+      "Standing wave"
+    ],
+    "answer": "Longitudinal wave",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Sound",
+    "question": "The speed of sound is maximum in:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Air",
+      "Water",
+      "Vacuum",
+      "Steel"
+    ],
+    "answer": "Steel",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Sound",
+    "question": "The unit of frequency is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Decibel",
+      "Hertz",
+      "Newton",
+      "Pascal"
+    ],
+    "answer": "Hertz",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Sound",
+    "question": "The range of audible sound for humans is approximately:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "20 Hz to 20 kHz",
+      "2 Hz to 200 Hz",
+      "200 Hz to 2000 Hz",
+      "2000 Hz to 20000 Hz"
+    ],
+    "answer": "20 Hz to 20 kHz",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Sound",
+    "question": "Which quantity determines the loudness of sound?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Frequency",
+      "Amplitude",
+      "Wavelength",
+      "Velocity"
+    ],
+    "answer": "Amplitude",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Sound",
+    "question": "What happens to the frequency of sound when the source moves toward the observer?",
+    "question_latex": "f' > f",
+    "image_url": "",
+    "options": [
+      "Frequency increases",
+      "Frequency decreases",
+      "Frequency becomes zero",
+      "Frequency remains constant"
+    ],
+    "answer": "Frequency increases",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Sound",
+    "question": "Ultrasonic waves have frequencies:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Less than 20 Hz",
+      "Between 20 Hz and 20 kHz",
+      "Greater than 20 kHz",
+      "Exactly 20 kHz"
+    ],
+    "answer": "Greater than 20 kHz",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Sound",
+    "question": "The time taken for one complete oscillation is called:",
+    "question_latex": "T = \\frac{1}{f}",
+    "image_url": "",
+    "options": [
+      "Frequency",
+      "Period",
+      "Amplitude",
+      "Speed"
+    ],
+    "answer": "Period",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Sound",
+    "question": "The speed of sound in air increases with:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Decrease in temperature",
+      "Increase in temperature",
+      "Decrease in humidity",
+      "No change with atmosphere"
+    ],
+    "answer": "Increase in temperature",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Sound",
+    "question": "Which device is used to measure the intensity level of sound?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Decibel meter",
+      "Spectrometer",
+      "Manometer",
+      "Thermometer"
+    ],
+    "answer": "Decibel meter",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

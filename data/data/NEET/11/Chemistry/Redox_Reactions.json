@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Redox_Reactions",
+    "question": "Oxidation is defined as:",
+    "options": ["Loss of electrons", "Gain of electrons", "Loss of protons", "Gain of neutrons"],
+    "answer": "Loss of electrons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Redox_Reactions",
+    "question": "Reduction is defined as:",
+    "options": ["Gain of electrons", "Loss of electrons", "Gain of protons", "Loss of neutrons"],
+    "answer": "Gain of electrons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Redox_Reactions",
+    "question": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, the oxidizing agent is:",
+    "options": ["Cu²⁺", "Zn", "Zn²⁺", "Cu"],
+    "answer": "Cu²⁺",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Redox_Reactions",
+    "question": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, the reducing agent is:",
+    "options": ["Zn", "Cu²⁺", "Cu", "Zn²⁺"],
+    "answer": "Zn",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Redox_Reactions",
+    "question": "The oxidation number of an element in its free state is:",
+    "options": ["Zero", "One", "Equal to its valency", "Depends on the compound"],
+    "answer": "Zero",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Redox_Reactions",
+    "question": "The reaction 2Na + Cl₂ → 2NaCl is a:",
+    "options": ["Redox reaction", "Acid-base reaction", "Precipitation reaction", "Neutralization reaction"],
+    "answer": "Redox reaction",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Redox_Reactions",
+    "question": "In H₂O₂ → H₂O + O₂, oxygen is:",
+    "options": ["Both oxidized and reduced", "Only oxidized", "Only reduced", "Neither oxidized nor reduced"],
+    "answer": "Both oxidized and reduced",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Redox_Reactions",
+    "question": "A substance that gains electrons is called:",
+    "options": ["Oxidizing agent", "Reducing agent", "Catalyst", "Inert substance"],
+    "answer": "Oxidizing agent",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Redox_Reactions",
+    "question": "A substance that loses electrons is called:",
+    "options": ["Reducing agent", "Oxidizing agent", "Catalyst", "Inert substance"],
+    "answer": "Reducing agent",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Redox_Reactions",
+    "question": "In a redox reaction, the sum of oxidation numbers of all atoms:",
+    "options": ["Remains constant", "Increases", "Decreases", "Becomes zero only in acids"],
+    "answer": "Remains constant",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

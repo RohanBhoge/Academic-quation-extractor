@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Sequences_And_Series",
+    "question": "The nth term of an arithmetic progression (AP) is given by:",
+    "options": ["a + (n-1)d", "a × r^(n-1)", "a + nd", "a × n"],
+    "answer": "a + (n-1)d",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Sequences_And_Series",
+    "question": "The sum of first n terms of an AP is:",
+    "options": ["n(a + l)/2", "n × a × r^(n-1)", "a + (n-1)d", "n × a"],
+    "answer": "n(a + l)/2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Sequences_And_Series",
+    "question": "The nth term of a geometric progression (GP) is given by:",
+    "options": ["a × r^(n-1)", "a + (n-1)d", "a × n", "a / r^(n-1)"],
+    "answer": "a × r^(n-1)",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Sequences_And_Series",
+    "question": "The sum of first n terms of a GP (r ≠ 1) is:",
+    "options": ["a(1 - r^n)/(1 - r)", "n(a + l)/2", "a × r^(n-1)", "n × a"],
+    "answer": "a(1 - r^n)/(1 - r)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Sequences_And_Series",
+    "question": "If the common difference of an AP is zero, then the AP is called:",
+    "options": ["Constant sequence", "Increasing sequence", "Decreasing sequence", "Geometric sequence"],
+    "answer": "Constant sequence",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Sequences_And_Series",
+    "question": "If the common ratio of a GP is 1, the series is called:",
+    "options": ["Constant series", "Increasing series", "Decreasing series", "Arithmetic series"],
+    "answer": "Constant series",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Sequences_And_Series",
+    "question": "The sum to infinity of a GP (|r| < 1) is given by:",
+    "options": ["a/(1-r)", "a × r/(1-r)", "a × (1-r^n)/(1-r)", "n(a + l)/2"],
+    "answer": "a/(1-r)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Sequences_And_Series",
+    "question": "If a1 = 2, a2 = 6, a3 = 18, ..., then the 5th term is:",
+    "options": ["54", "162", "486", "128"],
+    "answer": "162",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Sequences_And_Series",
+    "question": "The sum of first 10 natural numbers is:",
+    "options": ["45", "50", "55", "60"],
+    "answer": "55",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Sequences_And_Series",
+    "question": "If the sum of first n terms of an AP is given by S_n = 3n^2 + 2n, then the first term a1 is:",
+    "options": ["5", "3", "2", "1"],
+    "answer": "5",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

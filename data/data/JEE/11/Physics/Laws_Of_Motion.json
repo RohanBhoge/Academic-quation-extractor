@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Laws_Of_Motion",
+    "question": "Newton’s first law of motion is also called:",
+    "options": ["Law of inertia", "Law of acceleration", "Law of action-reaction", "Law of gravitation"],
+    "answer": "Law of inertia",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Laws_Of_Motion",
+    "question": "Newton’s second law of motion states:",
+    "options": ["F = ma", "Every action has equal and opposite reaction", "Bodies resist change in motion", "Force is independent of mass"],
+    "answer": "F = ma",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Laws_Of_Motion",
+    "question": "Newton’s third law of motion is:",
+    "options": ["F = ma", "Action = Reaction", "Friction = Mass × Gravity", "Momentum = Mass × Velocity"],
+    "answer": "Action = Reaction",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Laws_Of_Motion",
+    "question": "The force that opposes relative motion between two surfaces is called:",
+    "options": ["Gravitational force", "Frictional force", "Electrostatic force", "Centripetal force"],
+    "answer": "Frictional force",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Laws_Of_Motion",
+    "question": "The momentum of a body is given by:",
+    "options": ["p = mv", "p = m/a", "p = m + v", "p = m - v"],
+    "answer": "p = mv",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Laws_Of_Motion",
+    "question": "If a force of 10 N acts on a body of mass 2 kg, the acceleration produced is:",
+    "options": ["5 m/s²", "20 m/s²", "10 m/s²", "2 m/s²"],
+    "answer": "5 m/s²",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Laws_Of_Motion",
+    "question": "A body of mass 1 kg moving with velocity 5 m/s has momentum:",
+    "options": ["5 kg·m/s", "1 kg·m/s", "25 kg·m/s", "0 kg·m/s"],
+    "answer": "5 kg·m/s",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Laws_Of_Motion",
+    "question": "The net force on a body of mass 0 at rest is:",
+    "options": ["Zero", "Non-zero", "Infinite", "Undefined"],
+    "answer": "Zero",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Laws_Of_Motion",
+    "question": "The acceleration of a body sliding down a frictionless inclined plane of angle θ is:",
+    "options": ["g sin θ", "g cos θ", "g tan θ", "g"],
+    "answer": "g sin θ",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Laws_Of_Motion",
+    "question": "Two bodies of masses m1 and m2 collide elastically. Total momentum before and after collision is:",
+    "options": ["Conserved", "Decreased", "Increased", "Zero"],
+    "answer": "Conserved",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Binomial_Theorem",
+    "question": "The general term in the expansion of (a + b)^n is given by:",
+    "options": ["nCk a^(n-k) b^k", "nCk a^k b^(n-k)", "nPk a^k b^(n-k)", "nPk a^(n-k) b^k"],
+    "answer": "nCk a^(n-k) b^k",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Binomial_Theorem",
+    "question": "The sum of coefficients in (x + y)^n is:",
+    "options": ["n", "2^n", "n^2", "1"],
+    "answer": "2^n",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Binomial_Theorem",
+    "question": "The middle term in the expansion of (a + b)^7 is:",
+    "options": ["4th term", "5th term", "3rd term", "6th term"],
+    "answer": "4th term",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Binomial_Theorem",
+    "question": "Coefficient of x^3 in the expansion of (1 + x)^5 is:",
+    "options": ["5", "10", "1", "15"],
+    "answer": "10",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Binomial_Theorem",
+    "question": "The number of terms in the expansion of (x + y)^10 is:",
+    "options": ["10", "11", "12", "9"],
+    "answer": "11",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Binomial_Theorem",
+    "question": "In (a + b)^n, the sum of alternate coefficients is:",
+    "options": ["2^(n-1)", "2^n", "n", "n^2"],
+    "answer": "2^(n-1)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Binomial_Theorem",
+    "question": "The expansion of (1 + x)^n is valid for:",
+    "options": ["|x| < 1", "|x| > 1", "All x", "x ≠ 0"],
+    "answer": "|x| < 1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Binomial_Theorem",
+    "question": "The expansion of (x - 1)^4 contains how many positive terms?",
+    "options": ["2", "3", "4", "1"],
+    "answer": "3",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Binomial_Theorem",
+    "question": "The sum of squares of the coefficients in (1 + x)^n is:",
+    "options": ["2^n", "2^(2n)", "2nCk (k=0 to n)", "2nCn"],
+    "answer": "2^(2n)",
+    "difficulty": "hard",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Binomial_Theorem",
+    "question": "The coefficient of x^5 in (2 + x)^8 is:",
+    "options": ["56", "1792", "256", "1280"],
+    "answer": "1792",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

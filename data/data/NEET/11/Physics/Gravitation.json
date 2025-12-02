@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Gravitation",
+    "question": "Newton’s law of universal gravitation states that the force between two masses is:",
+    "options": ["Directly proportional to product of masses and inversely proportional to square of distance", "Directly proportional to product of masses and distance", "Directly proportional to square of distance only", "Independent of masses"],
+    "answer": "Directly proportional to product of masses and inversely proportional to square of distance",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Gravitation",
+    "question": "The acceleration due to gravity at the surface of the Earth is approximately:",
+    "options": ["9.8 m/s²", "10 m/s²", "9.8 cm/s²", "8.9 m/s²"],
+    "answer": "9.8 m/s²",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Gravitation",
+    "question": "Escape velocity from Earth is independent of:",
+    "options": ["Mass of the object", "Mass of Earth", "Radius of Earth", "Gravitational constant"],
+    "answer": "Mass of the object",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Gravitation",
+    "question": "The value of universal gravitational constant (G) is approximately:",
+    "options": ["6.674 × 10⁻¹¹ N·m²/kg²", "9.8 × 10⁻¹¹ N·m²/kg²", "6.674 × 10⁻⁹ N·m²/kg²", "1 × 10⁻¹¹ N·m²/kg²"],
+    "answer": "6.674 × 10⁻¹¹ N·m²/kg²",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Gravitation",
+    "question": "Weight of a body is the force due to:",
+    "options": ["Gravity", "Friction", "Tension", "Magnetism"],
+    "answer": "Gravity",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Gravitation",
+    "question": "The orbital velocity of a satellite in circular orbit depends on:",
+    "options": ["Mass of Earth and radius of orbit", "Mass of satellite only", "Radius of Earth only", "Gravitational constant only"],
+    "answer": "Mass of Earth and radius of orbit",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Gravitation",
+    "question": "The formula for escape velocity is:",
+    "options": ["√(2GM/R)", "√(GM/R²)", "GM/R", "√(GM/2R)"],
+    "answer": "√(2GM/R)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Gravitation",
+    "question": "If the distance between two bodies is doubled, the gravitational force becomes:",
+    "options": ["One-fourth", "Double", "Half", "One-eighth"],
+    "answer": "One-fourth",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Gravitation",
+    "question": "The force of gravity inside the Earth at a distance r from the center is proportional to:",
+    "options": ["r", "1/r²", "r²", "1/r"],
+    "answer": "r",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Gravitation",
+    "question": "Kepler’s third law relates the square of orbital period to:",
+    "options": ["Cube of semi-major axis", "Radius of orbit", "Mass of planet", "Velocity of satellite"],
+    "answer": "Cube of semi-major axis",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

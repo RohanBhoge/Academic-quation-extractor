@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "State_Of_Matter",
+    "question": "Which state of matter has a definite volume but no definite shape?",
+    "options": ["Solid", "Liquid", "Gas", "Plasma"],
+    "answer": "Liquid",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "State_Of_Matter",
+    "question": "In which state of matter are the particles closest together?",
+    "options": ["Solid", "Liquid", "Gas", "Plasma"],
+    "answer": "Solid",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "State_Of_Matter",
+    "question": "The kinetic theory of gases explains:",
+    "options": ["Behavior of gases", "Behavior of liquids", "Properties of solids", "Phase transitions"],
+    "answer": "Behavior of gases",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "State_Of_Matter",
+    "question": "Boyle's law relates which two quantities for a gas at constant temperature?",
+    "options": ["Pressure and volume", "Pressure and temperature", "Volume and temperature", "Pressure and moles"],
+    "answer": "Pressure and volume",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "State_Of_Matter",
+    "question": "Which of the following is an example of plasma?",
+    "options": ["Lightning", "Ice", "Steam", "Oil"],
+    "answer": "Lightning",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "State_Of_Matter",
+    "question": "Charles's law states that volume of a gas is directly proportional to its:",
+    "options": ["Pressure", "Temperature", "Mass", "Density"],
+    "answer": "Temperature",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "State_Of_Matter",
+    "question": "The process of a solid changing directly into a gas is called:",
+    "options": ["Condensation", "Sublimation", "Vaporization", "Deposition"],
+    "answer": "Sublimation",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "State_Of_Matter",
+    "question": "Which property is highest in gases compared to liquids and solids?",
+    "options": ["Density", "Compressibility", "Intermolecular forces", "Cohesion"],
+    "answer": "Compressibility",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "State_Of_Matter",
+    "question": "In liquids, particles move:",
+    "options": ["Vibrationally at fixed positions", "Randomly and slide past each other", "Far apart with high speed", "Do not move"],
+    "answer": "Randomly and slide past each other",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "State_Of_Matter",
+    "question": "Which law is expressed as P × V = constant at constant temperature?",
+    "options": ["Charles's law", "Boyle's law", "Avogadro's law", "Gay-Lussac's law"],
+    "answer": "Boyle's law",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

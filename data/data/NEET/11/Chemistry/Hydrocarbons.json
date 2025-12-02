@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Hydrocarbons",
+    "question": "Alkanes are also known as:",
+    "options": ["Saturated hydrocarbons", "Unsaturated hydrocarbons", "Aromatic hydrocarbons", "Acetylenes"],
+    "answer": "Saturated hydrocarbons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Hydrocarbons",
+    "question": "Alkenes contain:",
+    "options": ["At least one double bond", "Only single bonds", "Triple bonds", "Benzene rings"],
+    "answer": "At least one double bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Hydrocarbons",
+    "question": "Alkynes contain:",
+    "options": ["At least one triple bond", "Only single bonds", "Double bonds", "Aromatic rings"],
+    "answer": "At least one triple bond",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Hydrocarbons",
+    "question": "Benzene is an example of:",
+    "options": ["Aromatic hydrocarbon", "Alkane", "Alkene", "Alkyne"],
+    "answer": "Aromatic hydrocarbon",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Hydrocarbons",
+    "question": "The general formula of alkanes is:",
+    "options": ["CₙH₂ₙ₊₂", "CₙH₂ₙ", "CₙH₂ₙ₋₂", "CₙHₙ"],
+    "answer": "CₙH₂ₙ₊₂",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Hydrocarbons",
+    "question": "The general formula of alkenes is:",
+    "options": ["CₙH₂ₙ", "CₙH₂ₙ₊₂", "CₙH₂ₙ₋₂", "CₙHₙ"],
+    "answer": "CₙH₂ₙ",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Hydrocarbons",
+    "question": "The general formula of alkynes is:",
+    "options": ["CₙH₂ₙ₋₂", "CₙH₂ₙ", "CₙH₂ₙ₊₂", "CₙHₙ"],
+    "answer": "CₙH₂ₙ₋₂",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Hydrocarbons",
+    "question": "Which reaction is typical for alkenes?",
+    "options": ["Addition reaction", "Substitution reaction", "Elimination reaction", "Oxidation only"],
+    "answer": "Addition reaction",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Hydrocarbons",
+    "question": "The reaction of benzene with bromine in the presence of FeBr₃ is an example of:",
+    "options": ["Electrophilic substitution", "Addition", "Free radical substitution", "Oxidation"],
+    "answer": "Electrophilic substitution",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Hydrocarbons",
+    "question": "The isomerism shown by alkanes is called:",
+    "options": ["Structural isomerism", "Geometrical isomerism", "Optical isomerism", "Cis-trans isomerism"],
+    "answer": "Structural isomerism",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

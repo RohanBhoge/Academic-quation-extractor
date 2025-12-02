@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Limits",
+    "question": "The limit of a function represents:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "The exact value of the function",
+      "The behavior of the function near a point",
+      "The derivative of the function",
+      "The area under the curve"
+    ],
+    "answer": "The behavior of the function near a point",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Limits",
+    "question": "If lim (x → a) f(x) exists, then:",
+    "question_latex": "\\lim_{x \\to a^-} f(x) = \\lim_{x \\to a^+} f(x)",
+    "image_url": "",
+    "options": [
+      "Left-hand and right-hand limits are equal",
+      "Function must be differentiable",
+      "Function must be constant",
+      "Function must be periodic"
+    ],
+    "answer": "Left-hand and right-hand limits are equal",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Limits",
+    "question": "The limit of (sin x)/x as x approaches 0 is:",
+    "question_latex": "\\lim_{x \\to 0} \\frac{\\sin x}{x}",
+    "image_url": "",
+    "options": [
+      "0",
+      "1",
+      "∞",
+      "Does not exist"
+    ],
+    "answer": "1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Limits",
+    "question": "The limit of (1 - cos x)/x as x approaches 0 is:",
+    "question_latex": "\\lim_{x \\to 0} \\frac{1 - \\cos x}{x}",
+    "image_url": "",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "∞"
+    ],
+    "answer": "0",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Limits",
+    "question": "The limit of (e^x - 1)/x as x approaches 0 is:",
+    "question_latex": "\\lim_{x \\to 0} \\frac{e^x - 1}{x}",
+    "image_url": "",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "∞"
+    ],
+    "answer": "1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Limits",
+    "question": "If f(x) = 5x + 3, then \\( \\lim_{x \\to 2} f(x) \\) equals:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "5",
+      "10",
+      "13",
+      "8"
+    ],
+    "answer": "13",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Limits",
+    "question": "Indeterminate form '0/0' arises in:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Direct substitution",
+      "Rationalizing",
+      "Factorization",
+      "L'Hospital's Rule"
+    ],
+    "answer": "Direct substitution",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Limits",
+    "question": "The value of \\( \\lim_{x \\to \\infty} \\frac{1}{x} \\) is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "1",
+      "0",
+      "∞",
+      "-∞"
+    ],
+    "answer": "0",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Limits",
+    "question": "The value of \\( \\lim_{x \\to 0} \\frac{\\tan x}{x} \\) is:",
+    "question_latex": "\\lim_{x \\to 0} \\frac{\\tan x}{x}",
+    "image_url": "",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "∞"
+    ],
+    "answer": "1",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Limits",
+    "question": "Which method is commonly used to evaluate limits involving square roots?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Substitution",
+      "Rationalization",
+      "Integration",
+      "Differentiation"
+    ],
+    "answer": "Rationalization",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

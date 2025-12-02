@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Relations_And_Functions",
+    "question": "A relation from set A to set B is a subset of:",
+    "options": ["A ∪ B", "A × B", "B × A", "A ∩ B"],
+    "answer": "A × B",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Relations_And_Functions",
+    "question": "A function f from A to B assigns:",
+    "options": ["Multiple elements of B to one element of A", "Exactly one element of B to each element of A", "No element of B to any element of A", "At least two elements of B to each element of A"],
+    "answer": "Exactly one element of B to each element of A",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Relations_And_Functions",
+    "question": "A function that assigns each element of its domain to itself is called:",
+    "options": ["Identity function", "Constant function", "One-one function", "Onto function"],
+    "answer": "Identity function",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Relations_And_Functions",
+    "question": "A function f: A → B is called one-one (injective) if:",
+    "options": ["f(x1) = f(x2) ⇒ x1 = x2", "f(x1) ≠ f(x2) ⇒ x1 = x2", "f(x1) = f(x2) ⇒ x1 ≠ x2", "f is onto"],
+    "answer": "f(x1) = f(x2) ⇒ x1 = x2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Relations_And_Functions",
+    "question": "A function f: A → B is onto (surjective) if:",
+    "options": ["Every element of B has at least one pre-image in A", "f(x) = x for all x ∈ A", "f(x1) = f(x2) ⇒ x1 = x2", "Domain and codomain are same"],
+    "answer": "Every element of B has at least one pre-image in A",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Relations_And_Functions",
+    "question": "A function which is both one-one and onto is called:",
+    "options": ["Identity function", "Constant function", "Bijective function", "Even function"],
+    "answer": "Bijective function",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Relations_And_Functions",
+    "question": "The composition of two functions f and g is denoted by:",
+    "options": ["f + g", "f ∘ g", "f × g", "f - g"],
+    "answer": "f ∘ g",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Relations_And_Functions",
+    "question": "A relation is called symmetric if:",
+    "options": ["(a,b) ∈ R ⇒ (b,a) ∈ R", "(a,b) ∈ R ⇒ (a,a) ∈ R", "(a,b) ∈ R ⇒ b ∉ A", "R ⊆ A × B"],
+    "answer": "(a,b) ∈ R ⇒ (b,a) ∈ R",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Relations_And_Functions",
+    "question": "A relation is called transitive if:",
+    "options": ["(a,b) ∈ R and (b,c) ∈ R ⇒ (a,c) ∈ R", "(a,b) ∈ R ⇒ (b,a) ∈ R", "(a,b) ∈ R ⇒ a = b", "R ⊆ B × B"],
+    "answer": "(a,b) ∈ R and (b,c) ∈ R ⇒ (a,c) ∈ R",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Relations_And_Functions",
+    "question": "The inverse of a function f: A → B is a function f^(-1): B → A if and only if f is:",
+    "options": ["One-one", "Onto", "Bijective", "Constant"],
+    "answer": "Bijective",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

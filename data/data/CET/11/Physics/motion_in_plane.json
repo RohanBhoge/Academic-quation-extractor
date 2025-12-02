@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "chapter": "Motion in a Plane",
+        "question": "The horizontal and vertical components of projectile velocity are represented by?",
+        "question_latex": "v_x = u\\cos\\theta,\\ v_y = u\\sin\\theta",
+        "image_url": "https://example.com/projectile-components.png",
+        "options": [
+            "$v_x = u\\cos\\theta, v_y = u\\sin\\theta$",
+            "$v_x = u\\sin\\theta, v_y = u\\cos\\theta$",
+            "$v_x = u, v_y = 0$",
+            "$v_x = 0, v_y = u$"
+        ],
+        "answer": "$v_x = u\\cos\\theta, v_y = u\\sin\\theta$",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 2,
+        "chapter": "Motion in a Plane",
+        "question": "What is the path followed by a projectile?",
+        "question_latex": "y = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}",
+        "image_url": "https://example.com/projectile-path.png",
+        "options": [
+            "Straight line",
+            "Parabola",
+            "Circle",
+            "Ellipse"
+        ],
+        "answer": "Parabola",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 3,
+        "chapter": "Motion in a Plane",
+        "question": "A projectile is fired with velocity 20 m/s at 30°. Find the time of flight.",
+        "question_latex": "T = \\frac{2u\\sin\\theta}{g}",
+        "image_url": "https://example.com/time-flight.png",
+        "options": [
+            "1.5 s",
+            "2.0 s",
+            "2.04 s",
+            "2.5 s"
+        ],
+        "answer": "2.04 s",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 4,
+        "chapter": "Motion in a Plane",
+        "question": "The range of a projectile on level ground is maximum when angle of projection is?",
+        "question_latex": "\\theta = 45^\\circ",
+        "image_url": "https://example.com/max-range.png",
+        "options": [
+            "30°",
+            "45°",
+            "60°",
+            "90°"
+        ],
+        "answer": "45°",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 5,
+        "chapter": "Motion in a Plane",
+        "question": "A ball is thrown horizontally from a height h. Its time to hit the ground depends on?",
+        "question_latex": "t = \\sqrt{\\frac{2h}{g}}",
+        "image_url": "https://example.com/horizontal-throw.png",
+        "options": [
+            "Height only",
+            "Initial velocity",
+            "Both height and velocity",
+            "Mass of ball"
+        ],
+        "answer": "Height only",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 6,
+        "chapter": "Motion in a Plane",
+        "question": "For circular motion, the centripetal acceleration is given by?",
+        "question_latex": "a_c = \\frac{v^2}{r}",
+        "image_url": "https://example.com/circular-motion.png",
+        "options": [
+            "$a_c = v^2r$",
+            "$a_c = \\frac{v^2}{r}$",
+            "$a_c = vr$",
+            "$a_c = \\frac{r^2}{v}$"
+        ],
+        "answer": "$a_c = \\frac{v^2}{r}$",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 7,
+        "chapter": "Motion in a Plane",
+        "question": "If a stone tied to a string is whirled in a circle, tension in the string provides?",
+        "question_latex": "",
+        "image_url": "https://example.com/tension-centripetal.png",
+        "options": [
+            "Centripetal force",
+            "Centrifugal force",
+            "Gravitational force",
+            "Elastic force"
+        ],
+        "answer": "Centripetal force",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 8,
+        "chapter": "Motion in a Plane",
+        "question": "The relative velocity of two bodies moving in the same direction is?",
+        "question_latex": "v_{AB} = v_A - v_B",
+        "image_url": "https://example.com/relative-velocity.png",
+        "options": [
+            "Sum of velocities",
+            "Difference of velocities",
+            "Product of velocities",
+            "Zero"
+        ],
+        "answer": "Difference of velocities",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 9,
+        "chapter": "Motion in a Plane",
+        "question": "A vector of magnitude 5 units makes an angle of 37° with x-axis. Its x-component is?",
+        "question_latex": "A_x = A\\cos\\theta",
+        "image_url": "https://example.com/vector-component.png",
+        "options": [
+            "3 units",
+            "4 units",
+            "5 units",
+            "2 units"
+        ],
+        "answer": "4 units",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 10,
+        "chapter": "Motion in a Plane",
+        "question": "If two vectors are perpendicular, their dot product is?",
+        "question_latex": "\\vec{A}\\cdot\\vec{B} = AB\\cos90^\\circ = 0",
+        "image_url": "https://example.com/dot-product.png",
+        "options": [
+            "Zero",
+            "One",
+            "Negative",
+            "Undefined"
+        ],
+        "answer": "Zero",
+        "difficulty": "easy",
+        "marks": 1
+    }
+]

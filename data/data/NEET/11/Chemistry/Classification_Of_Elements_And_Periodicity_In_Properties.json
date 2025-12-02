@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "The modern periodic table is arranged based on:",
+    "options": ["Atomic number", "Atomic mass", "Electronegativity", "Density"],
+    "answer": "Atomic number",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "Elements in the same group have the same:",
+    "options": ["Valence electron configuration", "Atomic number", "Mass number", "Number of neutrons"],
+    "answer": "Valence electron configuration",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "Which of the following elements has the highest electronegativity?",
+    "options": ["Fluorine", "Oxygen", "Nitrogen", "Chlorine"],
+    "answer": "Fluorine",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "Atomic radius generally _______ across a period from left to right.",
+    "options": ["Decreases", "Increases", "Remains constant", "Fluctuates randomly"],
+    "answer": "Decreases",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "Ionization energy generally _______ down a group.",
+    "options": ["Decreases", "Increases", "Remains constant", "Varies randomly"],
+    "answer": "Decreases",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "Which element is called the 'most metallic' in Period 3?",
+    "options": ["Sodium", "Chlorine", "Magnesium", "Phosphorus"],
+    "answer": "Sodium",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "Elements having completely filled s and p orbitals in the outermost shell are called:",
+    "options": ["Noble gases", "Alkali metals", "Halogens", "Transition metals"],
+    "answer": "Noble gases",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "The element with the highest first ionization energy is:",
+    "options": ["Helium", "Lithium", "Fluorine", "Neon"],
+    "answer": "Helium",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "Electronegativity _______ across a period from left to right.",
+    "options": ["Increases", "Decreases", "Remains constant", "Fluctuates"],
+    "answer": "Increases",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Classification_Of_Elements_And_Periodicity_In_Properties",
+    "question": "The periodic law states that properties of elements are a periodic function of their:",
+    "options": ["Atomic number", "Atomic mass", "Valency", "Density"],
+    "answer": "Atomic number",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

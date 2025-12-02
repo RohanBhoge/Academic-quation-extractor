@@ -1,0 +1,163 @@
+[
+    {
+    "id": 1,
+    "chapter": "Gravitation",
+    "question": "A particle starting from rest moves along the circumference of a circle of radius r = √2 m with an angular acceleration α = π/2 rad/s². The magnitude of its average velocity in the time it completes a quarter rotation is:",
+    "question_latex": "r = \\sqrt{2}\\,\\text{m}, \\quad \\alpha = \\frac{\\pi}{2}\\,\\text{rad/s}^2",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX///8AAADx8fHu7u6ioqL09PQRERHm5uaNjY1gYGC8vLzs7OwsLCylpaWTk5PW1tZycnLCwsJ+fn7g4ODIyMhVVVXT09OZmZm0tLSHh4d6enoaGhplZWVqamqWlpZSUlI/Pz83Nzeurq5JSUknJydEREQhISELCwsN+wRkAAAIGklEQVR4nO2d60LiMBCFC1gvKAoCAuINdNf3f8NdpCUnyWTSXEphd75/pmma004zk0mKRSEIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgvCPMl2t72+77kSLbD96Oz6XXXekHZ7GPcXzQ9fdyc1gcdnT+brod92pjAzfexQ3k647lofpIylvz2radfdSKUd3jL4dm23ZdScTmL145O15nXXd0Thu7xvJ23OGTnL5GaBvx6+zcpIPz4Hy9pyLk+xffHEy2IO/z8BJTm44BevFoJhesw9yftJO8orv/PipqucZY0/WSVZxtQN9JClHG67yKTpJLa62ub6yzpiu2DNOy0kOFmuusy+uzvIvbe/evi3dMJxz3bwbcQZXjtix9RScpMfWGgwabGT+10k+eVtokXLLxtWNB/4JawXrRVdOcvbK9ivIeXvChC6cpCeujrCtB95aj+wkh2xcHZ1pShmzcuK52Ulj/GDxm2vb6Xcy4pm0Z/DTnolJy05yxrrobLEW/xK05yQ9cXXWoeCWj5LGbTjJ5S/uki0M53yku5uHHe9qrc1bPXd1mOs6fd5iHtvMPXjc7mOON4OPqD6z3UcnvP2kOkk+rv5+O1IOcMnOreOdZLndcA23Mp65uOKtlZhg+3li4+qPbXYRPvhA/yPQSd6+mYth6bcsnZLPBAUYlWMxrKLTNTE+6mjmJPkp9/Hieyd8KvLdM7h74upWXV9zPKlItpcpd+eosG7siznROXG5XJzc8pc7FckNqw/0KUd1fc1xvVPsSRu7fqinOSqUtT6zZ2zN6h25vgCswNkzHGp1j5EWyUCppSLvPLWVNzwB19ccyI6NPFWnVb0sM6+jUqcivc9lF/rlmz0flZ9U5Ku32rKXOQNyVB5eT9OxCYLwv1MOXNCV7OSwddDdZGy78aN/ef1NRu9V1HNR18P412oEllnmPwULps0dKtbHnIXVLsSj77ECrzxd6X1VAQTOuqxgCI7tI4kLX7O9m+rUKZRZATUci57+cA9Qv3lQdGE0MoNjZUOFvTe7Bwuj3Ser3XCW/p7UTwzSV6bFgKXtjbSJwtomwfx/Ge1CjvgzUmDBpmArqjuLD8poBebh2+YKq+ALH5TRLuROfdMJJ75N6DvGVV0o0ieVfTjSb65waber52lLOBKdQ2Lz3hX1mAALRCutETD12s6aKKwfC+TGHrV2J+rAJlZgkEK4oJ7MA+n1GBSiEMz/UmsXpJtjUDsK0Zw0/wvldconRCF1vtm5+Mk6NLKdIDA8HhRC9hK9E3i0QwIFFD4OrhQDGDkPCmG4w/UucNW/owWiQv1dBpM8KIT3DafZoOaNKLvW2n0jFA6Ja/1l5GojVqGeU6SuimMbVIVlrIMxORWCixt52gWTSVhMCVKI4SdcUxWuD2VBCjH8hAwFrbtdhWA3anCDoVA5kTCFkKS+PxRCJKA7kTYV3qpCFUXBmKQeQJhCCBk+qJopWeswhcVGlR4iYQiLVMUwhRieHdqFayUIDFUI0746wBqoIlgvCVQI1es8Lgw/4yKBQIXg+up3A1wIGFOgQnB99W2CDiTtKghUWKjNYfW4CSEb1AtUCKb+XZU8k+22rxCGlSpCUAWOKKCRQii+Mtu9KVIIVQhD+D7AArvFlZBQhQ9mMdht2vJtE4VzLFfFL6YUrBaqEHIZ+8uB601bAXQqnF6MarRVKvP1eDd6FqtwZbSrQrboJJtHoQuIYH78u/pTM6ZghWD+M73dxO11wQrh0ruJBAjWjClYYaGfAIITFwLDFarJ3EeBxqUnw8IVKq9zp1WLz1/sCVcIQ9Dfp6b2D+j9dSqEqEg3P5iQ9jFkM3OzoYQrBHOaYMimT6BdCqcQxRrxtDowxJAtdStMhEI1mXuGkM3YAOJQqKVvDC+gRs8xGEpC/mJPhEKYzMFLaSTDSIWl9p3Mi9EuBLjgk+6LRCIUwmQOjNRIhoHCVVHugTdth7mWhpapupW8GTRCYaG+AVHjn2lM/myi3XUVPKh2L61aocQotDbG9ewRz6eQmvJRq0RvRL0wYhSWRE/MZQVe4ZreEUPUTN9UaClczG8M5ivzJPsTmw+zCqvQ9WDs/bKp7p5SSGwhtuZnQ6uKtfbFKTQH0QMTq2r8coVbIbGN356BWlWstS/eSl176qyKGXa+xik011VtY/KMNJ/0cqD5gZdvH2l7CmdGDduYvN6CtD+z3WR3H63QNCd77QsUfq8vfzC+cCSzL0a7Ob79iFSom9O3XQEUqgehfwlDrScZV88gMFahPuoRywp05K2fRnx3q5spvyM/VmETb1EY5kQsK7hmTzhGUTM/rd0s35dZCkev4x/Aq1MKtVkCcdw5A4aQj/KLc0+74TijNmoNGMB9a3PiuFMhJEapgAXH4MQkW0VoRrgGt/lQybAmCilvh7vnojcJacQqdO6fqIhViO3m+Vgih0IqJ51DYZ7vCU5ZYZ6PBUWhKBSFopBrVxQ2QxSKQlEoCrl2RWEzROE/pdC/k93Rk7NR+HgN3ENSLFHh62SomMCBoyt0kqjQiSgUhc3YNOgJmVzPoJDMh2ZXyP9U/h4yb5lBobV63opCe2HZhrxSBoXkdoXsCouNtyP0ClC6QmoxoA2Fpe87WcePwSQrdHy6nF9hUSxf3L8/u3H+8Hqawrux60OfNhQKgiAIgiAIJ4Tn17dI+t1SNgAU8v9461zBWXTIP0U9H+5F4dkjCs8fUXj+/F8K+f83dq78+woTfgRMEARBEARBEARBEARBEARBEARBEARBEAQhij8HDnU2iSK+0QAAAABJRU5ErkJggg==",
+    "options": [
+        "\\frac{2\\sqrt{2}}{\\pi}\\,\\text{m/s}",
+        "\\frac{\\pi}{2}\\,\\text{m/s}",
+        "\\frac{\\pi}{\\sqrt{2}}\\,\\text{m/s}",
+        "\\frac{\\pi}{2\\sqrt{2}}\\,\\text{m/s}"
+    ],
+    "answer": "\\frac{2\\sqrt{2}}{\\pi}\\,\\text{m/s}",
+    "difficulty": "medium",
+    "marks": 2
+},
+
+    {
+        "id": 2,
+        "chapter": "Gravitation",
+        "question": "The value of acceleration due to gravity on Earth’s surface is approximately?",
+        "question_latex": "g = 9.8\\,m/s^2",
+        "image_url": "https://example.com/earth-gravity.png",
+        "options": [
+            "8.9 m/s²",
+            "9.8 m/s²",
+            "10.8 m/s²",
+            "9.2 m/s²"
+        ],
+        "answer": "9.8 m/s²",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 3,
+        "chapter": "Gravitation",
+        "question": "What happens to the gravitational force between two bodies if the distance between them is doubled?",
+        "question_latex": "F \\propto \\frac{1}{r^2}",
+        "image_url": "https://example.com/distance-force.png",
+        "options": [
+            "It becomes half",
+            "It becomes one-fourth",
+            "It doubles",
+            "It becomes four times"
+        ],
+        "answer": "It becomes one-fourth",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 4,
+        "chapter": "Gravitation",
+        "question": "The acceleration due to gravity at a height h above the Earth’s surface is given by?",
+        "question_latex": "g' = g\\left(1 - \\frac{2h}{R}\\right)",
+        "image_url": "https://example.com/height-gravity.png",
+        "options": [
+            "$g' = g\\left(1 - \\frac{2h}{R}\\right)$",
+            "$g' = g\\left(1 + \\frac{2h}{R}\\right)$",
+            "$g' = g\\left(1 - \\frac{h}{R}\\right)$",
+            "$g' = g\\left(1 + \\frac{h}{2R}\\right)$"
+        ],
+        "answer": "$g' = g\\left(1 - \\frac{2h}{R}\\right)$",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 5,
+        "chapter": "Gravitation",
+        "question": "If the mass of Earth is $6\\times10^{24}$ kg and its radius is $6.4\\times10^6$ m, find the value of g.",
+        "question_latex": "g = \\frac{GM}{R^2}",
+        "image_url": "https://example.com/earth-parameters.png",
+        "options": [
+            "8.5 m/s²",
+            "9.8 m/s²",
+            "10.5 m/s²",
+            "7.5 m/s²"
+        ],
+        "answer": "9.8 m/s²",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 6,
+        "chapter": "Gravitation",
+        "question": "The gravitational potential energy between two masses m₁ and m₂ separated by distance r is?",
+        "question_latex": "U = -G\\frac{m_1m_2}{r}",
+        "image_url": "https://example.com/potential-energy.png",
+        "options": [
+            "U = G\\frac{m_1m_2}{r}",
+            "U = -G\\frac{m_1m_2}{r}",
+            "U = \\frac{m_1m_2}{Gr}",
+            "U = -Gm_1m_2r"
+        ],
+        "answer": "$U = -G\\frac{m_1m_2}{r}$",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 7,
+        "chapter": "Gravitation",
+        "question": "The escape velocity from Earth’s surface is approximately?",
+        "question_latex": "v_e = \\sqrt{2gR}",
+        "image_url": "https://example.com/escape-velocity.png",
+        "options": [
+            "8.9 km/s",
+            "9.8 km/s",
+            "11.2 km/s",
+            "12.8 km/s"
+        ],
+        "answer": "11.2 km/s",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 8,
+        "chapter": "Gravitation",
+        "question": "If a planet’s mass is double that of Earth and its radius is the same, its g will be?",
+        "question_latex": "g' = G\\frac{2M}{R^2}",
+        "image_url": "https://example.com/double-mass.png",
+        "options": [
+            "Same as Earth",
+            "Double of Earth",
+            "Half of Earth",
+            "Four times Earth"
+        ],
+        "answer": "Double of Earth",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 9,
+        "chapter": "Gravitation",
+        "question": "If a satellite orbits Earth close to its surface, its orbital speed is given by?",
+        "question_latex": "v = \\sqrt{gR}",
+        "image_url": "https://example.com/orbital-speed.png",
+        "options": [
+            "$v = \\sqrt{gR}$",
+            "$v = \\sqrt{2gR}$",
+            "$v = gR$",
+            "$v = \\frac{g}{R}$"
+        ],
+        "answer": "$v = \\sqrt{gR}$",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 10,
+        "chapter": "Gravitation",
+        "question": "At what height above Earth's surface will g be reduced to one-fourth of its surface value?",
+        "question_latex": "\\frac{g'}{g} = \\left(\\frac{R}{R + h}\\right)^2",
+        "image_url": "https://example.com/height-effect.png",
+        "options": [
+            "R",
+            "√R",
+            "R/2",
+            "3R"
+        ],
+        "answer": "R",
+        "difficulty": "hard",
+        "marks": 1
+    }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "The center of mass of a system of particles is the point at which:",
+    "options": ["Total mass can be considered to act", "Velocity is zero", "All particles are at rest", "Acceleration is zero"],
+    "answer": "Total mass can be considered to act",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "The rotational analog of mass is called:",
+    "options": ["Moment of inertia", "Torque", "Angular momentum", "Angular velocity"],
+    "answer": "Moment of inertia",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "Torque is the product of force and:",
+    "options": ["Perpendicular distance from axis", "Parallel distance from axis", "Mass", "Acceleration"],
+    "answer": "Perpendicular distance from axis",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "Newton’s second law for rotation is:",
+    "options": ["τ = Iα", "F = ma", "L = Iω", "τ = mgh"],
+    "answer": "τ = Iα",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "The unit of moment of inertia in SI system is:",
+    "options": ["kg·m²", "kg·m/s²", "N·m", "kg·m"],
+    "answer": "kg·m²",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "The angular momentum of a rigid body rotating about a fixed axis is:",
+    "options": ["L = Iω", "L = mvr", "L = F × r", "L = mgh"],
+    "answer": "L = Iω",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "The kinetic energy of a rigid body in pure rotation is:",
+    "options": ["1/2 Iω²", "1/2 mv²", "Iα", "mgh"],
+    "answer": "1/2 Iω²",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "Parallel axis theorem relates moment of inertia about any axis to:",
+    "options": ["Moment of inertia through center of mass", "Torque", "Angular velocity", "Angular momentum"],
+    "answer": "Moment of inertia through center of mass",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "For a system of particles, total external force equals:",
+    "options": ["Total mass × acceleration of center of mass", "Sum of internal forces", "Torque", "Angular momentum"],
+    "answer": "Total mass × acceleration of center of mass",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Motion_Of_Systems_Of_Particles_And_Rigid_Body",
+    "question": "The moment of inertia of a thin rod about its center is:",
+    "options": ["(1/12)ML²", "(1/3)ML²", "(1/2)ML²", "ML²"],
+    "answer": "(1/12)ML²",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

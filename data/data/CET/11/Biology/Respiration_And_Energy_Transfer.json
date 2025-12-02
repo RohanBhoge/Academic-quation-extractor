@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "The process of breaking down glucose to release energy is known as:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Fermentation"
+    ],
+    "answer": "Respiration",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "Which gas is essential for aerobic respiration?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer": "Oxygen",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "Which organ is the main site of gas exchange in humans?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Heart",
+      "Lungs",
+      "Liver",
+      "Kidney"
+    ],
+    "answer": "Lungs",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "The energy currency of the cell is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "DNA",
+      "RNA",
+      "ATP",
+      "Glucose"
+    ],
+    "answer": "ATP",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "Where does glycolysis occur in the cell?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Mitochondria",
+      "Cytoplasm",
+      "Nucleus",
+      "Ribosomes"
+    ],
+    "answer": "Cytoplasm",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "The end products of anaerobic respiration in muscles are:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Carbon dioxide and water",
+      "Lactic acid and energy",
+      "Alcohol and CO₂",
+      "Oxygen and glucose"
+    ],
+    "answer": "Lactic acid and energy",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "Which molecule is the final electron acceptor in aerobic respiration?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Carbon dioxide",
+      "Hydrogen",
+      "Oxygen",
+      "ATP"
+    ],
+    "answer": "Oxygen",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "Where does the Krebs cycle (Citric Acid Cycle) occur?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Cytoplasm",
+      "Nucleus",
+      "Mitochondria",
+      "Chloroplast"
+    ],
+    "answer": "Mitochondria",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "The exchange of gases between blood and tissues is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Internal respiration",
+      "External respiration",
+      "Cellular respiration",
+      "Pulmonary respiration"
+    ],
+    "answer": "Internal respiration",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Respiration and Energy Transfer",
+    "question": "During heavy exercise, muscles may switch to anaerobic respiration due to lack of:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Glucose",
+      "Carbon dioxide",
+      "Oxygen",
+      "ATP"
+    ],
+    "answer": "Oxygen",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

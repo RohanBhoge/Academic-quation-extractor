@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "chapter": "Permutations_And_Combinations",
+    "question": "The number of ways to arrange n distinct objects is given by:",
+    "options": ["n^2", "n!", "n^n", "2^n"],
+    "answer": "n!",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Permutations_And_Combinations",
+    "question": "The number of ways to choose r objects from n distinct objects is given by:",
+    "options": ["n^r", "nPr", "nCr", "rPn"],
+    "answer": "nCr",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Permutations_And_Combinations",
+    "question": "The number of permutations of 3 objects taken from 5 is:",
+    "options": ["10", "60", "20", "15"],
+    "answer": "60",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Permutations_And_Combinations",
+    "question": "The number of combinations of 3 objects taken from 5 is:",
+    "options": ["10", "60", "20", "15"],
+    "answer": "10",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Permutations_And_Combinations",
+    "question": "If all objects are identical, the number of arrangements of n objects is:",
+    "options": ["n!", "1", "2^n", "n^2"],
+    "answer": "1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Permutations_And_Combinations",
+    "question": "The number of ways to arrange the letters of the word 'APPLE' is:",
+    "options": ["60", "120", "24", "20"],
+    "answer": "60",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Permutations_And_Combinations",
+    "question": "If nPr = n!/(n-r)!, then 5P3 is:",
+    "options": ["60", "10", "20", "15"],
+    "answer": "60",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Permutations_And_Combinations",
+    "question": "If nCr = n! / [r!(n-r)!], then 5C3 is:",
+    "options": ["10", "60", "15", "20"],
+    "answer": "10",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Permutations_And_Combinations",
+    "question": "In how many ways can 4 boys and 4 girls be seated in a row so that boys and girls alternate?",
+    "options": ["576", "384", "288", "256"],
+    "answer": "576",
+    "difficulty": "hard",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Permutations_And_Combinations",
+    "question": "The number of ways to select a committee of 3 from 7 men and 4 women without any restriction is:",
+    "options": ["165", "35", "84", "56"],
+    "answer": "165",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]
+

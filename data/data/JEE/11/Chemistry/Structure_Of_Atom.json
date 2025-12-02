@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Structure_Of_Atom",
+    "question": "Who proposed the planetary model of the atom?",
+    "options": ["Rutherford", "Bohr", "Thomson", "Dalton"],
+    "answer": "Rutherford",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Structure_Of_Atom",
+    "question": "According to Bohr’s model, electrons revolve around the nucleus in:",
+    "options": ["Random paths", "Fixed circular orbits", "Elliptical orbits", "Spiral paths"],
+    "answer": "Fixed circular orbits",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Structure_Of_Atom",
+    "question": "The mass number of an atom is:",
+    "options": ["Number of protons", "Number of neutrons", "Sum of protons and neutrons", "Number of electrons"],
+    "answer": "Sum of protons and neutrons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Structure_Of_Atom",
+    "question": "Which particle has a negative charge?",
+    "options": ["Proton", "Neutron", "Electron", "Photon"],
+    "answer": "Electron",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Structure_Of_Atom",
+    "question": "Isotopes are atoms of the same element with:",
+    "options": ["Same number of neutrons", "Same mass number", "Same atomic number but different mass number", "Different atomic numbers"],
+    "answer": "Same atomic number but different mass number",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Structure_Of_Atom",
+    "question": "Who discovered the electron?",
+    "options": ["Thomson", "Rutherford", "Millikan", "Bohr"],
+    "answer": "Thomson",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Structure_Of_Atom",
+    "question": "The charge of a proton is:",
+    "options": ["+1 e", "-1 e", "0", "+2 e"],
+    "answer": "+1 e",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Structure_Of_Atom",
+    "question": "Atomic number (Z) represents:",
+    "options": ["Number of neutrons", "Number of protons", "Mass number", "Number of electrons only"],
+    "answer": "Number of protons",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Structure_Of_Atom",
+    "question": "The discovery of the nucleus is attributed to:",
+    "options": ["Thomson", "Rutherford", "Bohr", "Dalton"],
+    "answer": "Rutherford",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Structure_Of_Atom",
+    "question": "Which model explained the hydrogen emission spectrum?",
+    "options": ["Rutherford model", "Thomson model", "Bohr model", "Dalton model"],
+    "answer": "Bohr model",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

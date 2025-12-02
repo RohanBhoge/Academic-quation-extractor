@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Circle",
+    "question": "A circle is the set of all points in a plane which are at a constant distance from a fixed point. The fixed point is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Diameter",
+      "Radius",
+      "Center",
+      "Chord"
+    ],
+    "answer": "Center",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Circle",
+    "question": "The distance from the center of a circle to any point on the circle is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Diameter",
+      "Radius",
+      "Chord",
+      "Arc"
+    ],
+    "answer": "Radius",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Circle",
+    "question": "The longest chord of a circle is always the:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Secant",
+      "Tangent",
+      "Diameter",
+      "Radius"
+    ],
+    "answer": "Diameter",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Circle",
+    "question": "A line which touches a circle at exactly one point is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Chord",
+      "Secant",
+      "Tangent",
+      "Radius"
+    ],
+    "answer": "Tangent",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Circle",
+    "question": "The angle between the radius and the tangent at the point of contact is always:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": "90°",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Circle",
+    "question": "If the diameter of a circle is 14 cm, its radius is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "7 cm",
+      "14 cm",
+      "21 cm",
+      "3.5 cm"
+    ],
+    "answer": "7 cm",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Circle",
+    "question": "The area of a circle with radius r is:",
+    "question_latex": "A = \\pi r^2",
+    "image_url": "",
+    "options": [
+      "\\pi r",
+      "2 \\pi r^2",
+      "\\pi r^2",
+      "2 \\pi r"
+    ],
+    "answer": "\\pi r^2",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Circle",
+    "question": "The circumference of a circle with radius r is:",
+    "question_latex": "C = 2\\pi r",
+    "image_url": "",
+    "options": [
+      "\\pi r",
+      "2\\pi r",
+      "\\frac{\\pi r}{2}",
+      "4\\pi r"
+    ],
+    "answer": "2\\pi r",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Circle",
+    "question": "A line segment joining any two points on the circle is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Chord",
+      "Radius",
+      "Diameter",
+      "Tangent"
+    ],
+    "answer": "Chord",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Circle",
+    "question": "If the radius of a circle is doubled, then its area becomes:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Double",
+      "Triple",
+      "Four times",
+      "Eight times"
+    ],
+    "answer": "Four times",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

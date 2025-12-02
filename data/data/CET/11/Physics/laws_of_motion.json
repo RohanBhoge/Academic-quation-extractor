@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "chapter": "Laws of Motion",
+        "question": "Which of the following is Newton’s First Law of Motion?",
+        "question_latex": "",
+        "image_url": "https://example.com/newton-first-law.png",
+        "options": [
+            "An object continues in its state of rest or uniform motion unless acted upon by an external force.",
+            "Force is equal to mass times acceleration.",
+            "Every action has an equal and opposite reaction.",
+            "Momentum is conserved in all systems."
+        ],
+        "answer": "An object continues in its state of rest or uniform motion unless acted upon by an external force.",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 2,
+        "chapter": "Laws of Motion",
+        "question": "Newton’s Second Law gives the definition of which physical quantity?",
+        "question_latex": "F = ma",
+        "image_url": "https://example.com/newton-second-law.png",
+        "options": [
+            "Force",
+            "Momentum",
+            "Inertia",
+            "Mass"
+        ],
+        "answer": "Force",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 3,
+        "chapter": "Laws of Motion",
+        "question": "Which of the following statements represents Newton’s Third Law correctly?",
+        "question_latex": "",
+        "image_url": "https://example.com/action-reaction.png",
+        "options": [
+            "Every action has an equal and opposite reaction.",
+            "Force equals mass times acceleration.",
+            "Objects resist change in motion.",
+            "Momentum is conserved only in collisions."
+        ],
+        "answer": "Every action has an equal and opposite reaction.",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 4,
+        "chapter": "Laws of Motion",
+        "question": "A car of mass 1000 kg accelerates uniformly from rest to 10 m/s in 5 seconds. Find the force applied.",
+        "question_latex": "F = ma = m\\frac{\\Delta v}{\\Delta t}",
+        "image_url": "https://example.com/car-acceleration.png",
+        "options": [
+            "1000 N",
+            "2000 N",
+            "3000 N",
+            "4000 N"
+        ],
+        "answer": "2000 N",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 5,
+        "chapter": "Laws of Motion",
+        "question": "The unit of force is derived from which fundamental quantities?",
+        "question_latex": "[F] = [M][L][T^{-2}]",
+        "image_url": "https://example.com/unit-force.png",
+        "options": [
+            "Mass, Length, Time",
+            "Current, Length, Time",
+            "Mass, Temperature, Time",
+            "Length, Charge, Time"
+        ],
+        "answer": "Mass, Length, Time",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 6,
+        "chapter": "Laws of Motion",
+        "question": "A block of 2 kg is acted upon by two forces 3 N east and 4 N north. Find the resultant acceleration.",
+        "question_latex": "a = \\frac{\\sqrt{3^2 + 4^2}}{2}",
+        "image_url": "https://example.com/block-forces.png",
+        "options": [
+            "2.5 m/s²",
+            "3.5 m/s²",
+            "5.0 m/s²",
+            "4.5 m/s²"
+        ],
+        "answer": "2.5 m/s²",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 7,
+        "chapter": "Laws of Motion",
+        "question": "When a body is in equilibrium, the net force on it is?",
+        "question_latex": "\\Sigma F = 0",
+        "image_url": "https://example.com/equilibrium.png",
+        "options": [
+            "Zero",
+            "Constant",
+            "Variable",
+            "Equal to mg"
+        ],
+        "answer": "Zero",
+        "difficulty": "easy",
+        "marks": 1
+    },
+    {
+        "id": 8,
+        "chapter": "Laws of Motion",
+        "question": "A horse pulls a cart with force F. According to Newton’s Third Law, the cart pulls the horse with?",
+        "question_latex": "F_{cart} = -F_{horse}",
+        "image_url": "https://example.com/horse-cart.png",
+        "options": [
+            "Equal and opposite force",
+            "Smaller force",
+            "Larger force",
+            "Zero force"
+        ],
+        "answer": "Equal and opposite force",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 9,
+        "chapter": "Laws of Motion",
+        "question": "If two equal and opposite forces act on a body, what happens to the body’s motion?",
+        "question_latex": "",
+        "image_url": "https://example.com/equal-opposite.png",
+        "options": [
+            "Remains unchanged",
+            "Accelerates",
+            "Stops",
+            "Changes direction"
+        ],
+        "answer": "Remains unchanged",
+        "difficulty": "medium",
+        "marks": 1
+    },
+    {
+        "id": 10,
+        "chapter": "Laws of Motion",
+        "question": "When a body moves on a rough surface, which force acts opposite to its motion?",
+        "question_latex": "",
+        "image_url": "https://example.com/friction.png",
+        "options": [
+            "Friction",
+            "Tension",
+            "Normal reaction",
+            "Applied force"
+        ],
+        "answer": "Friction",
+        "difficulty": "easy",
+        "marks": 1
+    }
+]

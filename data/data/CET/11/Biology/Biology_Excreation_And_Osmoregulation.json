@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The process of removal of metabolic waste from the body is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Respiration",
+      "Excretion",
+      "Osmosis",
+      "Secretion"
+    ],
+    "answer": "Excretion",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which organ is the main excretory organ in humans?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Lungs",
+      "Skin"
+    ],
+    "answer": "Kidney",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The structural and functional unit of kidney is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Neuron",
+      "Nephron",
+      "Glomerulus",
+      "Loop of Henle"
+    ],
+    "answer": "Nephron",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Ultrafiltration occurs in which part of the nephron?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Bowman's capsule",
+      "Loop of Henle",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Bowman's capsule",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which nitrogenous waste product is excreted in humans?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Ammonia",
+      "Urea",
+      "Uric acid",
+      "Amino acids"
+    ],
+    "answer": "Urea",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The hormone responsible for water reabsorption in kidneys is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Insulin",
+      "ADH (Vasopressin)",
+      "Aldosterone",
+      "Thyroxine"
+    ],
+    "answer": "ADH (Vasopressin)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The process by which fishes remove nitrogenous waste is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Ammonotelism",
+      "Ureotelism",
+      "Uricotelism",
+      "Hemolysis"
+    ],
+    "answer": "Ammonotelism",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The loop of Henle is mainly responsible for:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Blood filtration",
+      "Water and salt reabsorption",
+      "Production of urea",
+      "Detoxification"
+    ],
+    "answer": "Water and salt reabsorption",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Osmoregulation is essential to maintain:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Blood sugar",
+      "Water and ion balance",
+      "Body temperature",
+      "Blood pressure"
+    ],
+    "answer": "Water and ion balance",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which of the following is a kidney disorder?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Nephritis",
+      "Asthma",
+      "Arthritis",
+      "Myopia"
+    ],
+    "answer": "Nephritis",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

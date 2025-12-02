@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Thermodynamics",
+    "question": "Which law of thermodynamics defines the concept of internal energy?",
+    "options": ["Zeroth law", "First law", "Second law", "Third law"],
+    "answer": "First law",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Thermodynamics",
+    "question": "ΔU = Q – W represents:",
+    "options": ["First law of thermodynamics", "Second law", "Hess's law", "Kirchhoff's law"],
+    "answer": "First law of thermodynamics",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Thermodynamics",
+    "question": "Work done in an isochoric process is:",
+    "options": ["Positive", "Negative", "Zero", "Infinite"],
+    "answer": "Zero",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Thermodynamics",
+    "question": "Which of the following is a state function?",
+    "options": ["Work", "Heat", "Internal energy", "Path length"],
+    "answer": "Internal energy",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Thermodynamics",
+    "question": "Enthalpy is defined as:",
+    "options": ["U + PV", "U − PV", "PV − U", "P/U"],
+    "answer": "U + PV",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Thermodynamics",
+    "question": "For an exothermic reaction, ΔH is:",
+    "options": ["Positive", "Negative", "Zero", "Undefined"],
+    "answer": "Negative",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Thermodynamics",
+    "question": "In an isothermal expansion of an ideal gas, which quantity remains constant?",
+    "options": ["Temperature", "Pressure", "Volume", "m × c"],
+    "answer": "Temperature",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Thermodynamics",
+    "question": "Which process has ΔU = 0 for an ideal gas?",
+    "options": ["Isochoric", "Isothermal", "Isobaric", "Adiabatic"],
+    "answer": "Isothermal",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Thermodynamics",
+    "question": "Spontaneous reactions occur when:",
+    "options": ["ΔG < 0", "ΔG > 0", "ΔG = 0", "ΔH = 0"],
+    "answer": "ΔG < 0",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Thermodynamics",
+    "question": "Entropy of a perfectly crystalline substance at 0 K is:",
+    "options": ["Zero", "One", "Negative", "Maximum"],
+    "answer": "Zero",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

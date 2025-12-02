@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Structure_Of_Atom",
+    "question": "The smallest particle of an element that retains its chemical identity is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Ion",
+      "Electron"
+    ],
+    "answer": "Atom",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Structure_Of_Atom",
+    "question": "The electron was discovered by:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "J.J. Thomson",
+      "Rutherford",
+      "Bohr",
+      "Chadwick"
+    ],
+    "answer": "J.J. Thomson",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Structure_Of_Atom",
+    "question": "The proton was discovered by:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Goldstein",
+      "Thomson",
+      "Bohr",
+      "Dalton"
+    ],
+    "answer": "Goldstein",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Structure_Of_Atom",
+    "question": "The neutron was discovered by:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Bohr",
+      "Chadwick",
+      "Rutherford",
+      "Thomson"
+    ],
+    "answer": "Chadwick",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Structure_Of_Atom",
+    "question": "According to Rutherford’s model, the nucleus is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Negatively charged",
+      "Positively charged",
+      "Neutral",
+      "Both positive and negative"
+    ],
+    "answer": "Positively charged",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Structure_Of_Atom",
+    "question": "Bohr’s atomic model is applicable mainly to:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Multi-electron atoms",
+      "Hydrogen atom",
+      "All solids",
+      "All gases"
+    ],
+    "answer": "Hydrogen atom",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Structure_Of_Atom",
+    "question": "The quantum number which gives the shape of orbitals is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Principal quantum number (n)",
+      "Azimuthal quantum number (l)",
+      "Magnetic quantum number (m)",
+      "Spin quantum number (s)"
+    ],
+    "answer": "Azimuthal quantum number (l)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Structure_Of_Atom",
+    "question": "The maximum number of electrons that can be accommodated in a shell is given by:",
+    "question_latex": "2n^2",
+    "image_url": "",
+    "options": [
+      "n^2",
+      "2n",
+      "2n^2",
+      "n^3"
+    ],
+    "answer": "2n^2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Structure_Of_Atom",
+    "question": "Which quantum number describes the orientation of an orbital?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Principal quantum number",
+      "Azimuthal quantum number",
+      "Magnetic quantum number",
+      "Spin quantum number"
+    ],
+    "answer": "Magnetic quantum number",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Structure_Of_Atom",
+    "question": "An atom has atomic number Z = 11. Its electronic configuration is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "1s² 2s² 2p⁶",
+      "1s² 2s² 2p⁶ 3s¹",
+      "1s² 2s² 3s² 3p²",
+      "1s² 2s² 2p⁴ 3s²"
+    ],
+    "answer": "1s² 2s² 2p⁶ 3s¹",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

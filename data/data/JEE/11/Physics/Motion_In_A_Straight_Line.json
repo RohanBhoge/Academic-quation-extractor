@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "The quantity that represents the rate of change of displacement is called:",
+    "options": ["Velocity", "Acceleration", "Speed", "Force"],
+    "answer": "Velocity",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "Acceleration is defined as the rate of change of:",
+    "options": ["Velocity", "Displacement", "Time", "Force"],
+    "answer": "Velocity",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "For uniformly accelerated motion, the equation v = u + at gives:",
+    "options": ["Velocity at time t", "Displacement at time t", "Acceleration at time t", "Force at time t"],
+    "answer": "Velocity at time t",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "The equation s = ut + 1/2 at² gives:",
+    "options": ["Displacement", "Velocity", "Acceleration", "Time"],
+    "answer": "Displacement",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "If a body moves with constant velocity, its acceleration is:",
+    "options": ["Zero", "Constant", "Increasing", "Decreasing"],
+    "answer": "Zero",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "The velocity-time graph for uniformly accelerated motion is:",
+    "options": ["Straight line", "Parabola", "Circle", "Exponential curve"],
+    "answer": "Straight line",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "If initial velocity u = 0, the displacement after time t under acceleration a is:",
+    "options": ["1/2 at²", "at²", "at", "√(2at)"],
+    "answer": "1/2 at²",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "A car accelerates from 10 m/s to 20 m/s in 5 seconds. Its acceleration is:",
+    "options": ["2 m/s²", "5 m/s²", "10 m/s²", "1 m/s²"],
+    "answer": "2 m/s²",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "The equation v² - u² = 2as relates:",
+    "options": ["Velocity, displacement, and acceleration", "Force, mass, and acceleration", "Time, velocity, and acceleration", "Displacement, time, and velocity"],
+    "answer": "Velocity, displacement, and acceleration",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "If a body covers equal distances in equal intervals of time, its motion is:",
+    "options": ["Uniform motion", "Uniformly accelerated motion", "Non-uniform motion", "Oscillatory motion"],
+    "answer": "Uniform motion",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

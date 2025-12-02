@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Work is said to be done when:",
+    "options": ["A force is applied and displacement occurs in the direction of force", "Only force is applied", "Only displacement occurs", "Energy is lost"],
+    "answer": "A force is applied and displacement occurs in the direction of force",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Work_Energy_And_Power",
+    "question": "The SI unit of work is:",
+    "options": ["Joule", "Newton", "Watt", "Pascal"],
+    "answer": "Joule",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Kinetic energy of a body of mass m moving with velocity v is:",
+    "options": ["1/2 mv²", "mv", "mv²", "1/2 m²v"],
+    "answer": "1/2 mv²",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Potential energy of a body at height h is given by:",
+    "options": ["mgh", "1/2 mv²", "mg/h", "mg + h"],
+    "answer": "mgh",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Work done by a conservative force depends on:",
+    "options": ["Initial and final positions only", "Path taken", "Time", "Velocity"],
+    "answer": "Initial and final positions only",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Power is defined as:",
+    "options": ["Work done per unit time", "Force per unit distance", "Energy per unit mass", "Work done per unit displacement"],
+    "answer": "Work done per unit time",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Work_Energy_And_Power",
+    "question": "The unit of power in SI system is:",
+    "options": ["Watt", "Joule", "Newton", "Pascal"],
+    "answer": "Watt",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Work_Energy_And_Power",
+    "question": "The work-energy theorem states that:",
+    "options": ["Work done on a body equals the change in its kinetic energy", "Work done is zero", "Energy is always conserved", "Potential energy equals kinetic energy"],
+    "answer": "Work done on a body equals the change in its kinetic energy",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Work_Energy_And_Power",
+    "question": "If a force acts perpendicular to the displacement, work done is:",
+    "options": ["Zero", "Maximum", "Half of force", "Depends on speed"],
+    "answer": "Zero",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Total mechanical energy of a system is the sum of:",
+    "options": ["Kinetic and potential energy", "Work and power", "Force and displacement", "Velocity and acceleration"],
+    "answer": "Kinetic and potential energy",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

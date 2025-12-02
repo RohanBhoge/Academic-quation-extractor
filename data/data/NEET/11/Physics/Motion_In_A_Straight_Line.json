@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "The rate of change of displacement with time is called:",
+    "options": ["Velocity", "Acceleration", "Speed", "Momentum"],
+    "answer": "Velocity",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "The rate of change of velocity with time is called:",
+    "options": ["Acceleration", "Force", "Displacement", "Momentum"],
+    "answer": "Acceleration",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "If acceleration is zero, velocity is:",
+    "options": ["Constant", "Increasing", "Decreasing", "Zero"],
+    "answer": "Constant",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "Equation of motion: v = u + at. Here, 'v' represents:",
+    "options": ["Final velocity", "Initial velocity", "Acceleration", "Displacement"],
+    "answer": "Final velocity",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "Equation of motion: s = ut + 1/2 at². Here, 's' represents:",
+    "options": ["Displacement", "Velocity", "Acceleration", "Time"],
+    "answer": "Displacement",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "Uniformly accelerated motion means acceleration is:",
+    "options": ["Constant", "Zero", "Variable", "Negative only"],
+    "answer": "Constant",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "If initial velocity u = 0, the equation s = 1/2 at² gives:",
+    "options": ["Displacement", "Velocity", "Acceleration", "Time"],
+    "answer": "Displacement",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "Velocity-time graph for uniformly accelerated motion is:",
+    "options": ["Straight line", "Parabola", "Hyperbola", "Circle"],
+    "answer": "Straight line",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "Acceleration of free fall near Earth’s surface is approximately:",
+    "options": ["9.8 m/s²", "10 m/s²", "9.8 cm/s²", "8 m/s²"],
+    "answer": "9.8 m/s²",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Motion_In_A_Straight_Line",
+    "question": "The area under velocity-time graph gives:",
+    "options": ["Displacement", "Acceleration", "Velocity", "Force"],
+    "answer": "Displacement",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

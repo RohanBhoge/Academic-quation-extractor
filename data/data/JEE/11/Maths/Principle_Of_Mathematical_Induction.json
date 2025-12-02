@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "The principle of mathematical induction is used to prove statements about:",
+    "options": ["Real numbers", "Integers", "Complex numbers", "Matrices"],
+    "answer": "Integers",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "The first step in mathematical induction is called:",
+    "options": ["Inductive step", "Base step", "Conclusion", "Assumption step"],
+    "answer": "Base step",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "The step where we assume the statement is true for n = k is called:",
+    "options": ["Base step", "Inductive hypothesis", "Inductive conclusion", "Assumption step"],
+    "answer": "Inductive hypothesis",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "The step where we prove the statement for n = k + 1 is called:",
+    "options": ["Base step", "Inductive step", "Conclusion", "Hypothesis"],
+    "answer": "Inductive step",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "Using induction, the formula for the sum of first n natural numbers is proved as:",
+    "options": ["n(n+1)/2", "n^2", "n(n-1)/2", "n^2 + 1"],
+    "answer": "n(n+1)/2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "The sum of first n odd numbers is proved by induction to be:",
+    "options": ["n^2", "n(n+1)/2", "2n", "n(n-1)/2"],
+    "answer": "n^2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "If a statement is true for n = 1 and true for n = k ⇒ true for n = k+1, then it is true for:",
+    "options": ["All positive integers", "All real numbers", "All complex numbers", "All rational numbers"],
+    "answer": "All positive integers",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "Which of the following is NOT a step in mathematical induction?",
+    "options": ["Base step", "Inductive step", "Inductive hypothesis", "Contradiction step"],
+    "answer": "Contradiction step",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "Mathematical induction can also be used to prove formulas for sequences such as:",
+    "options": ["Arithmetic progression", "Geometric progression", "Both AP and GP", "None"],
+    "answer": "Both AP and GP",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Principle_Of_Mathematical_Induction",
+    "question": "Which principle is essentially used in induction to extend from n = k to n = k + 1?",
+    "options": ["Well-ordering principle", "Pigeonhole principle", "Inclusion-Exclusion principle", "Addition principle"],
+    "answer": "Well-ordering principle",
+    "difficulty": "hard",
+    "marks": 1
+  }
+]

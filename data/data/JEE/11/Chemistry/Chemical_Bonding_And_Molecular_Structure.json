@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "According to VSEPR theory, the shape of molecule having formula AX2 and **no lone pairs** on central atom is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Bent",
+      "Linear",
+      "Trigonal planar",
+      "Tetrahedral"
+    ],
+    "answer": "Linear",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "The bond order of **O₂ molecule** according to Molecular Orbital Theory is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "answer": "2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "Which of the following has **zero dipole moment**?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "H2O",
+      "NH3",
+      "CO2",
+      "SO2"
+    ],
+    "answer": "CO2",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "Among the following, the molecule with **sp² hybridization** at their central atom is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "BeCl2",
+      "BF3",
+      "CH4",
+      "NH3"
+    ],
+    "answer": "BF3",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "Oxygen molecule (O₂) is **paramagnetic** due to presence of:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "No unpaired electrons",
+      "Two unpaired electrons",
+      "Four paired electrons",
+      "All electrons are paired"
+    ],
+    "answer": "Two unpaired electrons",
+    "difficulty": "high",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "Which bond has the **highest polarity**?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "H–H",
+      "H–F",
+      "H–Cl",
+      "H–I"
+    ],
+    "answer": "H–F",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "The bond angle in **NH₃** is less than **CH₄** due to:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Greater electronegativity of N",
+      "Lone pair–bond pair repulsion",
+      "Bond pair–bond pair repulsion",
+      "Decrease in bond length"
+    ],
+    "answer": "Lone pair–bond pair repulsion",
+    "difficulty": "high",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "Which molecule has **resonance**?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "CO2",
+      "NO3⁻",
+      "CH4",
+      "NH3"
+    ],
+    "answer": "NO3⁻",
+    "difficulty": "high",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "Sigma (σ) bond is formed by:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Sideways overlap of p-orbitals",
+      "End-to-end overlap of orbitals",
+      "No overlap",
+      "d-orbital interaction only"
+    ],
+    "answer": "End-to-end overlap of orbitals",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Chemical_Bonding_And_Molecular_Structure",
+    "question": "The total number of **π-bonds** in benzene (C₆H₆) is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer": "3",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

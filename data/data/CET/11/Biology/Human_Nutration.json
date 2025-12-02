@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Human Nutrition",
+    "question": "The process of intake and utilization of food by the body is called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Digestion",
+      "Nutrition",
+      "Absorption",
+      "Assimilation"
+    ],
+    "answer": "Nutrition",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Human Nutrition",
+    "question": "Which organ is primarily responsible for digestion of food?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Liver",
+      "Stomach",
+      "Kidney",
+      "Heart"
+    ],
+    "answer": "Stomach",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Human Nutrition",
+    "question": "The enzyme that breaks down proteins into peptides is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Pepsin",
+      "Amylase",
+      "Lipase",
+      "Maltase"
+    ],
+    "answer": "Pepsin",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Human Nutrition",
+    "question": "Carbohydrates are mainly digested in the:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Stomach",
+      "Small intestine",
+      "Large intestine",
+      "Liver"
+    ],
+    "answer": "Small intestine",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Human Nutrition",
+    "question": "Which vitamin is necessary for the absorption of calcium?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K"
+    ],
+    "answer": "Vitamin D",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Human Nutrition",
+    "question": "The finger-like projections in the small intestine that absorb nutrients are called:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Nephrons",
+      "Villi",
+      "Alveoli",
+      "Nodules"
+    ],
+    "answer": "Villi",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Human Nutrition",
+    "question": "Which of the following is a deficiency disease caused by lack of Vitamin C?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Rickets",
+      "Scurvy",
+      "Night blindness",
+      "Goitre"
+    ],
+    "answer": "Scurvy",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Human Nutrition",
+    "question": "Bile juice is produced by:",
+       "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Stomach",
+      "Small intestine"
+    ],
+    "answer": "Liver",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Human Nutrition",
+    "question": "Bile helps in the digestion of:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Proteins",
+      "Carbohydrates",
+      "Fats",
+      "Vitamins"
+    ],
+    "answer": "Fats",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Human Nutrition",
+    "question": "Which part of the digestive system absorbs most of the nutrients?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "Stomach",
+      "Large intestine",
+      "Small intestine",
+      "Oesophagus"
+    ],
+    "answer": "Small intestine",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "chapter": "Equilibrium",
+    "question": "For a reversible reaction at equilibrium, the rate of forward reaction is:",
+    "options": [
+      "Greater than rate of backward reaction",
+      "Less than rate of backward reaction",
+      "Equal to rate of backward reaction",
+      "Zero"
+    ],
+    "answer": "Equal to rate of backward reaction",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Equilibrium",
+    "question": "The equilibrium constant (Kc) of a reaction depends on:",
+    "options": [
+      "Pressure",
+      "Concentration",
+      "Temperature",
+      "Volume"
+    ],
+    "answer": "Temperature",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Equilibrium",
+    "question": "For the reaction: N2(g) + 3H2(g) ⇌ 2NH3(g), decreasing the volume of container will:",
+    "options": [
+      "Shift equilibrium to left",
+      "Shift equilibrium to right",
+      "No change",
+      "Stop the reaction"
+    ],
+    "answer": "Shift equilibrium to right",
+    "difficulty": "high",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Equilibrium",
+    "question": "If Qc > Kc for a reaction, the system will shift in which direction?",
+    "options": [
+      "Forward direction",
+      "Backward direction",
+      "No shift",
+      "Cannot be determined"
+    ],
+    "answer": "Backward direction",
+    "difficulty": "high",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Equilibrium",
+    "question": "The pH of a 1 × 10⁻³ M HCl solution is:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Equilibrium",
+    "question": "For a weak acid HA, the dissociation constant Ka is defined as:",
+    "options": [
+      "([H⁺][A⁻])/[HA]",
+      "([HA])/[H⁺][A⁻]",
+      "[H⁺]/[HA]",
+      "[HA]/[H⁺]"
+    ],
+    "answer": "([H⁺][A⁻])/[HA]",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Equilibrium",
+    "question": "The conjugate base of HCO₃⁻ is:",
+    "options": [
+      "H₂CO₃",
+      "CO₃²⁻",
+      "OH⁻",
+      "CO₂"
+    ],
+    "answer": "CO₃²⁻",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Equilibrium",
+    "question": "pH + pOH at 25°C is always equal to:",
+    "options": [
+      "1",
+      "7",
+      "10",
+      "14"
+    ],
+    "answer": "14",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Equilibrium",
+    "question": "Which solution will have pH < 7?",
+    "options": [
+      "NaOH",
+      "NH₄Cl",
+      "KCl",
+      "Na₂CO₃"
+    ],
+    "answer": "NH₄Cl",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Equilibrium",
+    "question": "When a catalyst is added to a reversible reaction at equilibrium, it:",
+    "options": [
+      "Shifts equilibrium to right",
+      "Shifts equilibrium to left",
+      "Does not change equilibrium composition",
+      "Stops the reaction"
+    ],
+    "answer": "Does not change equilibrium composition",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

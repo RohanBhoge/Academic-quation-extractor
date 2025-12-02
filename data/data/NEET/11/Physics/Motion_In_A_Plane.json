@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Motion_In_A_Plane",
+    "question": "A vector has both magnitude and:",
+    "options": ["Direction", "Speed", "Time", "Mass"],
+    "answer": "Direction",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Motion_In_A_Plane",
+    "question": "The horizontal component of projectile velocity remains:",
+    "options": ["Constant", "Increasing", "Decreasing", "Zero"],
+    "answer": "Constant",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Motion_In_A_Plane",
+    "question": "Maximum height of a projectile is given by:",
+    "options": ["(u² sin²θ)/(2g)", "u² cos²θ / 2g", "u² / 2g", "u² sin2θ / 2g"],
+    "answer": "(u² sin²θ)/(2g)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Motion_In_A_Plane",
+    "question": "Time of flight of a projectile is:",
+    "options": ["(2u sinθ)/g", "(u sinθ)/g", "(u cosθ)/g", "g/(2u sinθ)"],
+    "answer": "(2u sinθ)/g",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Motion_In_A_Plane",
+    "question": "Range of a projectile is maximum at an angle of:",
+    "options": ["45°", "30°", "60°", "90°"],
+    "answer": "45°",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Motion_In_A_Plane",
+    "question": "Relative velocity of two bodies moving in the same direction is:",
+    "options": ["Difference of their velocities", "Sum of their velocities", "Zero", "Product of their velocities"],
+    "answer": "Difference of their velocities",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Motion_In_A_Plane",
+    "question": "If two vectors are perpendicular, their dot product is:",
+    "options": ["Zero", "One", "Negative", "Maximum"],
+    "answer": "Zero",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Motion_In_A_Plane",
+    "question": "The path of a projectile is:",
+    "options": ["Parabolic", "Circular", "Straight line", "Elliptical"],
+    "answer": "Parabolic",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Motion_In_A_Plane",
+    "question": "The acceleration of a projectile in horizontal direction is:",
+    "options": ["Zero", "g", "2g", "g/2"],
+    "answer": "Zero",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Motion_In_A_Plane",
+    "question": "The acceleration of a projectile in vertical direction is equal to:",
+    "options": ["g downward", "g upward", "Zero", "2g downward"],
+    "answer": "g downward",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

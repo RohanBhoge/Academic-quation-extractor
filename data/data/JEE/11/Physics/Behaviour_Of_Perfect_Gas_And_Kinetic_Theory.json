@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The equation of state for an ideal gas is given by:",
+    "options": ["PV = nRT", "P + V = nRT", "PV = nR/T", "P - V = nRT"],
+    "answer": "PV = nRT",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The SI unit of pressure is:",
+    "options": ["atm", "Pa", "bar", "N/m²"],
+    "answer": "Pa",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "For a fixed mass of gas at constant temperature, PV = constant. This is called:",
+    "options": ["Boyle's law", "Charles's law", "Avogadro's law", "Gay-Lussac's law"],
+    "answer": "Boyle's law",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "According to kinetic theory, the average kinetic energy of a gas molecule is directly proportional to:",
+    "options": ["Pressure", "Volume", "Temperature", "Number of molecules"],
+    "answer": "Temperature",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The root mean square (rms) velocity of gas molecules is given by:",
+    "options": ["√(3RT/M)", "√(RT/3M)", "√(2RT/M)", "√(M/RT)"],
+    "answer": "√(3RT/M)",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "For an ideal gas, internal energy depends on:",
+    "options": ["Pressure only", "Volume only", "Temperature only", "Pressure and volume"],
+    "answer": "Temperature only",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "According to kinetic theory, collisions of gas molecules with the walls are assumed to be:",
+    "options": ["Elastic", "Inelastic", "Partially elastic", "Completely inelastic"],
+    "answer": "Elastic",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The pressure exerted by an ideal gas is due to:",
+    "options": ["Intermolecular forces", "Collisions of molecules with walls", "Gravity", "Magnetic forces"],
+    "answer": "Collisions of molecules with walls",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "The total internal energy of n moles of a monatomic ideal gas is:",
+    "options": ["(3/2) nRT", "(5/2) nRT", "nRT", "(1/2) nRT"],
+    "answer": "(3/2) nRT",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Behaviour_Of_Perfect_Gas_And_Kinetic_Theory",
+    "question": "Which of the following assumptions is NOT part of kinetic theory of gases?",
+    "options": ["Gas molecules occupy negligible volume", "Molecules move randomly", "Collisions are elastic", "Molecules attract each other strongly"],
+    "answer": "Molecules attract each other strongly",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Equilibrium",
+    "question": "At equilibrium, the rate of the forward reaction is:",
+    "options": ["Equal to the rate of the backward reaction", "Greater than the backward reaction", "Less than the backward reaction", "Zero"],
+    "answer": "Equal to the rate of the backward reaction",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Equilibrium",
+    "question": "Which of the following is a dynamic equilibrium?",
+    "options": ["A closed system where the concentrations of reactants and products remain constant", "Freezing of water", "Melting of ice", "Boiling of water in an open container"],
+    "answer": "A closed system where the concentrations of reactants and products remain constant",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Equilibrium",
+    "question": "The equilibrium constant Kc depends on:",
+    "options": ["Temperature", "Pressure", "Concentration", "Catalyst"],
+    "answer": "Temperature",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Equilibrium",
+    "question": "Le Chatelier’s principle states that a system at equilibrium, when disturbed, will:",
+    "options": ["Shift to counteract the disturbance", "Stop reacting", "Increase the rate of forward reaction only", "Decrease the rate of backward reaction only"],
+    "answer": "Shift to counteract the disturbance",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Equilibrium",
+    "question": "The equilibrium constant expression for the reaction aA + bB ⇌ cC + dD is:",
+    "options": ["Kc = [C]^c [D]^d / [A]^a [B]^b", "Kc = [A]^a [B]^b / [C]^c [D]^d", "Kc = [A] + [B] / [C] + [D]", "Kc = [C] + [D] / [A] + [B]"],
+    "answer": "Kc = [C]^c [D]^d / [A]^a [B]^b",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Equilibrium",
+    "question": "For an exothermic reaction, increasing temperature will:",
+    "options": ["Decrease the equilibrium constant", "Increase the equilibrium constant", "Not affect the equilibrium constant", "Stop the reaction"],
+    "answer": "Decrease the equilibrium constant",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Equilibrium",
+    "question": "For an endothermic reaction, adding heat will:",
+    "options": ["Shift equilibrium to products", "Shift equilibrium to reactants", "Have no effect", "Stop reaction"],
+    "answer": "Shift equilibrium to products",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Equilibrium",
+    "question": "Adding a catalyst to a reaction at equilibrium will:",
+    "options": ["Speed up both forward and backward reactions equally", "Shift equilibrium to products", "Shift equilibrium to reactants", "Decrease the rate of reaction"],
+    "answer": "Speed up both forward and backward reactions equally",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Equilibrium",
+    "question": "For a gaseous equilibrium, increasing the pressure will favor:",
+    "options": ["The side with fewer moles of gas", "The side with more moles of gas", "No effect", "The side with more energy"],
+    "answer": "The side with fewer moles of gas",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Equilibrium",
+    "question": "The reaction quotient Q is equal to the equilibrium constant K when:",
+    "options": ["The system is at equilibrium", "The reaction is starting", "The reaction is irreversible", "Catalyst is added"],
+    "answer": "The system is at equilibrium",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

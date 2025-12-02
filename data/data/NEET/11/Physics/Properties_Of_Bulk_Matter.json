@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "The SI unit of stress is:",
+    "options": ["Pascal (Pa)", "Newton (N)", "Joule (J)", "Watt (W)"],
+    "answer": "Pascal (Pa)",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "The ratio of stress to strain within elastic limit is called:",
+    "options": ["Young’s modulus", "Bulk modulus", "Shear modulus", "Viscosity"],
+    "answer": "Young’s modulus",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "The SI unit of bulk modulus is:",
+    "options": ["Pascal (Pa)", "Newton (N)", "Joule (J)", "N/m²"],
+    "answer": "Pascal (Pa)",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "The property of a fluid to offer resistance to flow is called:",
+    "options": ["Viscosity", "Elasticity", "Plasticity", "Surface tension"],
+    "answer": "Viscosity",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "Surface tension acts along:",
+    "options": ["Surface of liquid", "Volume of liquid", "Center of mass", "Base of container"],
+    "answer": "Surface of liquid",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "Unit of coefficient of viscosity in SI system is:",
+    "options": ["Pa·s", "Pa", "N/m²", "kg/m³"],
+    "answer": "Pa·s",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "Hooke’s law is valid up to:",
+    "options": ["Elastic limit", "Yield point", "Breaking point", "Plastic region"],
+    "answer": "Elastic limit",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "The angle of contact determines:",
+    "options": ["Wettability of a surface", "Viscosity", "Density", "Elastic modulus"],
+    "answer": "Wettability of a surface",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "The SI unit of surface tension is:",
+    "options": ["N/m", "Pa", "J/m²", "kg/m³"],
+    "answer": "N/m",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Properties_Of_Bulk_Matter",
+    "question": "The restoring force in a stretched or compressed body is proportional to:",
+    "options": ["Displacement", "Velocity", "Acceleration", "Mass"],
+    "answer": "Displacement",
+    "difficulty": "easy",
+    "marks": 1
+  }
+]

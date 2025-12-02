@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "chapter": "Permutation and Combination",
+    "question": "The number of permutations of n distinct objects taken r at a time is given by:",
+    "question_latex": "^{n}P_{r} = \\frac{n!}{(n-r)!}",
+    "image_url": "",
+    "options": [
+      "\\frac{n!}{r!}",
+      "\\frac{n!}{(n-r)!}",
+      "\\frac{r!}{n!}",
+      "n + r"
+    ],
+    "answer": "\\frac{n!}{(n-r)!}",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Permutation and Combination",
+    "question": "The number of combinations of n objects taken r at a time is:",
+    "question_latex": "^{n}C_{r} = \\frac{n!}{r!(n-r)!}",
+    "image_url": "",
+    "options": [
+      "\\frac{n!}{r!}",
+      "\\frac{n!}{(n-r)!}",
+      "\\frac{n!}{r!(n-r)!}",
+      "n - r"
+    ],
+    "answer": "\\frac{n!}{r!(n-r)!}",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Permutation and Combination",
+    "question": "The value of 0! is:",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "0",
+      "1",
+      "Undefined",
+      "Cannot be determined"
+    ],
+    "answer": "1",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Permutation and Combination",
+    "question": "How many permutations can be formed from the letters of the word 'CAT'?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "answer": "6",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Permutation and Combination",
+    "question": "How many 2-digit numbers can be formed using digits 1, 2, 3 without repetition?",
+    "question_latex": "",
+    "image_url": "",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "answer": "6",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Permutation and Combination",
+    "question": "The number of ways to arrange n distinct objects in a row is:",
+    "question_latex": "n!",
+    "image_url": "",
+    "options": [
+      "n",
+      "n^2",
+      "n!",
+      "2n"
+    ],
+    "answer": "n!",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Permutation and Combination",
+    "question": "If 5 people sit in a circular arrangement, the number of possible arrangements is:",
+    "question_latex": "(n - 1)!",
+    "image_url": "",
+    "options": [
+      "5!",
+      "4!",
+      "6!",
+      "3!"
+    ],
+    "answer": "4!",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Permutation and Combination",
+    "question": "The number of combinations obtained by choosing r objects from n objects is equal to:",
+    "question_latex": "^{n}C_{r} = ^{n}C_{n-r}",
+    "image_url": "",
+    "options": [
+      "^{n}C_{r} = ^{n}C_{n+r}",
+      "^{n}C_{r} = ^{n}C_{n-r}",
+      "^{n}C_{r} = ^{n-r}C_{r}",
+      "^{n}C_{r} = rC_{n}"
+    ],
+    "answer": "^{n}C_{r} = ^{n}C_{n-r}",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Permutation and Combination",
+    "question": "If all letters of the word 'BANANA' are arranged, the number of distinct permutations is:",
+    "question_latex": "\\frac{6!}{3!2!1!}",
+    "image_url": "",
+    "options": [
+      "720",
+      "60",
+      "120",
+      "None of these"
+    ],
+    "answer": "\\frac{6!}{3!2!1!}",
+    "difficulty": "hard",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Permutation and Combination",
+    "question": "The number of ways to choose a committee of 3 people from 10 persons is:",
+    "question_latex": "^{10}C_{3}",
+    "image_url": "",
+    "options": [
+      "120",
+      "720",
+      "10",
+      "30"
+    ],
+    "answer": "120",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]

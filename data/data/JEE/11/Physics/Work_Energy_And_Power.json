@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Work done by a constant force is defined as:",
+    "options": ["Product of force and displacement in the direction of force", "Product of mass and acceleration", "Change in velocity", "Force multiplied by time"],
+    "answer": "Product of force and displacement in the direction of force",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "chapter": "Work_Energy_And_Power",
+    "question": "The SI unit of work is:",
+    "options": ["Joule", "Newton", "Watt", "Pascal"],
+    "answer": "Joule",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Work_Energy_And_Power",
+    "question": "The kinetic energy of a body of mass m and velocity v is:",
+    "options": ["(1/2) m v²", "m v²", "m g h", "F × d"],
+    "answer": "(1/2) m v²",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "chapter": "Work_Energy_And_Power",
+    "question": "The potential energy of a body of mass m at height h is:",
+    "options": ["m g h", "(1/2) m v²", "m g / h", "F × d"],
+    "answer": "m g h",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Work-energy theorem states that:",
+    "options": ["Work done is equal to the change in kinetic energy", "Work done is equal to potential energy", "Power is work done per unit time", "Force is mass × acceleration"],
+    "answer": "Work done is equal to the change in kinetic energy",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "chapter": "Work_Energy_And_Power",
+    "question": "The SI unit of power is:",
+    "options": ["Watt", "Joule", "Newton", "Pascal"],
+    "answer": "Watt",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Power is defined as:",
+    "options": ["Work done per unit time", "Force per unit displacement", "Energy per unit mass", "Work done × time"],
+    "answer": "Work done per unit time",
+    "difficulty": "easy",
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Work_Energy_And_Power",
+    "question": "The work done by gravity on a freely falling body is:",
+    "options": ["Positive", "Negative", "Zero", "Depends on height"],
+    "answer": "Positive",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "chapter": "Work_Energy_And_Power",
+    "question": "A conservative force is one for which:",
+    "options": ["Work done is independent of path", "Work done depends on path", "Force is zero", "Power is maximum"],
+    "answer": "Work done is independent of path",
+    "difficulty": "medium",
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Work_Energy_And_Power",
+    "question": "Mechanical energy of a system is conserved when:",
+    "options": ["Only conservative forces act", "Friction is present", "Air resistance acts", "Non-conservative forces act"],
+    "answer": "Only conservative forces act",
+    "difficulty": "medium",
+    "marks": 1
+  }
+]
