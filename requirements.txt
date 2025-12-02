@@ -3,3 +3,4 @@ google-genai
 pydantic
 Pillow
 PyMuPDF
+python-dotenv
