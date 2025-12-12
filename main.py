@@ -11,8 +11,7 @@ from google.genai import types
 from pydantic import BaseModel, Field, ValidationError
 from typing import List, Optional, Dict, Tuple, Union
 import fitz # PyMuPDF
-from dotenv import load_dotenv
-load_dotenv()
+
 
 st.set_page_config(
     page_title="PDF MCQ Extractor (Gemini AI)",
@@ -261,17 +260,21 @@ def main():
     with st.sidebar:
         st.header("API Key & Settings")
         
-        api_key =os.getenv("GOOGLE_API_KEY")
-        st.caption("🚨 Ensure `GOOGLE_API_KEY` is set in your environment or `.env` file.")
+        # 1. Get API Key from User Input (Primary)
+        user_api_key = st.text_input("Enter Gemini API Key", type="password", help="Get your key from https://aistudio.google.com/")
+        
+        # 2. Strict usage: Only use the user-provided key
+        api_key = user_api_key
 
         if api_key:
             try:
                 client = genai.Client(api_key=api_key)
+                st.success("API Key configured successfully!")
             except Exception as e:
                 st.error(f"Could not initialize Gemini Client: {e}")
                 st.stop()
         else:
-            st.warning("Please set your Gemini API Key to proceed.")
+            st.warning("Please enter your Gemini API Key to proceed.")
             st.stop()
 
     # --- Main File Uploader ---
