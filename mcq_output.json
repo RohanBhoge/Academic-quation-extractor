@@ -22,18 +22,18 @@
         "diagram_bboxes": [],
         "image_urls": [],
         "options": [
-            "(A) $h \\sqrt{\\frac{g}{2x}}$",
-            "(B) $x \\sqrt{\\frac{g}{2h}}$",
-            "(C) $gxh$",
-            "(D) $gx+h$"
+            "(A) $h \\sqrt{g / 2x}$",
+            "(B) $x \\sqrt{g / 2h}$",
+            "(C) $gx + h$",
+            "(D) $gx + h$"
         ],
-        "difficulty": "easy"
+        "difficulty": "medium"
     },
     {
         "id": 3,
         "chapter": "Inferred Chapter",
-        "question": "A small steel ball is dropped from a height of 1.5 m into a glycerine jar. The ball reaches the bottom of the jar 1.5 second after it was dropped. If the retardation is 2.66 m/s^2, the height of the glycerine in the jar is about (acceleration due to gravity g = 9.8 m/s^2) [MHT-CET 2023]",
-        "question_latex": "A small steel ball is dropped from a height of $1.5 \\text{ m}$ into a glycerine jar. The ball reaches the bottom of the jar $1.5 \\text{ second}$ after it was dropped. If the retardation is $2.66 \\text{ m/s}^2$, the height of the glycerine in the jar is about (acceleration due to gravity $g = 9.8 \\text{ m/s}^2$) [MHT-CET 2023]",
+        "question": "A small steel ball is dropped from a height of 1.5 m into a glycerine jar. The ball reaches the bottom of the jar 1.5 second after it was dropped. If the retardation is 2.66 m/s^2, the height of the glycerine in the jar is about (acceleration due to gravity g=9.8 m/s^2) [MHT-CET 2023]",
+        "question_latex": "A small steel ball is dropped from a height of $1.5 \\text{ m}$ into a glycerine jar. The ball reaches the bottom of the jar $1.5$ second after it was dropped. If the retardation is $2.66 \\text{ m/s}^2$, the height of the glycerine in the jar is about (acceleration due to gravity $g=9.8 \\text{ m/s}^2$) [MHT-CET 2023]",
         "diagram_bboxes": [],
         "image_urls": [],
         "options": [
@@ -47,8 +47,8 @@
     {
         "id": 4,
         "chapter": "Inferred Chapter",
-        "question": "The engine of an aeroplane during take-off exerts a force of 150 \n\t$10^3$ N. Mass of aeroplane is 25 \n\t$10^3$ kg. If the take-off speed is 60 m/s, the length of the runway required is [MHT-CET 2021]",
-        "question_latex": "The engine of an aeroplane during take-off exerts a force of $150 \\times 10^3 \\text{ N}$. Mass of aeroplane is $25 \\times 10^3 \\text{ kg}$. If the take-off speed is $60 \\text{ m/s}$, the length of the runway required is [MHT-CET 2021]",
+        "question": "The engine of an aeroplane during take-off exerts a force of 150 \u00d7 10^3 N. Mass of aeroplane is 25 \u00d7 10^3 kg. If the take-off speed is 60 m/s, the length of the runway required is [MHT-CET 2021]",
+        "question_latex": "The engine of an aeroplane during take-off exerts a force of $150 \\times 10^3$ N. Mass of aeroplane is $25 \\times 10^3$ kg. If the take-off speed is $60$ m/s, the length of the runway required is [MHT-CET 2021]",
         "diagram_bboxes": [],
         "image_urls": [],
         "options": [
@@ -62,38 +62,38 @@
     {
         "id": 5,
         "chapter": "Inferred Chapter",
-        "question": "A stone is projected vertically upwards with speed 'v'. Another stone of same mass is projected at an angle of 60\u00b0 with the vertical with the same speed 'V'. The ratio of their potential energies at the highest points of their journey is [sin 30\u00b0 = cos 60\u00b0 = 0.5, cos 30\u00b0 = sin 60\u00b0 = $\\sqrt{3}/2$] [MHT-CET 2023]",
-        "question_latex": "A stone is projected vertically upwards with speed '$v$'. Another stone of same mass is projected at an angle of $60^\\circ$ with the vertical with the same speed '$V$'. The ratio of their potential energies at the highest points of their journey is $[\n\tsin 30^\\circ = \\cos 60^\\circ = 0.5$, $\\cos 30^\\circ = \\sin 60^\\circ = \\sqrt{3}/2]$ [MHT-CET 2023]",
+        "question": "A stone is projected vertically upwards with speed 'v'. Another stone of same mass is projected at an angle of 60\u00b0 with the vertical with the same speed 'v'. The ratio of their potential energies at the highest points of their journey is [sin 30\u00b0 = cos 60\u00b0 = 0.5, cos 30\u00b0 = sin 60\u00b0 = \u221a3/2] [MHT-CET 2023]",
+        "question_latex": "A stone is projected vertically upwards with speed '$v$'. Another stone of same mass is projected at an angle of $60^\\circ$ with the vertical with the same speed '$v$'. The ratio of their potential energies at the highest points of their journey is [$\\sin 30^\\circ = \\cos 60^\\circ = 0.5$, $\\cos 30^\\circ = \\sin 60^\\circ = \\sqrt{3}/2$] [MHT-CET 2023]",
         "diagram_bboxes": [],
         "image_urls": [],
         "options": [
-            "(A) 2:1",
-            "(B) 4:1",
-            "(C) 3:2",
-            "(D) 1:1"
+            "(A) 2: 1",
+            "(B) 4: 1",
+            "(C) 3: 2",
+            "(D) 1: 1"
         ],
         "difficulty": "medium"
     },
     {
         "id": 6,
         "chapter": "Inferred Chapter",
-        "question": "A car moving at a speed 'V' is stopped in a certain distance when the breaks produce a deceleration 'a'. If the speed of the car is 'nV', what must be the deceleration of the car to stop it in the same distance and in the same time? [2023]",
-        "question_latex": "A car moving at a speed '$V$' is stopped in a certain distance when the breaks produce a deceleration '$a$'. If the speed of the car is '$nV$', what must be the deceleration of the car to stop it in the same distance and in the same time? [2023]",
+        "question": "A car moving at a speed 'V' is stopped in a certain distance when the breaks produce a deceleration 'a'. If the speed of the car is 'nV', what must be the deceleration of the car to stop it in the same distance and in the same time? [2025]",
+        "question_latex": "A car moving at a speed '$V$' is stopped in a certain distance when the breaks produce a deceleration '$a$'. If the speed of the car is '$nV$', what must be the deceleration of the car to stop it in the same distance and in the same time? [2025]",
         "diagram_bboxes": [],
         "image_urls": [],
         "options": [
-            "(A) $n \\cdot a$",
-            "(B) $n^2 \\cdot a$",
-            "(C) $n^3 \\cdot a$",
-            "(D) $\\sqrt{n} \\cdot a$"
+            "(A) n.a",
+            "(B) n^2 . a",
+            "(C) n^3 . a",
+            "(D) \u221an, a"
         ],
-        "difficulty": "medium"
+        "difficulty": "hard"
     },
     {
         "id": 7,
         "chapter": "Inferred Chapter",
-        "question": "A ball is dropped from the top of height 'h'. The total distance covered by it in last second of its motion is equal to the distance covered by it in first 3 seconds. The value of 'h' is ($g = 10 \\text{ ms}^{-2}$) [MHT-CET 2022]",
-        "question_latex": "A ball is dropped from the top of height '$h$'. The total distance covered by it in last second of its motion is equal to the distance covered by it in first $3$ seconds. The value of '$h$' is ($g = 10 \\text{ ms}^{-2}$) [MHT-CET 2022]",
+        "question": "A ball is dropped from the tower of height 'h'. The total distance covered by it in last second of its motion is equal to the distance covered by it in first 3 seconds. The value of 'h' is (g = 10 ms^-2) [MHT-CET 2022]",
+        "question_latex": "A ball is dropped from the tower of height '$h$'. The total distance covered by it in last second of its motion is equal to the distance covered by it in first $3$ seconds. The value of '$h$' is ($g = 10$ ms$^{-2}$) [MHT-CET 2022]",
         "diagram_bboxes": [],
         "image_urls": [],
         "options": [

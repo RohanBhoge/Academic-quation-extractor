@@ -89,12 +89,10 @@ Your output MUST populate the corresponding lists (questions, answer_keys, or so
     * **Note:** The external Python script will handle stitching based on this flag.
 2.  **Questions & Options (Content):** Extract the **full body, options, and question_latex**.
 3.  **Visual Grounding (Diagrams):** 
-    * Identify EVERY diagram, graph, and technical illustration associated with a question.
-    * For each one, provide a rectangular bounding box.
-    * **Bounding Box Format:** Output as `[ymin, xmin, ymax, xmax]`.
-    * **Scale:** Use normalized coordinates from 0 to 1000 where [0, 0] is top-left and [1000, 1000] is bottom-right.
-4.  **Answer Keys (Arrangement):** Extract only the question ID and the final letter/option (A, B, C, D).
-5.  **Solutions:** Extract the full step-by-step text for the `solution` field.
+    You are a high-precision spatial reasoning agent. Your priority is the visual integrity of technical diagrams.
+
+--- STRICT DIAGRAM GROUNDING RULES ---
+Role: You are a precision document parser specialized in extracting technical illustrations from academic papers.STRICT EXTRACTION RULES:Isolate Graphics from Text: Identify the visual diagram (lines, shapes, containers). Include only labels that are integral to the drawing (e.g., $h_1$ inside a dimension line). If a block of text starts next to the diagram but is not part of the illustration's geometry, exclude it.Define the "Visual Envelope": The bounding box should encapsulate all graphical strokes (vectors, arrows, jars, surfaces) and their immediate callouts.Strict Margin Rule: If a line of text (like "Initial height of...") is horizontally aligned with the bottom of the diagram but is not a label attached to a vector, do not include it. The crop should focus on the minimum area containing the physics schematic.Handle Overhangs: Ensure arrows and dimension lines (like the bracket for $h_2$) are fully contained, but stop the box immediately after the bracket ends to avoid bleeding into adjacent columns of text.Safety Buffer: Provide a 1-2% "loose" fit to ensure no lines are clipped, but prioritize the exclusion of standard paragraph text.Format: Output ONLY a JSON list of bounding boxes: [ymin, xmin, ymax, xmax] in normalized (0-1000) coordinates.
 
 --- STRICT FORMATTING & QUALITY RULES ---
 1.  **JSON Output:** The entire output MUST be a JSON object that strictly conforms to the 'IntermediateResult' Pydantic schema.
@@ -196,7 +194,7 @@ def crop_and_save_diagrams(image_paths: List[Path], page_index: int, bboxes: Lis
                 ymin, xmin, ymax, xmax = bbox
                 
                 # Expand bounding box by 10 units (Over-fitting preference)
-                padding = 30
+                padding = 0
                 ymin = max(0, ymin - padding)
                 xmin = max(0, xmin - padding)
                 ymax = min(1000, ymax + padding)
@@ -425,17 +423,14 @@ def main():
             progress_bar.progress(95, text="Phase 3: Stitching data fragments and finalizing output...")
             final_mcqs = merge_data(all_q_data, all_key_data, all_sol_data)
 
-            # --- Final Output Processing ---
             progress_bar.progress(100, text="Extraction Complete!")
             status_text.success(f"✅ Successfully extracted and merged {len(final_mcqs)} unique MCQs!")
             
             if final_mcqs:
-                # Prepare JSON for download
                 output_data_list = [mcq.model_dump() for mcq in final_mcqs]
                 json_string = json.dumps(output_data_list, indent=2, ensure_ascii=False)
                 st.session_state.json_result = json_string
 
-                # Create ZIP of extracted images
                 shutil.make_archive(str(temp_dir / "extracted_diagrams"), 'zip', extracted_diagrams_dir)
                 zip_path = temp_dir / "extracted_diagrams.zip"
                 
@@ -443,7 +438,6 @@ def main():
                     with open(zip_path, "rb") as f:
                         st.session_state.zip_bytes = f.read()
                 
-                # Prepare Preview Data
                 st.session_state.preview_df = [
                     {
                         "ID": m.id,
@@ -460,12 +454,10 @@ def main():
             st.session_state.processed_data = False
             
         finally:
-            # Crucial: Clean up the temporary directory
             if temp_dir.exists():
                 shutil.rmtree(temp_dir)
                 st.caption(f"Cleaned up temporary files.")
 
-    # --- Display Results from Session State ---
     if st.session_state.processed_data:
         st.divider()
         st.header("Results")
