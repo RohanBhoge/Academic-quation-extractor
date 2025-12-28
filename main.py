@@ -1,3 +1,5 @@
+# This is a code for extracting questions, answer keys, and solutions from PDF files using AI. 
+
 import streamlit as st
 import time
 import os
@@ -13,7 +15,6 @@ from google.genai import types
 from pydantic import BaseModel, Field, ValidationError
 from typing import List, Optional, Dict, Tuple, Union
 import fitz # PyMuPDF
-
 
 st.set_page_config(
     page_title="PDF MCQ Extractor (Gemini AI)",
@@ -160,7 +161,7 @@ def process_batch_with_ai(image_paths: List[Path], client: genai.Client, system_
                 continue
             elif isinstance(e, ValidationError):
                 st.warning(f"Validation error for batch. Content may be corrupted. Error: {e}")
-                return None
+                return None 
             else:
                 st.error(f"AI API Error processing batch: {e}")
                 return None

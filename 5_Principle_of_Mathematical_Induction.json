@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If n is a positive integer, then $5^{2n+2} - 24n - 25$ is divisible by",
+    "question_latex": "If $n$ is a positive integer, then $5^{2n+2} - 24n - 25$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 574",
+      "(B) 575",
+      "(C) 675",
+      "(D) 576"
+    ],
+    "answer": "(D) 576",
+    "solution": "Solution:-(d) Let $P(n) = 5^{2n+2} - 24n - 25$\nFor $n=1$\n$P(1) = 5^4 - 24 - 25 = 576$\n$P(2) = 5^6 - 24(2) - 25 = 15552$\n$= 576 \\times 27$\nHere, we see that $P(n)$ is divisible by $576$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 2,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For each, $n \\in N$, $10^{2n-1} + 1$ is divisible by",
+    "question_latex": "For each, $n \\in N$, $10^{2n-1} + 1$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 11",
+      "(B) 13",
+      "(C) 9",
+      "(D) None of these"
+    ],
+    "answer": "(A) 11",
+    "solution": "Solution:-(a) Let $P(n) = 10^{2n-1} + 1$\n$P(1) = 10^1 + 1 = 11$\nLet $P(k) = 10^{2k-1} + 1 = 11I$ is true\nNow, $P(k+1) = 10^{2(k+1)-1} + 1$\n$= (11I-1)100 + 1$\n$= 1100I - 99 = 11I_1$\nSo, $P(k+1)$ is true.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 3,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $a, b$ are distinct rational numbers, then for all $n \\in N$ the number $a^n - b^n$ is divisible by",
+    "question_latex": "If $a, b$ are distinct rational numbers, then for all $n \\in N$ the number $a^n - b^n$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) $a-b$",
+      "(B) $a+b$",
+      "(C) $2a-b$",
+      "(D) $a-2b$"
+    ],
+    "answer": "(A) $a-b$",
+    "solution": "Solution:-(a)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 4,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The number $\\frac{(n+2)!}{n!}$ is divisible by",
+    "question_latex": "The number $\\frac{(n+2)!}{n!}$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 10",
+      "(B) 11",
+      "(C) 24",
+      "(D) 26"
+    ],
+    "answer": "(C) 24",
+    "solution": "Solution:-(c)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 5,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $P(n)$ is a statement ($n \\in N$) such that, if $P(k)$ is true, $P(k+1)$ is true for $k \\in N$, then $P(n)$ is true",
+    "question_latex": "If $P(n)$ is a statement ($n \\in N$) such that, if $P(k)$ is true, $P(k+1)$ is true for $k \\in N$, then $P(n)$ is true",
+    "image_url": "",
+    "options": [
+      "(A) For all $n$",
+      "(B) For all $n > 1$",
+      "(C) For all $n > 2$",
+      "(D) Nothing can be said"
+    ],
+    "answer": "(D) Nothing can be said",
+    "solution": "Solution:-(d) Unless we prove $P(1)$ is true, nothing can be said.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 6,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The $n^{th}$ terms of the series $3+7+13+21+...$ is",
+    "question_latex": "The $n^{th}$ terms of the series $3+7+13+21+\\dots$ is",
+    "image_url": "",
+    "options": [
+      "(A) $4n-1$",
+      "(B) $n^2+2n$",
+      "(C) $n^2+n+1$",
+      "(D) $n^2+2$"
+    ],
+    "answer": "(C) $n^2+n+1$",
+    "solution": "Solution:-(c) Let the $n^{th}$ term be $T_n$. The series is $3, 7, 13, 21, \\dots$\nFirst differences: $4, 6, 8, \\dots$\nSecond differences: $2, 2, \\dots$\nSince the second differences are constant, the $n^{th}$ term is a quadratic of the form $T_n = An^2 + Bn + C$.\n$2A = 2 \\implies A = 1$\n$3A + B = 4 \\implies 3(1) + B = 4 \\implies B = 1$\n$A + B + C = 3 \\implies 1 + 1 + C = 3 \\implies C = 1$\nTherefore, $T_n = n^2 + n + 1$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 7,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For natural number $n$, $2^{n}(n-1)! < n^n$, if",
+    "question_latex": "For natural number $n$, $2^{n}(n-1)! < n^n$, if",
+    "image_url": "",
+    "options": [
+      "(A) $n < 2$",
+      "(B) $n > 2$",
+      "(C) $n \\geq 2$",
+      "(D) never"
+    ],
+    "answer": "(B) $n > 2$",
+    "solution": "Solution:-(b) The condition $2^n (n-1)! < n^n$ is satisfied for $n > 2$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 8,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum of $n$ terms of the series $1 + (1+a) + (1+a+a^2) + (1+a+a^2+a^3) + ...$ is",
+    "question_latex": "The sum of $n$ terms of the series $1 + (1+a) + (1+a+a^2) + (1+a+a^2+a^3) + \\dots$ is",
+    "image_url": "",
+    "options": [
+      "(A) $\\frac{1}{1-a} \\left(n - \\frac{a(1-a^n)}{1-a}\\right)$",
+      "(B) $\\frac{n}{1-a} - \\frac{a(1-a^n)}{(1-a)^2}$",
+      "(C) $\\frac{n}{1-a} + \\frac{a(1-a^n)}{(1-a)^2}$",
+      "(D) $\\frac{1}{1-a} - \\frac{n(1-a^n)}{(1-a)^2}$"
+    ],
+    "answer": "(A) $\\frac{1}{1-a} \\left(n - \\frac{a(1-a^n)}{1-a}\\right)$",
+    "solution": "Solution:-(A)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 9,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all $n \\in N$, $2 \\cdot 4^{2n+1} + 3^{3n+1}$ is divisible by",
+    "question_latex": "For all $n \\in N$, $2 \\cdot 4^{2n+1} + 3^{3n+1}$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 2",
+      "(B) 9",
+      "(C) 3",
+      "(D) 11"
+    ],
+    "answer": "(D) 11",
+    "solution": "Solution:-(d) Let $P(n) = 2 \\cdot 4^{2n+1} + 3^{3n+1}$\n$P(1) = 2 \\cdot 4^3 + 3^4 = 2 \\cdot 64 + 81 = 128 + 81 = 209$ (divisible by $11$ only)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 10,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $n$ is an odd positive integer, then $a^n + b^n$ is divisible by",
+    "question_latex": "If $n$ is an odd positive integer, then $a^n + b^n$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) $a+b$",
+      "(B) $a-b$",
+      "(C) $a^2+b^2$",
+      "(D) None of these"
+    ],
+    "answer": "(A) $a+b$",
+    "solution": "Solution:-(a)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 11,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum of the cubes of three consecutive natural numbers is divisible by",
+    "question_latex": "The sum of the cubes of three consecutive natural numbers is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 7",
+      "(B) 9",
+      "(C) 25",
+      "(D) 26"
+    ],
+    "answer": "(B) 9",
+    "solution": "Solution:-(b)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 12,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For a positive integer $n$, Let $a(n) = 1 + \\frac{1}{2} + \\frac{1}{3} + \\dots + \\frac{1}{2n-1} - \\frac{1}{2n}$. Then",
+    "question_latex": "For a positive integer $n$, Let $a(n) = 1 + \\frac{1}{2} + \\frac{1}{3} + \\dots + \\frac{1}{2n-1} - \\frac{1}{2n}$. Then",
+    "image_url": "",
+    "options": [
+      "(A) $a(100) \\leq 100$",
+      "(B) $a(100) > 100$",
+      "(C) $a(200) \\leq 100$",
+      "(D) None of these"
+    ],
+    "answer": "(A) $a(100) \\leq 100$",
+    "solution": "Solution:-(a) It can be proved with the help of mathematical induction that $\\frac{1}{2} < a(n) \\leq n$.\\n$\\implies \\frac{1}{2} < a(200) \\implies a(200) > 100$\nand $a(100) \\leq 100$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 13,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $P(n): 3^n < n!$, $n \\in N$, then $P(n)$ is true",
+    "question_latex": "If $P(n): 3^n < n!$, $n \\in N$, then $P(n)$ is true",
+    "image_url": "",
+    "options": [
+      "(A) For $n \\geq 6$",
+      "(B) For $n \\leq 7$",
+      "(C) For $n \\geq 3$",
+      "(D) For all $n$"
+    ],
+    "answer": "(B) For $n \\leq 7$",
+    "solution": "Solution:-(b) Given that, $P(n): 3^n < n!$\nNow, $P(7): 3^7 < 7!$ is true\nLet $P(k): 3^k < k!$\n$P(k+1): 3^{k+1} = 3 \\cdot 3^k < 3 \\cdot k! < (k+1)! \\quad (\\because k+1 > 3)$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 14,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all $n \\in N$, $n^3 + 2n$ is divisible by",
+    "question_latex": "For all $n \\in N$, $n^3 + 2n$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 3",
+      "(B) 8",
+      "(C) 9",
+      "(D) 11"
+    ],
+    "answer": "(A) 3",
+    "solution": "Solution:-(a) For $n=1,2,3$, we find that $n^3+2n$ takes values $3,12$ and $33$, which are divisible by $3$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 15,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The greatest positive integer, which divides $(n+2)(n+3)(n+4)(n+5)(n+6)$ for all $n \\in N$, is",
+    "question_latex": "The greatest positive integer, which divides $(n+2)(n+3)(n+4)(n+5)(n+6)$ for all $n \\in N$, is",
+    "image_url": "",
+    "options": [
+      "(A) 4",
+      "(B) 120",
+      "(C) 240",
+      "(D) 24"
+    ],
+    "answer": "(B) 120",
+    "solution": "Solution:-(b)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 16,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all $n \\in N$, $\\frac{n^8}{8} + \\frac{n^7}{7}$ is",
+    "question_latex": "For all $n \\in N$, $\\frac{n^8}{8} + \\frac{n^7}{7}$ is",
+    "image_url": "",
+    "options": [
+      "(A) An integer",
+      "(B) A natural number",
+      "(C) A positive fraction",
+      "(D) None of these"
+    ],
+    "answer": "(B) A natural number",
+    "solution": "Solution:-(b)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 17,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let $S(k) = 1+3+5+...+ (2k-1) = 3+k^2$. Then, which of the following is true?",
+    "question_latex": "Let $S(k) = 1+3+5+\\dots+(2k-1) = 3+k^2$. Then, which of the following is true?",
+    "image_url": "",
+    "options": [
+      "(A) $S(1)$ is correct",
+      "(B) $S(k) \\implies S(k+1)$",
+      "(C) $S(k) \\not\\implies S(k+1)$",
+      "(D) Principle of mathematical induction can be used to prove the formula"
+    ],
+    "answer": "(B) $S(k) \\implies S(k+1)$",
+    "solution": "Solution:-(b) $S(k) = 1+3+5+\\dots+(2k-1) = k^2$.\\nGiven $S(k) = 1+3+5+\\dots+(2k-1) = 3+k^2$.\\nPut $k=1$ in both sides, we get\\nLHS = $1$ and RHS = $3+1^2 = 4$\\nLHS $\\neq$ RHS\\nPut $k+1$ in both sides in the place of $k$, we get\\nLHS = $1+3+5+\\dots+(2k-1) + (2k+1)$\\nRHS = $3+(k+1)^2 = 3+k^2+2k+1$\\nLet LHS = RHS\\nThen, $1+3+5+\\dots+(2k-1) + (2k+1)$\\n$= 3+k^2+2k+1$\\n$\\implies 3+k^2 + 2k+1 = 3+k^2+2k+1$\\nIf $S(k)$ is true, then $S(k+1)$ is also true.\\nHence, $S(k) \\implies S(k+1)$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 18,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all $n \\in N$, $1 + \\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{3}} + \\dots + \\frac{1}{\\sqrt{n}}$ is",
+    "question_latex": "For all $n \\in N$, $1 + \\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{3}} + \\dots + \\frac{1}{\\sqrt{n}}$ is",
+    "image_url": "",
+    "options": [
+      "(A) Equal to $\\sqrt{n}$",
+      "(B) Less than or equal to $\\sqrt{n}$",
+      "(C) Greater than or equal to $\\sqrt{n}$",
+      "(D) None of these"
+    ],
+    "answer": "(B) Less than or equal to $\\sqrt{n}$",
+    "solution": "Solution:-(b)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 19,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $3^1+5+9+17+33+...$ to $n$ terms $= 2^{n+1}+n-2$, then $n^{th}$ term of LHS is",
+    "question_latex": "If $3^1+5+9+17+33+\\dots$ to $n$ terms $= 2^{n+1}+n-2$, then $n^{th}$ term of LHS is",
+    "image_url": "",
+    "options": [
+      "(A) $2^{n-1}+1$",
+      "(B) $2n+1$",
+      "(C) $2^n-1$",
+      "(D) $3n-1$"
+    ],
+    "answer": "(C) $2^n-1$",
+    "solution": "Solution:-(c)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 20,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "$P(n)=2^{n-1}+4+6+...+ (2n), n \\in N$, then $P(k)=(k(k+1))+2 \\implies P(k+1)=(k(k+1))+2$",
+    "question_latex": "$P(n)=2^{n-1}+4+6+\\dots+(2n), n \\in N$, then $P(k)=(k(k+1))+2 \\implies P(k+1)=(k(k+1))+2$",
+    "image_url": "",
+    "options": [
+      "(A) For all $n \\in N$",
+      "(B) For all $n > 1$",
+      "(C) For $n > 2$",
+      "(D) Nothing can be said"
+    ],
+    "answer": "(D) Nothing can be said",
+    "solution": "Solution:-(d) It is obvious, nothing can be said.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 21,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let $S(k) = 1+3+5+...+ (2k-1) = 3+k^2$. Then which of the following is true? (2004)",
+    "question_latex": "Let $S(k) = 1+3+5+\\dots+(2k-1) = 3+k^2$. Then which of the following is true? (2004)",
+    "image_url": "",
+    "options": [
+      "(A) Principle of mathematical induction can be used to prove the formula",
+      "(B) $S(k) \\implies S(k+1)$",
+      "(C) $S(k) \\not\\implies S(k+1)$",
+      "(D) $S(1)$ is correct"
+    ],
+    "answer": "(B) $S(k) \\implies S(k+1)$",
+    "solution": "Solution:-(b) $S(k) = 1+3+5+\\dots+(2k-1) = 3+k^2$.\\n(i) When $k=1$, L.H.S of $S(k)$ is $R.H.S$ of $S(k)$ So $S(1)$ is not true. Now, $S(k) = 1+3+5+\\dots+(2k-1)$ and $S(k+1) = 3+(k+1)^2$.\\n(ii) Let $S(k)$ is true\\n$= 1+3+5+\\dots+(2k-1) = k^2+3 \\implies 1+3+5+\\dots+(2k-1)+(2k+1)$\\n$= k^2+3+2k+1 = k^2+2k+4$. It is true $\\implies S(k+1)$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 22,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The remainder when $5^{99}$ is divided by 13, is",
+    "question_latex": "The remainder when $5^{99}$ is divided by $13$, is",
+    "image_url": "",
+    "options": [
+      "(A) 6",
+      "(B) 8",
+      "(C) 9",
+      "(D) 10"
+    ],
+    "answer": "(B) 8",
+    "solution": "Solution:-(b) We want to find the remainder of $5^{99}$ when divided by $13$.\\n$5^1 \\equiv 5 \\pmod{13}$\\n$5^2 \\equiv 25 \\equiv 12 \\equiv -1 \\pmod{13}$\\nNow, $5^{99} = (5^2)^{49} \\cdot 5^1$\\n$5^{99} \\equiv (-1)^{49} \\cdot 5 \\pmod{13}$\\n$5^{99} \\equiv -1 \\cdot 5 \\pmod{13}$\\n$5^{99} \\equiv -5 \\pmod{13}$\\nSince $-5 \\equiv 8 \\pmod{13}$, the remainder is $8$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 23,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $P(n)$ is a statement ($n \\in N$) such that, if $P(k)$ is true, $P(k+1)$ is true for $k \\in N$, then $P(n)$ is true",
+    "question_latex": "If $P(n)$ is a statement ($n \\in N$) such that, if $P(k)$ is true, $P(k+1)$ is true for $k \\in N$, then $P(n)$ is true",
+    "image_url": "",
+    "options": [
+      "(A) For all $n$",
+      "(B) For all $n > 1$",
+      "(C) For all $n > 2$",
+      "(D) Nothing can be said"
+    ],
+    "answer": "(D) Nothing can be said",
+    "solution": "Solution:-(d) Unless we prove $P(1)$ is true, nothing can be said.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 24,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The inequality $n! > 2^{n-1}$ is true for",
+    "question_latex": "The inequality $n! > 2^{n-1}$ is true for",
+    "image_url": "",
+    "options": [
+      "(A) $n \\geq 2$",
+      "(B) $n \\in N$",
+      "(C) $n > 3$",
+      "(D) None of these"
+    ],
+    "answer": "(A) $n \\geq 2$",
+    "solution": "Solution:-(a) Let $P(n) \\equiv n! > 2^{n-1}$\\n$P(3) = 3! > 2^{3-1} \\Rightarrow 6 > 4$ is true.\\nLet $P(k) = k! > 2^{k-1}$ is true.\\n$\\therefore P(k+1) = (k+1)! = (k+1)k!$\\n$> (k+1)2^{k-1}$\\n$> 2^k$ (as $k+1 > 2$)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 25,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For each, $n \\in N$, $10^{2n-1} + 1$ is divisible by",
+    "question_latex": "For each, $n \\in N$, $10^{2n-1} + 1$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 11",
+      "(B) 13",
+      "(C) 9",
+      "(D) None of these"
+    ],
+    "answer": "(A) 11",
+    "solution": "Solution:-(a) Let $P(n) = 10^{2n-1} + 1$\n$P(1) = 10^1 + 1 = 11$\nLet $P(k) = 10^{2k-1} + 1 = 11I$ is true\nNow, $P(k+1) = 10^{2(k+1)-1} + 1$\n$= (11I-1)100 + 1$\n$= 1100I - 99 = 11I_1$\nSo, $P(k+1)$ is true.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 26,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all positive integral values of $n$, $3 \\cdot 2^{2n} - 2n + 1$ is divisible by",
+    "question_latex": "For all positive integral values of $n$, $3 \\cdot 2^{2n} - 2n + 1$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 2",
+      "(B) 4",
+      "(C) 8",
+      "(D) 12"
+    ],
+    "answer": "(A) 2",
+    "solution": "Solution:-(a) On putting $n=2$ in $3 \\cdot 2^{2n} - 2n + 1$, we get\n$3 \\cdot 2^4 - 2 \\cdot 2 + 1 = 3 \\cdot 16 - 4 + 1 = 48 - 4 + 1 = 45$\nWhich is divisible by $3$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 27,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $A = \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix}$ and $I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$, then which of the following holds for all $n \\geq 1$, by the principle of mathematical induction?",
+    "question_latex": "If $A = \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix}$ and $I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$, then which of the following holds for all $n \\geq 1$, by the principle of mathematical induction?",
+    "image_url": "",
+    "options": [
+      "(A) $A^n = 2^{n-1}A + (n-1)I$",
+      "(B) $A^n = nA + (n-1)I$",
+      "(C) $A^n = 2^{n-1}A - (n-1)I$",
+      "(D) $A^n = nA - (n-1)I$"
+    ],
+    "answer": "(D) $A^n = nA - (n-1)I$",
+    "solution": "Solution:-(d) Given, $A^n = nA - (n-1)I$\n$A^2 = \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix} \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix}$\n$nA - (n-1)I = 2A - (2-1)I = 2A - I = 2 \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix} - \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 2 & 2 \\\\ 0 & 2 \\end{bmatrix} - \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix}$\n$A^3 = A^2 \\cdot A = \\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix} \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 1 & 3 \\\\ 0 & 1 \\end{bmatrix}$\n$nA - (n-1)I = 3A - (3-1)I = 3A - 2I = 3 \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix} - 2 \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 3 & 3 \\\\ 0 & 3 \\end{bmatrix} - \\begin{bmatrix} 2 & 0 \\\\ 0 & 2 \\end{bmatrix} = \\begin{bmatrix} 1 & 3 \\\\ 0 & 1 \\end{bmatrix}$\nCan be verified by induction. Now, taking option $\\begin{bmatrix} 1 & n \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} n & n \\\\ 0 & n \\end{bmatrix} - \\begin{bmatrix} n-1 & 0 \\\\ 0 & n-1 \\end{bmatrix} = \\begin{bmatrix} 1 & n \\\\ 0 & 1 \\end{bmatrix}$\n$\\implies A^n = nA - (n-1)I$ is true",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 28,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The inequality $n! > 2^{n-1}$ is true for",
+    "question_latex": "The inequality $n! > 2^{n-1}$ is true for",
+    "image_url": "",
+    "options": [
+      "(A) $n \\geq 2$",
+      "(B) $n \\in N$",
+      "(C) $n > 3$",
+      "(D) None of these"
+    ],
+    "answer": "(A) $n \\geq 2$",
+    "solution": "Solution:-(a) Let $P(n) \\equiv n! > 2^{n-1}$\\n$P(3) = 3! > 2^{3-1} \\Rightarrow 6 > 4$ is true.\\nLet $P(k) = k! > 2^{k-1}$ is true.\\n$\\therefore P(k+1) = (k+1)! = (k+1)k!$\\n$> (k+1)2^{k-1}$\\n$> 2^k$ (as $k+1 > 2$)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 29,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $x^{2n-1} + y^{2n-1}$ is divisible by $x+y$, if $n$ is",
+    "question_latex": "If $x^{2n-1} + y^{2n-1}$ is divisible by $x+y$, if $n$ is",
+    "image_url": "",
+    "options": [
+      "(A) A positive integer",
+      "(B) An even positive integer",
+      "(C) An odd positive integer",
+      "(D) None of the above"
+    ],
+    "answer": "(A) A positive integer",
+    "solution": "Solution:-(a) Let $P(n) = x^{2n-1} + y^{2n-1} = \\lambda (x+y)$\n$P(1) = x+y = \\lambda_1 (x+y)$\n$P(2) = x^3+y^3 = \\lambda_2 (x+y)$\nHence, for $n \\in N$, $P(n)$ is true.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 30,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The product of three consecutive natural numbers is divisible by",
+    "question_latex": "The product of three consecutive natural numbers is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 5",
+      "(B) 7",
+      "(C) 6",
+      "(D) 4"
+    ],
+    "answer": "(C) 6",
+    "solution": "Solution:-(c) Let $P(n) = n(n+1)(n+2)$\n$P(1) = 1 \\cdot 2 \\cdot 3 = 6$\n$P(2) = 2 \\cdot 3 \\cdot 4 = 24$\nHence, it is divisible by $6$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 31,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $n \\in N$, then $11^{n+2} + 12^{2n+1}$ is divisible by",
+    "question_latex": "If $n \\in N$, then $11^{n+2} + 12^{2n+1}$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 113",
+      "(B) 123",
+      "(C) 133",
+      "(D) None of these"
+    ],
+    "answer": "(C) 133",
+    "solution": "Solution:-(c) On putting $n=1$ in $11^{n+2} + 12^{2n+1}$, we get\n$11^{1+2} + 12^{2 \\cdot 1+1} = 11^3 + 12^3 = 1331 + 1728 = 3059$\nWhich is divisible by $133$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 32,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $P(n): 2+4+6+...+ (2n), n \\in N$, then $P(k)=k(k+1) + 2$ implies $P(k)=(k(k+1))(k+2)$ is true for all $k \\in N$. So, statement $P(n)=n(n+1) + 2$ is true for",
+    "question_latex": "If $P(n): 2+4+6+\\dots+ (2n), n \\in N$, then $P(k)=k(k+1) + 2$ implies $P(k)=(k(k+1))(k+2)$ is true for all $k \\in N$. So, statement $P(n)=n(n+1) + 2$ is true for",
+    "image_url": "",
+    "options": [
+      "(A) $n \\geq 1$",
+      "(B) $n \\geq 2$",
+      "(C) $n \\geq 3$",
+      "(D) None of these"
+    ],
+    "answer": "(D) None of these",
+    "solution": "Solution:-(d) Here, $P(1) = 2$ and from the equation\n$P(k) = k(k+1)+2$\n$\\implies P(1) = 1(1+1)+2 = 4$\nSo, $P(1)$ is not true\nHence, mathematical induction is not applicable.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 33,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $10^{3n} + 3 \\cdot 4^{n+2} + \\lambda$ is exactly divisible by 9 for all $n \\in N$, then the least positive integral value of $\\lambda$ is",
+    "question_latex": "If $10^{3n} + 3 \\cdot 4^{n+2} + \\lambda$ is exactly divisible by $9$ for all $n \\in N$, then the least positive integral value of $\\lambda$ is",
+    "image_url": "",
+    "options": [
+      "(A) 5",
+      "(B) 3",
+      "(C) 7",
+      "(D) 1"
+    ],
+    "answer": "(A) 5",
+    "solution": "Solution:-(a)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 34,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "$2^{3n} - 7n - 1$ is divisible by",
+    "question_latex": "$2^{3n} - 7n - 1$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 64",
+      "(B) 36",
+      "(C) 49",
+      "(D) 25"
+    ],
+    "answer": "(C) 49",
+    "solution": "Solution:-(c) Let $P(n) = 2^{3n} - 7n - 1$\n$P(1) = 2^3 - 7(1) - 1 = 8 - 7 - 1 = 0$\n$P(2) = 2^6 - 7(2) - 1 = 64 - 14 - 1 = 49$\n$P(n)$ and $P(2)$ are divisible by $49$.\\nLet $P(k) = 2^{3k} - 7k - 1 = 49I$\n$P(k+1) = 2^{3(k+1)} - 7(k+1) - 1 = 2^{3k} \\cdot 2^3 - 7k - 7 - 1$\n$= 8(49I + 7k + 1) - 7k - 8$\n$= 8 \\cdot 49I + 56k + 8 - 7k - 8$\n$= 8 \\cdot 49I + 49k$\n$= 49(8I + k)$\nHence, by mathematical induction $2^{3n} - 7n - 1$ is divisible by $49$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 35,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The number $a^n - b^n$ ($a, b$ are distinct rational numbers and $n \\in N$) is always divisible by",
+    "question_latex": "The number $a^n - b^n$ ($a, b$ are distinct rational numbers and $n \\in N$) is always divisible by",
+    "image_url": "",
+    "options": [
+      "(A) $a-b$",
+      "(B) $a+b$",
+      "(C) $2a-b$",
+      "(D) $a-2b$"
+    ],
+    "answer": "(A) $a-b$",
+    "solution": "Solution:-(a) Let $P(n) = a^n - b^n$\n$P(1) = a-b$\n$P(2) = a^2-b^2$\nHence, for $n \\in N$, $P(n)$ is divisible by $a-b$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 36,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all $n \\in N$, $49^n + 16n - 1$ is divisible by",
+    "question_latex": "For all $n \\in N$, $49^n + 16n - 1$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 64",
+      "(B) 8",
+      "(C) 16",
+      "(D) 4"
+    ],
+    "answer": "(A) 64",
+    "solution": "Solution:-(a) We observe that $49^n + 16n - 1$ takes values $64$\nHence, $49^n + 16n - 1$ is divisible by $64$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 37,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For natural number $n$, $2^{n}(n-1)! < n^n$, if",
+    "question_latex": "For natural number $n$, $2^{n}(n-1)! < n^n$, if",
+    "image_url": "",
+    "options": [
+      "(A) $n < 2$",
+      "(B) $n > 2$",
+      "(C) $n \\geq 2$",
+      "(D) never"
+    ],
+    "answer": "(B) $n > 2$",
+    "solution": "Solution:-(b) The condition $2^n (n-1)! < n^n$ is satisfied for $n > 2$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 38,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "$(2^{3n}-1)$ will be divisible by $(\\forall n \\in N)$",
+    "question_latex": "$(2^{3n}-1)$ will be divisible by $(\\forall n \\in N)$",
+    "image_url": "",
+    "options": [
+      "(A) 25",
+      "(B) 8",
+      "(C) 7",
+      "(D) 3"
+    ],
+    "answer": "(C) 7",
+    "solution": "Solution:-(c) $2^{3n}-1 = (2^3)^n - 1 = 8^n-1$\n$= (1+7)^n-1$\n$= 1 + {}^n C_1 \\cdot 7 + {}^n C_2 \\cdot 7^2 + \\dots + {}^n C_n \\cdot 7^n - 1$\n$= 7 [ {}^n C_1 + {}^n C_2 \\cdot 7 + \\dots + {}^n C_n \\cdot 7^{n-1} ]$\n$= 7I$\nHence, $2^{3n}-1$ is divisible by $7$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 39,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $P(n): 2+4+6+...+ (2n), n \\in N$, then $P(k)=k(k+1) + 2$ implies $P(k)=(k(k+1))(k+2)$ is true for all $k \\in N$. So, statement $P(n)=n(n+1) + 2$ is true for",
+    "question_latex": "If $P(n): 2+4+6+\\dots+ (2n), n \\in N$, then $P(k)=k(k+1) + 2$ implies $P(k)=(k(k+1))(k+2)$ is true for all $k \\in N$. So, statement $P(n)=n(n+1) + 2$ is true for",
+    "image_url": "",
+    "options": [
+      "(A) $n \\geq 1$",
+      "(B) $n \\geq 2$",
+      "(C) $n \\geq 3$",
+      "(D) None of these"
+    ],
+    "answer": "(D) None of these",
+    "solution": "Solution:-(d) Here, $P(1) = 2$ and from the equation\n$P(k) = k(k+1)+2$\n$\\implies P(1) = 1(1+1)+2 = 4$\nSo, $P(1)$ is not true\nHence, mathematical induction is not applicable.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 40,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum to $n$ terms of the series $1^2+3^2+5^2+...$ is",
+    "question_latex": "The sum to $n$ terms of the series $1^2+3^2+5^2+\\dots$ is",
+    "image_url": "",
+    "options": [
+      "(A) $n^2(2n^2-1)$",
+      "(B) $n^2(2n^2-1)$",
+      "(C) $n^2(2n^2+1)$",
+      "(D) $n^2(n^2+1)$"
+    ],
+    "answer": "(B) $n^2(2n^2-1)$",
+    "solution": "Solution:-(b) $n^2(2n^2-1)$ gives the sum of the series for $n=1,2$, etc.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 41,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Matrix $A$ is such that $A^2=2A-I$ where $I$ is the identity matrix, then for $n \\geq 2$, $A^n$ is equal to",
+    "question_latex": "Matrix $A$ is such that $A^2=2A-I$ where $I$ is the identity matrix, then for $n \\geq 2$, $A^n$ is equal to",
+    "image_url": "",
+    "options": [
+      "(A) $nA-(n-1)I$",
+      "(B) $nI-A$",
+      "(C) $2^{n-1}A-I$",
+      "(D) $2^{n-1}A-I$"
+    ],
+    "answer": "(A) $nA-(n-1)I$",
+    "solution": "Solution:-(a) As we have $A^2=2A-I$\nSimilarly $A^3=A \\cdot A^2 = A(2A-I) = 2A^2-IA = 2(2A-I)-A = 4A-2I-A = 3A-2I$\nSimilarly $A^4=A \\cdot A^3 = A(3A-2I) = 3A^2-2IA = 3(2A-I)-2A = 6A-3I-2A = 4A-3I$\nThus, $A^n = nA-(n-1)I$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 42,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For each $n \\in N$, $3^{2n}-1$ is divisible by",
+    "question_latex": "For each $n \\in N$, $3^{2n}-1$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 8",
+      "(B) 16",
+      "(C) 32",
+      "(D) None of these"
+    ],
+    "answer": "(A) 8",
+    "solution": "Solution:-(a) Let $P(n) = 3^{2n}-1$\nAt $n=1$, $P(1) = 3^2-1 = 9-1 = 8$ which is divisible by $8$.\\nLet $P(k)$ is true, then\\n$P(k) = 3^{2k}-1 = 8I$\n$P(k+1) = 3^{2(k+1)}-1 = 3^{2k} \\cdot 3^2 - 1 = (8I+1)9 - 1$\n$= 72I+9-1 = 72I+8 = 8(9I+1)$\\n$\\therefore P(n)$ is divisible by $8, \\forall n \\in N$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 43,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The $n^{th}$ term of the series $3+14+30+52+80+114+...$ is",
+    "question_latex": "The $n^{th}$ term of the series $3+14+30+52+80+114+\\dots$ is",
+    "image_url": "",
+    "options": [
+      "(A) $5n^2-1$",
+      "(B) $3n^2+2n$",
+      "(C) $3n^2+2n+2$",
+      "(D) $3n^2+2n^2$"
+    ],
+    "answer": "(C) $3n^2+2n+2$",
+    "solution": "Solution:-(c) We observe that $3n^2+2n$ gives various terms of the series by putting $n=1,2,3,...$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 44,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For $n \\in N$, $10^{n-2} \\geq 81n$ is",
+    "question_latex": "For $n \\in N$, $10^{n-2} \\geq 81n$ is",
+    "image_url": "",
+    "options": [
+      "(A) $n > 5$",
+      "(B) $n \\geq 5$",
+      "(C) $n < 5$",
+      "(D) $n > 8$"
+    ],
+    "answer": "(B) $n \\geq 5$",
+    "solution": "Solution:-(b) Let $P(n): 10^{n-2} \\geq 81n$\nFor $n=4$, $10^{4-2} = 10^2 = 100$\n$81 \\times 4 = 324$\n$100 \\not\\geq 324$\nFor $n=5$, $10^{5-2} = 10^3 = 1000$\n$81 \\times 5 = 405$\n$1000 \\geq 405$\nHence, by mathematical induction for $n \\geq 5$, the proposition is true.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 45,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all $n \\in N$, $10^{4n} + 3 \\cdot 4^{n+2} + 5$ is divisible by",
+    "question_latex": "For all $n \\in N$, $10^{4n} + 3 \\cdot 4^{n+2} + 5$ is divisible by",
+    "image_url": "",
+    "options": [
+      "(A) 23",
+      "(B) 3",
+      "(C) 9",
+      "(D) 207"
+    ],
+    "answer": "(C) 9",
+    "solution": "Solution:-(c)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 46,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If $a_1=1$ and $a_n=a_{n-1}$ for all positive integer $n \\geq 2$, then $a_5$ is equal to",
+    "question_latex": "If $a_1=1$ and $a_n=a_{n-1}$ for all positive integer $n \\geq 2$, then $a_5$ is equal to",
+    "image_url": "",
+    "options": [
+      "(A) 1",
+      "(B) 120",
+      "(C) 100",
+      "(D) 24"
+    ],
+    "answer": "(B) 120",
+    "solution": "Solution:-(b) Given $a_n = na_{n-1}$\n$a_2 = 2a_1 = 2(\\because a_1 = 1 \\text{ given})$\n$a_3 = 3a_2 = 3(2) = 6$\n$a_4 = 4a_3 = 4(6) = 24$\n$a_5 = 5a_4 = 5(24) = 120$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 47,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let $S(k) = 1+3+5+...+ (2k-1) = 3+k^2$. Then, which of the following is true?",
+    "question_latex": "Let $S(k) = 1+3+5+\\dots+(2k-1) = 3+k^2$. Then, which of the following is true?",
+    "image_url": "",
+    "options": [
+      "(A) $S(1)$ is correct",
+      "(B) $S(k) \\implies S(k+1)$",
+      "(C) $S(k) \\not\\implies S(k+1)$",
+      "(D) Principle of mathematical induction can be used to prove the formula"
+    ],
+    "answer": "(B) $S(k) \\implies S(k+1)$",
+    "solution": "Solution:-(b) $S(k) = 1+3+5+\\dots+(2k-1) = k^2$.\\nGiven $S(k) = 1+3+5+\\dots+(2k-1) = 3+k^2$.\\nPut $k=1$ in both sides, we get\\nLHS = $1$ and RHS = $3+1^2 = 4$\\nLHS $\\neq$ RHS\\nPut $k+1$ in both sides in the place of $k$, we get\\nLHS = $1+3+5+\\dots+(2k-1) + (2k+1)$\\nRHS = $3+(k+1)^2 = 3+k^2+2k+1$\\nLet LHS = RHS\\nThen, $1+3+5+\\dots+(2k-1) + (2k+1)$\\n$= 3+k^2+2k+1$\\n$\\implies 3+k^2 + 2k+1 = 3+k^2+2k+1$\\nIf $S(k)$ is true, then $S(k+1)$ is also true.\\nHence, $S(k) \\implies S(k+1)$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 48,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Using mathematical induction, then numbers $a_n$'s are defined by $a_0=1$, $a_{n+1}=3n^2+n+a_n(n \\geq 0)$. Then, $a_n$ is equal to",
+    "question_latex": "Using mathematical induction, then numbers $a_n$'s are defined by $a_0=1$, $a_{n+1}=3n^2+n+a_n(n \\geq 0)$. Then, $a_n$ is equal to",
+    "image_url": "",
+    "options": [
+      "(A) $n^3+n^2+1$",
+      "(B) $n^3-n^2+1$",
+      "(C) $n^3+n^2$",
+      "(D) $n^3+n^2+2$"
+    ],
+    "answer": "(B) $n^3-n^2+1$",
+    "solution": "Solution:-(b) Given, $a_0=1$, $a_{n+1}=3n^2+n+a_n$\n$\\implies a_1=3(0)^2+0+a_0 = 1$\n$\\implies a_2=3(1)^2+1+a_1 = 3+1+1 = 5$\nFrom option,\\nLet $P(n) = n^3-n^2+1$\n$P(0) = 0^3-0^2+1 = 1 = a_0$\n$P(1) = 1^3-1^2+1 = 1 = a_1$\nAnd $P(2) = 2^3-2^2+1 = 8-4+1 = 5 = a_2$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 49,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let $P(n): n^2+n+1$ is an even integer. If $P(k)$ is assumed true $\\implies P(k+1)$ is true. Therefore, $P(n)$ is true",
+    "question_latex": "Let $P(n): n^2+n+1$ is an even integer. If $P(k)$ is assumed true $\\implies P(k+1)$ is true. Therefore, $P(n)$ is true",
+    "image_url": "",
+    "options": [
+      "(A) For $n > 1$",
+      "(B) For all $n \\in N$",
+      "(C) For $n > 2$",
+      "(D) None of these"
+    ],
+    "answer": "(D) None of these",
+    "solution": "Solution:-(d) Given, $P(n): n^2+n+1$\nAt $n=1$, $P(1): 1^2+1+1 = 3$, which is not an even integer.\\n$\\implies P(1)$ is not true (Principle of Induction is not applicable).\\nAlso, $n(n+1)+1$ is always an odd integer.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 50,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let $P(n): n^2+n+1$ is an even integer. If $P(k)$ is assumed true $\\implies P(k+1)$ is true. Therefore, $P(n)$ is true",
+    "question_latex": "Let $P(n): n^2+n+1$ is an even integer. If $P(k)$ is assumed true $\\implies P(k+1)$ is true. Therefore, $P(n)$ is true",
+    "image_url": "",
+    "options": [
+      "(A) For $n > 1$",
+      "(B) For all $n \\in N$",
+      "(C) For $n > 2$",
+      "(D) None of these"
+    ],
+    "answer": "(D) None of these",
+    "solution": "Solution:-(d) Given, $P(n): n^2+n+1$\nAt $n=1$, $P(1): 1^2+1+1 = 3$, which is not an even integer.\\n$\\implies P(1)$ is not true (Principle of Induction is not applicable).\\nAlso, $n(n+1)+1$ is always an odd integer.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  }
+]
