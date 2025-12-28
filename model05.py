@@ -289,9 +289,14 @@ def main():
             img = Image.new('RGB', (400, 300), color = (73, 109, 137))
             img.save(debug_raw / "test_image.png")
             
+            # Determine creation flags based on OS
+            creation_flags = 0
+            if os.name == 'nt':
+                creation_flags = subprocess.CREATE_NEW_CONSOLE
+            
             cmd = [sys.executable, "manual_cropper_05.py", str(debug_raw), str(debug_final), str(debug_dir / "DONE")]
             try:
-                subprocess.Popen(cmd, cwd=os.getcwd(), creationflags=subprocess.CREATE_NEW_CONSOLE)
+                subprocess.Popen(cmd, cwd=os.getcwd(), creationflags=creation_flags)
                 st.info("Launched Test Window! Check your taskbar.")
             except Exception as e:
                 st.error(f"Failed to launch: {e}")
@@ -333,12 +338,17 @@ def main():
         
         cropper_process = None
         try:
+             # Determine creation flags based on OS
+             creation_flags = 0
+             if os.name == 'nt':
+                 creation_flags = subprocess.CREATE_NEW_CONSOLE
+
              # Use Popen to run non-blocking, redirecting output to log file
              with open(debug_log_path, "w") as log_file:
                  cropper_process = subprocess.Popen(
                      cmd, 
                      cwd=os.getcwd(), 
-                     creationflags=subprocess.CREATE_NEW_CONSOLE,
+                     creationflags=creation_flags,
                      stdout=log_file,
                      stderr=subprocess.STDOUT
                  )
