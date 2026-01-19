@@ -7,7 +7,6 @@ import json
 import re
 import shutil
 import tempfile
-import uuid
 from pathlib import Path
 from PIL import Image
 from google import genai
@@ -22,23 +21,16 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- 1. Pydantic Schemas (Updated for Stitching) ---
+# --- 1. Pydantic Schemas (Updated for Text-Only Extraction) ---
 
 class QuestionData(BaseModel):
     id: int = Field(description="Literal printed question number.")
     chapter: str = Field(default="Physical World & Measurement", description="The chapter name, default or inferred.")
     question: str
     question_latex: str
-    image_url: str = Field(default="", description="Descriptive tag if diagram is present.")
     options: List[str]
-    difficulty: str = Field(description="Infer the difficulty: 'easy', 'medium', or 'hard'.")
-    # NEW FIELD for stitching
+    difficulty: str = Field(description="Infer the difficulty: 'Easy', 'Medium', or 'Hard'.")
     is_fragment: bool = Field(default=False, description="True if the question is incomplete and continues onto the next page.")
-    is_fragment: bool = Field(default=False, description="True if the question is incomplete and continues onto the next page.")
-    # NEW FIELDS for Image Extraction & Batching
-    page_index: int = Field(default=0, description="The index (0-based) of the image in the provided batch where this question primarily appears.")
-    diagram_bboxes: List[List[int]] = Field(default=[], description="Bounding boxes [ymin, xmin, ymax, xmax] for diagrams.")
-    extracted_image_names: List[str] = Field(default=[], description="Filenames of extracted diagrams.")
 
 class KeyData(BaseModel):
     id: int
@@ -46,8 +38,7 @@ class KeyData(BaseModel):
 
 class SolutionData(BaseModel):
     id: int
-    solution: str = Field(description="The detailed solution, all math in $$. Use \\n for newlines.")
-    # NEW FIELD for stitching
+    solution: str = Field(description="The detailed solution, all math in $$.")
     is_fragment: bool = Field(default=False, description="True if the solution is incomplete and continues onto the next page.")
 
 class IntermediateResult(BaseModel):
@@ -56,50 +47,48 @@ class IntermediateResult(BaseModel):
     answer_keys: List[KeyData] = []
     solutions: List[SolutionData] = []
 
-# Final target schema for the output (Pass 2)
 class FinalMCQ(BaseModel):
     id: int
     chapter: str
     question: str
     question_latex: str
-    image_url: str
+    question_images: List[str] = Field(default=[])
     options: List[str]
-    answer: str
+    option_images: List[str] = Field(default=[])
+    answer: str = Field(description="The correct answer option letter (A, B, C, or D).")
     solution: str
+    solution_images: List[str] = Field(default=[])
     difficulty: str
     marks: int = Field(default=4)
-    extracted_image_names: List[str] = Field(default=[], description="List of filenames for extracted diagrams associated with this question.")
 
-# --- 2. LLM System Instruction (Updated for Fragment Flagging) ---
+# --- 2. LLM System Instruction (Updated for Text-Only Extraction) ---
 
 SYSTEM_INSTRUCTION = """
 You are an expert academic data extraction engine specializing in Physics, Chemistry, Mathematics, Biology exams. 
-Your task is to analyze the provided single image of an exam page and accurately extract all distinct data fragments present: **Questions, Answer Keys, or Detailed Solutions.**
+Your task is to analyze the provided images of exam pages and accurately extract all distinct data fragments present: **Questions, Answer Keys, or Detailed Solutions.**
+
+**CRITICAL: TEXT-ONLY EXTRACTION**
+You MUST extract ONLY text-based content and LaTeX expressions. **COMPLETELY IGNORE and SKIP any diagrams, tables, graphs, charts, or visual elements.** Do NOT extract questions that primarily rely on visual diagrams.
 
 Your output MUST populate the corresponding lists (questions, answer_keys, or solutions) within the 'IntermediateResult' schema. If a section is absent from the image, return its list as an empty array ([]).
 
 --- PRIMARY EXTRACTION RULES (ID Mapping) ---
 1.  **Question/Solution ID Source:** The 'id' field MUST be the **literal printed number** (e.g., 1, 17, 30) visible in the image.
 2.  **ID Continuity:** The literal ID must be used consistently across all three schemas.
-3.  **Page Indexing:** For every Question, identify the `page_index` (0, 1, 2...) corresponding to the image in the input list where the question starts.
+3.  **Skip Visual Content:** If a question contains or requires a diagram, table, or chart to be answered, SKIP that question entirely.
 
---- STRENGTHENED CONTENT EXTRACTION RULES ---
-1.  **Fragment Flagging (CRITICAL):**
-    * If a Question or Solution starts on this page but is clearly **truncated** or **incomplete** (e.g., the text abruptly stops mid-sentence, options are missing, or the solution steps are cut off at the bottom of the image), set the `is_fragment` field to `true`.
+--- CONTENT EXTRACTION RULES ---
+1.  **Fragment Flagging:**
+    * If a Question or Solution starts on this page but is clearly **truncated** or **incomplete** (e.g., the text abruptly stops mid-sentence, options are missing, or the solution steps are cut off), set the `is_fragment` field to `true`.
     * If the question/solution is complete on this page, set `is_fragment` to `false`.
-    * **Note:** The external Python script will handle stitching based on this flag.
-2.  **Questions & Options (Content):** Extract the **full body, options, and question_latex**.
-3.  **Visual Grounding (Diagrams):** 
-    You are a high-precision spatial reasoning agent. Your priority is the visual integrity of technical diagrams.
-
---- STRICT DIAGRAM GROUNDING RULES ---
-Role: You are a precision document parser specialized in extracting technical illustrations from academic papers.STRICT EXTRACTION RULES:Isolate Graphics from Text: Identify the visual diagram (lines, shapes, containers). Include only labels that are integral to the drawing (e.g., $h_1$ inside a dimension line). If a block of text starts next to the diagram but is not part of the illustration's geometry, exclude it.Define the "Visual Envelope": The bounding box should encapsulate all graphical strokes (vectors, arrows, jars, surfaces) and their immediate callouts.Strict Margin Rule: If a line of text (like "Initial height of...") is horizontally aligned with the bottom of the diagram but is not a label attached to a vector, do not include it. The crop should focus on the minimum area containing the physics schematic.Handle Overhangs: Ensure arrows and dimension lines (like the bracket for $h_2$) are fully contained, but stop the box immediately after the bracket ends to avoid bleeding into adjacent columns of text.Safety Buffer: Provide a 1-2% "loose" fit to ensure no lines are clipped, but prioritize the exclusion of standard paragraph text.Format: Output ONLY a JSON list of bounding boxes: [ymin, xmin, ymax, xmax] in normalized (0-1000) coordinates.
+2.  **Questions & Options (Content):** Extract the **full body, options, and question_latex** for text-based questions only.
+3.  **Answer Keys:** Extract the correct answer letter (A, B, C, or D) as shown in the answer key section.
 
 --- STRICT FORMATTING & QUALITY RULES ---
 1.  **JSON Output:** The entire output MUST be a JSON object that strictly conforms to the 'IntermediateResult' Pydantic schema.
-2.  **LaTeX Requirement:** All mathematical expressions, physics formulas, units (e.g., $\\text{kg}$), and dimensional analysis MUST be translated into standard **LaTeX format** and **strictly enclosed in single dollar signs ($$)**.
-3.  **Solution Formatting:** In the `solution` field, replace native line breaks with the LaTeX newline command ('\\n').
-4.  **Image URL:** Set the `image_url` to a **descriptive tag** (e.g., 'Image of bridge circuit diagram') if a diagram/graph is present. Otherwise, use an empty string ("").
+2.  **LaTeX Requirement:** All mathematical expressions, physics formulas, chemical equations, units (e.g., $\\text{kg}$), and symbols MUST be translated into standard **LaTeX format** and **strictly enclosed in single dollar signs ($)**.
+3.  **Solution Formatting:** In the `solution` field, use proper formatting. Use newlines where appropriate.
+4.  **Difficulty Levels:** Must be exactly one of: 'Easy', 'Medium', or 'Hard' (proper capitalization).
 5.  **Placeholders:** If an MCQ detail (like an option text or solution body) is unclear or missing, use an empty string (`""`) as a placeholder.
 """
 
@@ -170,72 +159,12 @@ def process_batch_with_ai(image_paths: List[Path], client: genai.Client, system_
     return None
             
 
-
-def crop_and_save_diagrams(image_paths: List[Path], page_index: int, bboxes: List[List[int]], q_id: int, output_dir: Path) -> List[str]:
-    """Crops diagrams from the specific page in the batch based on bounding boxes."""
-    saved_files = []
-    if not bboxes:
-        return saved_files
-        
-    # Validation: Ensure page_index is within bounds
-    if page_index < 0 or page_index >= len(image_paths):
-        # Fallback: Try cropping from the first image if index is invalid
-        page_index = 0
-        
-    target_image_path = image_paths[page_index]
-
-    try:
-        with Image.open(target_image_path) as img:
-            width, height = img.size
-            for i, bbox in enumerate(bboxes):
-                # bbox is [ymin, xmin, ymax, xmax] in normalized 0-1000 coords
-                if len(bbox) != 4:
-                    continue
-                    
-                ymin, xmin, ymax, xmax = bbox
-                
-                # Expand bounding box by 10 units (Over-fitting preference)
-                padding = 0
-                ymin = max(0, ymin - padding)
-                xmin = max(0, xmin - padding)
-                ymax = min(1000, ymax + padding)
-                xmax = min(1000, xmax + padding)
-                
-                # Convert to pixel coordinates
-                left = xmin * width / 1000
-                top = ymin * height / 1000
-                right = xmax * width / 1000
-                bottom = ymax * height / 1000
-                
-                # Verify valid crop dimensions
-                if right > left and bottom > top:
-                    # Generate unique filename
-                    filename = f"q{q_id}_diag_{i}_{uuid.uuid4().hex[:4]}.png"
-                    filepath = output_dir / filename
-                    
-                    # Crop and save
-                    img.crop((left, top, right, bottom)).save(filepath)
-                    saved_files.append(filename)
-    except Exception as e:
-        st.warning(f"Failed to crop diagrams for question {q_id} from {target_image_path.name}: {e}")
-        
-    return saved_files
-
 def natural_sort_key(s):
     """Sorts file names naturally (e.g., page_9 before page_10)."""
     return [int(text) if text.isdigit() else text.lower() for text in re.split('([0-9]+)', s.name)]
 
-# Removed create_image_batches and stitch_fragments as they are no longer needed 
-# for the native list-based batching approach. The model sees the whole context now.
-
-
-def merge_data(all_q_data: List[QuestionData], all_key_data: List[KeyData], all_sol_data: List[SolutionData]) -> List[FinalMCQ]:
-    """Consolidates data into the final structured output."""
-    
-    # With native list batching, the model sees the continuity, so explicit stitching is less critical,
-    # but we can still group by ID just in case the model outputs fragments (it shouldn't if instructed well).
-    # For now, we will treat the model instructions as robust enough to output complete questions.
-    # If duplicates exist (e.g. from different batches), we take the first one.
+def merge_data(all_q_data: List[QuestionData], all_key_data: List[KeyData], all_sol_data: List[SolutionData], id_offset: int = 0) -> List[FinalMCQ]:
+    """Consolidates data into the final structured output with sequential ID management."""
 
     question_map: Dict[int, QuestionData] = {}
     key_map: Dict[int, str] = {k.id: k.answer_option for k in all_key_data}
@@ -256,41 +185,27 @@ def merge_data(all_q_data: List[QuestionData], all_key_data: List[KeyData], all_
     final_mcqs: List[FinalMCQ] = []
     sorted_ids = sorted(question_map.keys())
 
-    # 3. Assign clean, sequential IDs and merge
-    final_id_counter = 1
+    # Assign sequential IDs starting from id_offset + 1
+    final_id_counter = id_offset + 1
     for original_id in sorted_ids:
         q_data = question_map[original_id]
         
-        # Look up Answer Key (A/B/C/D -> text)
-        option_letter = key_map.get(original_id, "")
-        answer_string = ""
-        
-        # Match the correct answer option letter to the actual option text
-        if option_letter and q_data.options:
-            option_index_map = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
-            index = option_index_map.get(option_letter.upper())
-            
-            if index is not None and 0 <= index < len(q_data.options):
-                answer_string = q_data.options[index]
-        
-        # Determine the final image_url: Use the filename if an image was extracted
-        final_image_url = q_data.image_url
-        if q_data.extracted_image_names:
-            # Use the first extracted image as the primary URL
-            final_image_url = q_data.extracted_image_names[0]
+        # Get the answer letter (A/B/C/D) directly from key_map
+        answer_letter = key_map.get(original_id, "")
 
         mcq = FinalMCQ(
             id=final_id_counter,
             chapter=q_data.chapter,
             question=q_data.question,
             question_latex=q_data.question_latex,
-            image_url=final_image_url,
+            question_images=[],  # Empty as per requirements
             options=q_data.options,
-            answer=answer_string, 
+            option_images=[],  # Empty as per requirements
+            answer=answer_letter,  # Just the letter (A/B/C/D)
             solution=solution_map.get(original_id, ""),
+            solution_images=[],  # Empty as per requirements
             difficulty=q_data.difficulty,
-            marks=4,
-            extracted_image_names=q_data.extracted_image_names
+            marks=4
         )
         final_mcqs.append(mcq)
         final_id_counter += 1
@@ -298,8 +213,8 @@ def merge_data(all_q_data: List[QuestionData], all_key_data: List[KeyData], all_
     return final_mcqs
 
 def main():
-    st.title("📚 Academic MCQ Extractor")
-    st.header("Upload PDF for Structured JSON Output")
+    st.title("📚 Academic MCQ Extractor (Queue-Based)")
+    st.header("Upload PDFs for Structured JSON Output")
 
     # --- Sidebar for Configuration ---
     with st.sidebar:
@@ -322,35 +237,47 @@ def main():
             st.warning("Please enter your Gemini API Key to proceed.")
             st.stop()
 
-    # --- Main File Uploader ---
-    # --- Initialize Session State ---
+    # --- Initialize Session State for Queue Management ---
+    if "all_mcqs" not in st.session_state:
+        st.session_state.all_mcqs = []
+    if "question_id_offset" not in st.session_state:
+        st.session_state.question_id_offset = 0
     if "processed_data" not in st.session_state:
-        st.session_state.processed_data = None
-    if "json_result" not in st.session_state:
-        st.session_state.json_result = None
-    if "zip_bytes" not in st.session_state:
-        st.session_state.zip_bytes = None
-    if "preview_df" not in st.session_state:
-        st.session_state.preview_df = None
+        st.session_state.processed_data = False
+    if "pdf_queue" not in st.session_state:
+        st.session_state.pdf_queue = []
+
+    # Display current stats
+    st.info(f"📊 Total Questions Extracted: {len(st.session_state.all_mcqs)} | Next Question ID will start from: {st.session_state.question_id_offset + 1}")
 
     # --- Main File Uploader ---
     uploaded_files = st.file_uploader(
-        "Upload your exam PDF files (Multiple files supported)",
+        "Upload your exam PDF files (Multiple files supported - processed in order)",
         type="pdf",
         accept_multiple_files=True
     )
 
-    start_button = st.button("🚀 Start Extraction Process")
+    col1, col2 = st.columns(2)
+    with col1:
+        start_button = st.button("🚀 Start Extraction Process")
+    with col2:
+        reset_button = st.button("🔄 Reset All Data")
+
+    if reset_button:
+        st.session_state.all_mcqs = []
+        st.session_state.question_id_offset = 0
+        st.session_state.processed_data = False
+        st.session_state.pdf_queue = []
+        st.success("✅ All data has been reset!")
+        st.rerun()
 
     if uploaded_files and start_button:
         # Create a temporary directory structure for file management
         temp_dir = Path(tempfile.mkdtemp())
         pdf_storage_dir = temp_dir / "pdfs"
         image_output_dir = temp_dir / "processed_images"
-        extracted_diagrams_dir = temp_dir / "extracted_diagrams"
         pdf_storage_dir.mkdir()
         image_output_dir.mkdir()
-        extracted_diagrams_dir.mkdir()
 
         st.info(f"Starting pipeline using temporary directory: {temp_dir}")
         progress_bar = st.progress(0, text="Initializing...")
@@ -364,91 +291,71 @@ def main():
                     f.write(uploaded_file.getbuffer())
                 pdf_paths_to_process.append(pdf_path)
             
-            # 2. Phase 1: Convert PDFs to Images
-            progress_bar.progress(10, text="Phase 1: Converting PDFs to Images...")
-            generated_image_paths = convert_pdfs_to_images(
-                pdf_paths_to_process, 
-                image_output_dir
-            )
-
-            if not generated_image_paths:
-                st.error("Could not generate any images from the uploaded PDFs. Please check the files.")
-                return
-
-            # Sort files naturally (fixes page_10 before page_2 issue)
-            sorted_image_files = sorted(generated_image_paths, key=natural_sort_key)
+            st.success(f"📁 Processing {len(pdf_paths_to_process)} PDF(s) in queue order...")
             
-            # --- OPTIMIZATION START: Batch Images ---
-            # Batch size of 50 pages per request to minimize API calls globally.
-            BATCH_SIZE = 50
-            image_batches = [sorted_image_files[i:i + BATCH_SIZE] for i in range(0, len(sorted_image_files), BATCH_SIZE)]
-            num_batches = len(image_batches)
-            
-            st.info(f"Optimization: Processing {len(sorted_image_files)} pages in {num_batches} batch(es) (Max {BATCH_SIZE} pages/batch).")
-            # ----------------------------------------
-
-            # 3. Phase 2: AI Extraction (Pass 1)
-            all_q_data, all_key_data, all_sol_data = [], [], []
-
-            st.subheader(f"🖼️ Processing {num_batches} Batches via Gemini AI...")
-            
-            status_text = st.empty()
-
-            for i, batch_paths in enumerate(image_batches):
-                progress_percent = 10 + int(80 * (i + 1) / num_batches)
-                progress_bar.progress(progress_percent)
-                status_text.text(f"Processing batch {i+1} of {num_batches}...")
+            # Process each PDF in queue order
+            for pdf_idx, pdf_path in enumerate(pdf_paths_to_process):
+                st.subheader(f"🔄 Processing PDF {pdf_idx + 1}/{len(pdf_paths_to_process)}: {pdf_path.name}")
                 
-                # Add a small delay to be polite to the API
-                time.sleep(2) 
+                # 2. Phase 1: Convert PDF to Images
+                progress_bar.progress(10 + (pdf_idx * 80 // len(pdf_paths_to_process)), 
+                    text=f"Phase 1: Converting PDF {pdf_idx + 1} to Images...")
                 
-                result = process_batch_with_ai(batch_paths, client, SYSTEM_INSTRUCTION)
-                
-                if result:
-                    # Crop diagrams immediately based on the current batch
-                    for q in result.questions:
-                        q.extracted_image_names = crop_and_save_diagrams(
-                            batch_paths,
-                            q.page_index,
-                            q.diagram_bboxes, 
-                            q.id, 
-                            extracted_diagrams_dir
-                        )
+                generated_image_paths = convert_pdfs_to_images(
+                    [pdf_path],  # Process one PDF at a time
+                    image_output_dir
+                )
 
-                    # Append all data extracted from this batch
-                    all_q_data.extend(result.questions)
-                    all_key_data.extend(result.answer_keys)
-                    all_sol_data.extend(result.solutions)
-            
-            # 4. Phase 3: Merging & Finalization (Stitching and Final Merge)
-            progress_bar.progress(95, text="Phase 3: Stitching data fragments and finalizing output...")
-            final_mcqs = merge_data(all_q_data, all_key_data, all_sol_data)
+                if not generated_image_paths:
+                    st.error(f"Could not generate images from {pdf_path.name}. Skipping...")
+                    continue
+
+                # Sort files naturally (fixes page_10 before page_2 issue)
+                sorted_image_files = sorted(generated_image_paths, key=natural_sort_key)
+                
+                # --- Batch Images ---
+                BATCH_SIZE = 50
+                image_batches = [sorted_image_files[i:i + BATCH_SIZE] for i in range(0, len(sorted_image_files), BATCH_SIZE)]
+                num_batches = len(image_batches)
+                
+                st.info(f"  📄 {len(sorted_image_files)} pages in {num_batches} batch(es)")
+                
+                # 3. Phase 2: AI Extraction
+                all_q_data, all_key_data, all_sol_data = [], [], []
+                status_text = st.empty()
+
+                for i, batch_paths in enumerate(image_batches):
+                    batch_progress = 10 + (pdf_idx * 80 // len(pdf_paths_to_process)) + (70 * (i + 1) // (num_batches * len(pdf_paths_to_process)))
+                    progress_bar.progress(batch_progress)
+                    status_text.text(f"  Processing batch {i+1}/{num_batches} of PDF {pdf_idx+1}...")
+                    
+                    # Add a small delay to be polite to the API
+                    time.sleep(2) 
+                    
+                    result = process_batch_with_ai(batch_paths, client, SYSTEM_INSTRUCTION)
+                    
+                    if result:
+                        # Append all data extracted from this batch
+                        all_q_data.extend(result.questions)
+                        all_key_data.extend(result.answer_keys)
+                        all_sol_data.extend(result.solutions)
+                
+                # 4. Phase 3: Merge with sequential ID management
+                progress_bar.progress(85, text=f"Phase 3: Merging data for PDF {pdf_idx + 1}...")
+                
+                # Use the current offset for this PDF's questions
+                current_offset = st.session_state.question_id_offset
+                pdf_mcqs = merge_data(all_q_data, all_key_data, all_sol_data, id_offset=current_offset)
+                
+                # Update offset for next PDF
+                if pdf_mcqs:
+                    st.session_state.question_id_offset += len(pdf_mcqs)
+                    st.session_state.all_mcqs.extend(pdf_mcqs)
+                    status_text.success(f"  ✅ Extracted {len(pdf_mcqs)} questions from {pdf_path.name} (IDs: {pdf_mcqs[0].id} to {pdf_mcqs[-1].id})")
 
             progress_bar.progress(100, text="Extraction Complete!")
-            status_text.success(f"✅ Successfully extracted and merged {len(final_mcqs)} unique MCQs!")
-            
-            if final_mcqs:
-                output_data_list = [mcq.model_dump() for mcq in final_mcqs]
-                json_string = json.dumps(output_data_list, indent=2, ensure_ascii=False)
-                st.session_state.json_result = json_string
-
-                shutil.make_archive(str(temp_dir / "extracted_diagrams"), 'zip', extracted_diagrams_dir)
-                zip_path = temp_dir / "extracted_diagrams.zip"
-                
-                if zip_path.exists():
-                    with open(zip_path, "rb") as f:
-                        st.session_state.zip_bytes = f.read()
-                
-                st.session_state.preview_df = [
-                    {
-                        "ID": m.id,
-                        "Question Snippet": m.question[:80] + "...",
-                        "Answer Found": "✅" if m.answer else "❌",
-                        "Solution Found": "✅" if m.solution else "❌"
-                    } for m in final_mcqs[:5]
-                ]
-                
-                st.session_state.processed_data = True
+            st.success(f"🎉 Successfully extracted {len(st.session_state.all_mcqs)} total questions across all PDFs!")
+            st.session_state.processed_data = True
             
         except Exception as e:
             st.error(f"An unexpected error occurred during the main pipeline execution: {e}")
@@ -459,33 +366,39 @@ def main():
                 shutil.rmtree(temp_dir)
                 st.caption(f"Cleaned up temporary files.")
 
-    if st.session_state.processed_data:
+    if st.session_state.processed_data and st.session_state.all_mcqs:
         st.divider()
         st.header("Results")
         
+        # Generate JSON from all accumulated MCQs
+        output_data_list = [mcq.model_dump() for mcq in st.session_state.all_mcqs]
+        json_string = json.dumps(output_data_list, indent=2, ensure_ascii=False)
+        
         col1, col2 = st.columns(2)
         
-        if st.session_state.json_result:
-            with col1:
-                st.download_button(
-                    label="⬇️ Download Structured JSON File",
-                    data=st.session_state.json_result,
-                    file_name="mcq_extraction_results.json",
-                    mime="application/json"
-                )
+        with col1:
+            st.download_button(
+                label="⬇️ Download Complete JSON File",
+                data=json_string,
+                file_name="mcq_extraction_results.json",
+                mime="application/json"
+            )
+        
+        with col2:
+            st.metric("Total Questions", len(st.session_state.all_mcqs))
 
-        if st.session_state.zip_bytes:
-            with col2:
-                st.download_button(
-                    label="⬇️ Download Extracted Images (ZIP)",
-                    data=st.session_state.zip_bytes,
-                    file_name="extracted_diagrams.zip",
-                    mime="application/zip"
-                )
-
-        if st.session_state.preview_df:
-            st.subheader("Extracted Questions Preview (First 5)")
-            st.dataframe(st.session_state.preview_df)
+        # Preview first 10 questions
+        st.subheader("Extracted Questions Preview (First 10)")
+        preview_data = [
+            {
+                "ID": m.id,
+                "Chapter": m.chapter,
+                "Question Snippet": m.question[:60] + "...",
+                "Answer": m.answer,
+                "Difficulty": m.difficulty
+            } for m in st.session_state.all_mcqs[:10]
+        ]
+        st.dataframe(preview_data, use_container_width=True)
 
 
 if __name__ == "__main__":
